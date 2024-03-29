@@ -1,0 +1,5 @@
+The file covid-data.csv was altered
+
+Missing Values were originally written as 97,98,99 are now mapped as -1,-2,-2.
+For 9999-99-99 in DATE_DIED, the value -3 was used.
+Dates in DATE_DIED are given as days since the 1.1.2020.

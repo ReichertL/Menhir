@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) storage-adapter",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/test-storage-adapter",
+            "args": ["--gtest_filter=StorageAdapterSuite/StorageAdapterTest.ReadWhatWasWritten/InMemory"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+            ]
+        },
+    ]
+}
