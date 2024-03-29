@@ -1,0 +1,543 @@
+{
+    "DATASOURCE": "0",
+    "FILES_DIR": "\/home\/ec2-user\/tmp\/storage-files-thread0-seed:0",
+    "NUM_ATTRIBUTES": "5",
+    "COLUMN_FORMAT": "INT,INT,INT,INT,INT",
+    "DATA_RESOLUTION": "1,1,1,1,1",
+    "MIN_VALUES": "10000,10000,10000,10000,10000",
+    "MAX_VALUE": "20000,20000,20000,20000,20000",
+    "USE_GAMMA": "false",
+    "RANGEQUERY_RANGE": "10",
+    "VALUE_SIZE": "0",
+    "NUM_DATAPOINTS": "524280",
+    "DELETION": "false",
+    "SEED": "0",
+    "RETRIEVE_EXACTLY": "1,10,20,30,40,50,60",
+    "QUERY_RESPONSE_EPSILON": "1",
+    "QUERY_INDEX": "70",
+    "WHERE_INDEX": "0",
+    "QUERY_FUNCTION": "0",
+    "POINT_QUERIES": "false",
+    "NUM_QUERIES": "70",
+    "MAX_SENSITIVITY": "0.001",
+    "DATASET": "data\/covid-data.csv",
+    "BLOCK_SIZE": "196",
+    "NUM_OSMs": "8",
+    "ORAM_LOG_CAPACITY": "16",
+    "ORAM_Z": "3",
+    "STASH_FACTOR": "4",
+    "USE_ORAM": "true",
+    "BATCH_SIZE": "1",
+    "DP_BUCKETS": "0",
+    "DP_K": "2",
+    "DP_BETA": "20",
+    "DP_EPSILON": "0.69299999999999995",
+    "FILE_LOGGING": "true",
+    "OUT_DIR": ".\/results\/parallelised-size:2^16,17,18,19-cols:1-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0",
+    "LOG_FILENAME": "0--2023-10-14-11-23-43--398582792262",
+    "InsetionTimes": "31889,29532,28874,29043,29374,28882,29492,28606,28609,28610",
+    "DeletionTimes": "864415,863781,853285,857349,848155,849804,855846,844817,850099,846285",
+    "aggregates": {
+        "insertionTotal": "292911",
+        "insertionMean": "0",
+        "timeTotal": "1450953076",
+        "timePerQuery": "20727901",
+        "realTotal": "0",
+        "realPerQuery": "0",
+        "paddingPerQuery": "0",
+        "noisePerQuery": "30",
+        "totalPerQuery": "30"
+    },
+    "QUERIES": [
+        {
+            "overhead": "16641004",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "15861032",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "16953043",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "20170392",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "22277032",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "22418265",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "29401420",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "13825285",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "15135782",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "19572206",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "22005144",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "24184314",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "22881188",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "25725537",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "13124466",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "16527851",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "18149916",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "21301674",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "21958652",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "27585069",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "28804054",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "15523662",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "17568840",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "17346843",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "19811132",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "20257735",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "23493084",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "26018167",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "14635437",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "14500794",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "17548659",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "21685605",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "22801056",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "24984726",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "29056790",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "14401782",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "15613674",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "19859474",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "21106679",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "23813724",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "26733046",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "25149401",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "14419113",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "14688110",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "17627231",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "20956184",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "21949202",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "27843327",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "25773788",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "14216287",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "15662267",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "17025855",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "19243155",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "23127625",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "25498922",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "29791550",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "13864387",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "15906844",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "18934777",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "26250641",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "25344378",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "23941117",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "29207105",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        },
+        {
+            "overhead": "14101063",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "15075340",
+            "real": "0",
+            "padding": "0",
+            "noise": "10",
+            "total": "10"
+        },
+        {
+            "overhead": "19662099",
+            "real": "0",
+            "padding": "0",
+            "noise": "20",
+            "total": "20"
+        },
+        {
+            "overhead": "19814953",
+            "real": "0",
+            "padding": "0",
+            "noise": "30",
+            "total": "30"
+        },
+        {
+            "overhead": "24866753",
+            "real": "0",
+            "padding": "0",
+            "noise": "40",
+            "total": "40"
+        },
+        {
+            "overhead": "24253076",
+            "real": "0",
+            "padding": "0",
+            "noise": "50",
+            "total": "50"
+        },
+        {
+            "overhead": "25494291",
+            "real": "0",
+            "padding": "0",
+            "noise": "60",
+            "total": "60"
+        }
+    ]
+}

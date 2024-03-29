@@ -1,0 +1,121 @@
+{
+    "DATASOURCE": "0",
+    "FILES_DIR": "\/tmp\/temp-storage\/storage-files-thread0-seed:0",
+    "NUM_ATTRIBUTES": "1",
+    "COLUMN_FORMAT": "INT",
+    "DATA_RESOLUTION": "1",
+    "MIN_VALUES": "10000",
+    "MAX_VALUE": "11000",
+    "DOMAIN_SIZE": "1000",
+    "RANGEQUERY_RANGE": "10",
+    "VALUE_SIZE": "0",
+    "NUM_DATAPOINTS": "67108862",
+    "DELETION": "false",
+    "SEED": "0",
+    "RETRIEVE_EXACTLY": "1",
+    "QUERY_RESPONSE_EPSILON": "1",
+    "QUERY_INDEX": "10",
+    "WHERE_INDEX": "0",
+    "QUERY_FUNCTION": "0",
+    "POINT_QUERIES": "false",
+    "NUM_QUERIES": "10",
+    "MAX_SENSITIVITY": "0.050000000000000003",
+    "DATASET": "data\/covid-data.csv",
+    "BLOCK_SIZE": "52",
+    "ORAM_CAPACITY": "67108862",
+    "ORAM_Z": "3",
+    "USE_ORAM": "true",
+    "BATCH_SIZE": "1",
+    "DP_BUCKETS": "0",
+    "DP_K": "2",
+    "DP_BETA": "20",
+    "DP_EPSILON": "0.69299999999999995",
+    "FILE_LOGGING": "true",
+    "OUT_DIR": ".\/results\/size:2^26",
+    "LOG_FILENAME": "0--2023-09-22-22-12-15--134965757726798",
+    "InsetionTimes": "",
+    "DeletionTimes": "",
+    "aggregates": {
+        "insertionTotal": "0",
+        "insertionMean": "0",
+        "timeTotal": "131274149",
+        "timePerQuery": "13127414",
+        "realTotal": "0",
+        "realPerQuery": "0",
+        "paddingPerQuery": "0",
+        "noisePerQuery": "1",
+        "totalPerQuery": "1"
+    },
+    "QUERIES": [
+        {
+            "overhead": "13450675",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "13115481",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "13009827",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "13113800",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "13042656",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "13283569",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "13074870",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "12967864",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "13252224",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        },
+        {
+            "overhead": "12963183",
+            "real": "0",
+            "padding": "0",
+            "noise": "1",
+            "total": "1"
+        }
+    ]
+}

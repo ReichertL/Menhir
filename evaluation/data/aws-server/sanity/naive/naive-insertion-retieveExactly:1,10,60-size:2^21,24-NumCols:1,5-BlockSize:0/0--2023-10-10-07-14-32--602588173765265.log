@@ -1,0 +1,252 @@
+         [10/10/2023 07:14:32]       INFO: Generating indices...
+[10/10/2023 07:14:32]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[10/10/2023 07:14:32]       INFO: Constructing synthetic data set and queries...
+[10/10/2023 07:14:32]       INFO: n_sel = 167773
+[10/10/2023 07:14:41]       INFO: Column 0 - min 10000, max 11000
+[10/10/2023 07:14:41]       INFO: NUM_ATTRIBUTES = 1
+[10/10/2023 07:15:06]       INFO: ORAM_CAPACITY = 16777214
+[10/10/2023 07:15:06]       INFO: FILE_LOGGING = 1
+[10/10/2023 07:15:06]       INFO: DATASOURCE = 0
+[10/10/2023 07:15:06]       INFO: OUT_DIR: ./results/naive-insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:1,5-BlockSize:0
+[10/10/2023 07:15:06]       INFO: FILES_DIR: /home/ec2-user/tmp/storage-files-thread0-seed:0
+[10/10/2023 07:15:06]       INFO: NUM_DATAPOINTS = 16777214
+[10/10/2023 07:15:06]       INFO: NUM_QUERIES = 70
+[10/10/2023 07:15:06]       INFO: DELETION = 0
+[10/10/2023 07:15:06]       INFO: NUM_ATTRIBUTES = 1
+[10/10/2023 07:15:06]       INFO: COLUMN_FORMAT: INT
+[10/10/2023 07:15:06]       INFO: DATA_RESOLUTION: 1
+[10/10/2023 07:15:06]       INFO: MIN_VALUE: 10000
+[10/10/2023 07:15:06]       INFO: MAX_VALUE: 11000
+[10/10/2023 07:15:06]       INFO: RANGEQUERY_RANGE = 10
+[10/10/2023 07:15:06]       INFO: DATASET = data/covid-data.csv
+[10/10/2023 07:15:06]       INFO: NUM_DATAPOINTS = 16777214
+[10/10/2023 07:15:06]       INFO: RETRIEVE_EXACTLY: 1,10,20,30,40,50,60
+[10/10/2023 07:15:06]       INFO: QUERY_RESPONSE_EPSILON = 1
+[10/10/2023 07:15:06]       INFO: QUERY_INDEX = 0
+[10/10/2023 07:15:06]       INFO: WHERE_INDEX = 0
+[10/10/2023 07:15:06]       INFO: QUERY_FUNCTION = 0
+[10/10/2023 07:15:06]       INFO: POINT_QUERIES = 0
+[10/10/2023 07:15:06]       INFO: NUM_QUERIES = 70
+[10/10/2023 07:15:06]       INFO: MAX_SENSITIVITY = 0.01
+[10/10/2023 07:15:06]       INFO: SEED = 0
+[10/10/2023 07:15:06]       INFO: ORAM_CAPACITY = 16777214
+[10/10/2023 07:15:06]       INFO: ORAM_Z = 3
+[10/10/2023 07:15:06]       INFO: STASH_FACTOR = 4
+[10/10/2023 07:15:06]       INFO: USE_ORAM = 0
+[10/10/2023 07:15:06]       INFO: BATCH_SIZE = 1
+[10/10/2023 07:15:06]       INFO: DP_K = 2
+[10/10/2023 07:15:06]       INFO: DP_BETA = 20
+[10/10/2023 07:15:06]       INFO: DP_EPSILON = 0.693
+[10/10/2023 07:15:06]       INFO: Preparing LinearOblivDB: init List of DatabaseNodes with type db_t 
+[10/10/2023 07:15:24]       INFO: Put 16777214 datapoints: { duration    15 s, mean  930 ns}
+[10/10/2023 07:15:24]       INFO: Finished inserting Datapoints
+[10/10/2023 07:15:24]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[10/10/2023 07:15:24]       INFO: this_DP_domain = 1000
+[10/10/2023 07:15:24]       INFO: this_dp_buckets = 512
+[10/10/2023 07:15:24]       INFO: this_dp_levels = 9
+[10/10/2023 07:15:24]       INFO: this_dp_mu = 208
+[10/10/2023 07:15:24]       INFO: Generating DP noise tree...
+[10/10/2023 07:15:24]       INFO: For column 0: DP tree has 1022 elements
+[10/10/2023 07:15:24]       INFO: Server  transitioned from old state 3 via transition edge 201 to new state 4
+[10/10/2023 07:15:24]       INFO: Running 70 QUERIES...
+[10/10/2023 07:15:24]       INFO: padToBuckets result: fromBucket 0 toBucket 5 n_from 10000 n_to 10012
+[10/10/2023 07:15:42]       INFO: Query: Query[, attributeIndex:0 from:10000, to:10010, pointQuery:0, whereIndex:0, whereFrom:10000, whereTo:10010, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:15:42]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10000,10012]
+[10/10/2023 07:15:42]       INFO: Query   1 /  70 : real records      0 ( +     1 padding +     0 noise,      1 total) (   18 s, or    0 ns / record)
+[10/10/2023 07:15:42]       INFO: Runtime Measurment: {before:   28 μs, ORAMs:    18 s, after: 1930 ns}
+[10/10/2023 07:15:42]       INFO: padToBuckets result: fromBucket 5 toBucket 10 n_from 10010 n_to 10022
+[10/10/2023 07:17:50]       INFO: Query: Query[, attributeIndex:0 from:10011, to:10021, pointQuery:0, whereIndex:0, whereFrom:10011, whereTo:10021, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:17:50]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10010,10022]
+[10/10/2023 07:17:50]       INFO: Query   2 /  70 : real records      0 ( +    10 padding +     0 noise,     10 total) (  127 s, or    0 ns / record)
+[10/10/2023 07:17:50]       INFO: Runtime Measurment: {before:   14 μs, ORAMs:   127 s, after: 2870 ns}
+[10/10/2023 07:17:50]       INFO: padToBuckets result: fromBucket 11 toBucket 16 n_from 10022 n_to 10034
+[10/10/2023 07:21:59]       INFO: Query: Query[, attributeIndex:0 from:10022, to:10032, pointQuery:0, whereIndex:0, whereFrom:10022, whereTo:10032, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:21:59]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10022,10034]
+[10/10/2023 07:21:59]       INFO: Query   3 /  70 : real records      0 ( +    20 padding +     0 noise,     20 total) (  248 s, or    0 ns / record)
+[10/10/2023 07:21:59]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   248 s, after: 4260 ns}
+[10/10/2023 07:21:59]       INFO: padToBuckets result: fromBucket 16 toBucket 21 n_from 10032 n_to 10044
+[10/10/2023 07:28:09]       INFO: Query: Query[, attributeIndex:0 from:10033, to:10043, pointQuery:0, whereIndex:0, whereFrom:10033, whereTo:10043, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:28:09]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10032,10044]
+[10/10/2023 07:28:09]       INFO: Query   4 /  70 : real records      0 ( +    30 padding +     0 noise,     30 total) (  370 s, or    0 ns / record)
+[10/10/2023 07:28:09]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   370 s, after: 5650 ns}
+[10/10/2023 07:28:09]       INFO: padToBuckets result: fromBucket 22 toBucket 27 n_from 10044 n_to 10056
+[10/10/2023 07:36:19]       INFO: Query: Query[, attributeIndex:0 from:10044, to:10054, pointQuery:0, whereIndex:0, whereFrom:10044, whereTo:10054, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:36:19]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10044,10056]
+[10/10/2023 07:36:19]       INFO: Query   5 /  70 : real records      0 ( +    40 padding +     0 noise,     40 total) (  490 s, or    0 ns / record)
+[10/10/2023 07:36:19]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   490 s, after: 7370 ns}
+[10/10/2023 07:36:19]       INFO: padToBuckets result: fromBucket 27 toBucket 32 n_from 10054 n_to 10066
+[10/10/2023 07:46:31]       INFO: Query: Query[, attributeIndex:0 from:10055, to:10065, pointQuery:0, whereIndex:0, whereFrom:10055, whereTo:10065, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:46:31]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10054,10066]
+[10/10/2023 07:46:31]       INFO: Query   6 /  70 : real records      0 ( +    50 padding +     0 noise,     50 total) (  611 s, or    0 ns / record)
+[10/10/2023 07:46:31]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   611 s, after: 8520 ns}
+[10/10/2023 07:46:31]       INFO: padToBuckets result: fromBucket 33 toBucket 38 n_from 10066 n_to 10078
+[10/10/2023 07:58:42]       INFO: Query: Query[, attributeIndex:0 from:10066, to:10076, pointQuery:0, whereIndex:0, whereFrom:10066, whereTo:10076, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:58:42]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10066,10078]
+[10/10/2023 07:58:42]       INFO: Query   7 /  70 : real records      0 ( +    60 padding +     0 noise,     60 total) (  731 s, or    0 ns / record)
+[10/10/2023 07:58:42]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:   731 s, after: 9341 ns}
+[10/10/2023 07:58:42]       INFO: padToBuckets result: fromBucket 38 toBucket 43 n_from 10076 n_to 10088
+[10/10/2023 07:59:00]       INFO: Query: Query[, attributeIndex:0 from:10077, to:10087, pointQuery:0, whereIndex:0, whereFrom:10077, whereTo:10087, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 07:59:00]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10076,10088]
+[10/10/2023 07:59:00]       INFO: Query   8 /  70 : real records      0 ( +     1 padding +     0 noise,      1 total) (   17 s, or    0 ns / record)
+[10/10/2023 07:59:00]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:    17 s, after: 1600 ns}
+[10/10/2023 07:59:00]       INFO: padToBuckets result: fromBucket 44 toBucket 49 n_from 10088 n_to 10100
+[10/10/2023 08:01:07]       INFO: Query: Query[, attributeIndex:0 from:10088, to:10098, pointQuery:0, whereIndex:0, whereFrom:10088, whereTo:10098, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:01:07]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10088,10100]
+[10/10/2023 08:01:07]       INFO: Query   9 /  70 : real records      0 ( +    10 padding +     0 noise,     10 total) (  127 s, or    0 ns / record)
+[10/10/2023 08:01:07]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   127 s, after: 2981 ns}
+[10/10/2023 08:01:07]       INFO: padToBuckets result: fromBucket 49 toBucket 54 n_from 10098 n_to 10110
+[10/10/2023 08:05:16]       INFO: Query: Query[, attributeIndex:0 from:10099, to:10109, pointQuery:0, whereIndex:0, whereFrom:10099, whereTo:10109, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:05:16]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10098,10110]
+[10/10/2023 08:05:16]       INFO: Query  10 /  70 : real records      0 ( +    20 padding +     0 noise,     20 total) (  248 s, or    0 ns / record)
+[10/10/2023 08:05:16]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   248 s, after: 4271 ns}
+[10/10/2023 08:05:16]       INFO: padToBuckets result: fromBucket 55 toBucket 60 n_from 10110 n_to 10122
+[10/10/2023 08:11:25]       INFO: Query: Query[, attributeIndex:0 from:10110, to:10120, pointQuery:0, whereIndex:0, whereFrom:10110, whereTo:10120, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:11:25]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10110,10122]
+[10/10/2023 08:11:25]       INFO: Query  11 /  70 : real records      0 ( +    30 padding +     0 noise,     30 total) (  369 s, or    0 ns / record)
+[10/10/2023 08:11:25]       INFO: Runtime Measurment: {before:   14 μs, ORAMs:   369 s, after: 4841 ns}
+[10/10/2023 08:11:25]       INFO: padToBuckets result: fromBucket 60 toBucket 65 n_from 10120 n_to 10132
+[10/10/2023 08:19:36]       INFO: Query: Query[, attributeIndex:0 from:10121, to:10131, pointQuery:0, whereIndex:0, whereFrom:10121, whereTo:10131, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:19:36]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10120,10132]
+[10/10/2023 08:19:36]       INFO: Query  12 /  70 : real records      0 ( +    40 padding +     0 noise,     40 total) (  490 s, or    0 ns / record)
+[10/10/2023 08:19:36]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   490 s, after: 7721 ns}
+[10/10/2023 08:19:36]       INFO: padToBuckets result: fromBucket 66 toBucket 71 n_from 10132 n_to 10144
+[10/10/2023 08:29:47]       INFO: Query: Query[, attributeIndex:0 from:10132, to:10142, pointQuery:0, whereIndex:0, whereFrom:10132, whereTo:10142, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:29:47]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10132,10144]
+[10/10/2023 08:29:47]       INFO: Query  13 /  70 : real records      0 ( +    50 padding +     0 noise,     50 total) (  611 s, or    0 ns / record)
+[10/10/2023 08:29:47]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   611 s, after: 8611 ns}
+[10/10/2023 08:29:47]       INFO: padToBuckets result: fromBucket 71 toBucket 76 n_from 10142 n_to 10154
+[10/10/2023 08:41:58]       INFO: Query: Query[, attributeIndex:0 from:10143, to:10153, pointQuery:0, whereIndex:0, whereFrom:10143, whereTo:10153, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:41:58]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10142,10154]
+[10/10/2023 08:41:58]       INFO: Query  14 /  70 : real records      0 ( +    60 padding +     0 noise,     60 total) (  730 s, or    0 ns / record)
+[10/10/2023 08:41:58]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:   730 s, after: 9581 ns}
+[10/10/2023 08:41:58]       INFO: padToBuckets result: fromBucket 77 toBucket 82 n_from 10154 n_to 10166
+[10/10/2023 08:42:16]       INFO: Query: Query[, attributeIndex:0 from:10154, to:10164, pointQuery:0, whereIndex:0, whereFrom:10154, whereTo:10164, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:42:16]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10154,10166]
+[10/10/2023 08:42:16]       INFO: Query  15 /  70 : real records      0 ( +     1 padding +     0 noise,      1 total) (   17 s, or    0 ns / record)
+[10/10/2023 08:42:16]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:    17 s, after: 1740 ns}
+[10/10/2023 08:42:16]       INFO: padToBuckets result: fromBucket 82 toBucket 87 n_from 10164 n_to 10176
+[10/10/2023 08:44:24]       INFO: Query: Query[, attributeIndex:0 from:10165, to:10175, pointQuery:0, whereIndex:0, whereFrom:10165, whereTo:10175, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:44:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10164,10176]
+[10/10/2023 08:44:24]       INFO: Query  16 /  70 : real records      0 ( +    10 padding +     0 noise,     10 total) (  127 s, or    0 ns / record)
+[10/10/2023 08:44:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   127 s, after: 3110 ns}
+[10/10/2023 08:44:24]       INFO: padToBuckets result: fromBucket 88 toBucket 93 n_from 10176 n_to 10188
+[10/10/2023 08:48:34]       INFO: Query: Query[, attributeIndex:0 from:10176, to:10186, pointQuery:0, whereIndex:0, whereFrom:10176, whereTo:10186, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:48:34]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10176,10188]
+[10/10/2023 08:48:34]       INFO: Query  17 /  70 : real records      0 ( +    20 padding +     0 noise,     20 total) (  250 s, or    0 ns / record)
+[10/10/2023 08:48:34]       INFO: Runtime Measurment: {before:   15 μs, ORAMs:   250 s, after: 4351 ns}
+[10/10/2023 08:48:34]       INFO: padToBuckets result: fromBucket 93 toBucket 98 n_from 10186 n_to 10198
+[10/10/2023 08:54:45]       INFO: Query: Query[, attributeIndex:0 from:10187, to:10197, pointQuery:0, whereIndex:0, whereFrom:10187, whereTo:10197, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 08:54:45]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10186,10198]
+[10/10/2023 08:54:45]       INFO: Query  18 /  70 : real records      0 ( +    30 padding +     0 noise,     30 total) (  371 s, or    0 ns / record)
+[10/10/2023 08:54:45]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   371 s, after: 4820 ns}
+[10/10/2023 08:54:45]       INFO: padToBuckets result: fromBucket 99 toBucket 104 n_from 10198 n_to 10210
+[10/10/2023 09:02:57]       INFO: Query: Query[, attributeIndex:0 from:10198, to:10208, pointQuery:0, whereIndex:0, whereFrom:10198, whereTo:10208, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:02:57]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10198,10210]
+[10/10/2023 09:02:57]       INFO: Query  19 /  70 : real records      0 ( +    40 padding +     0 noise,     40 total) (  492 s, or    0 ns / record)
+[10/10/2023 09:02:57]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   492 s, after: 7930 ns}
+[10/10/2023 09:02:57]       INFO: padToBuckets result: fromBucket 104 toBucket 109 n_from 10208 n_to 10220
+[10/10/2023 09:13:11]       INFO: Query: Query[, attributeIndex:0 from:10209, to:10219, pointQuery:0, whereIndex:0, whereFrom:10209, whereTo:10219, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:13:11]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10208,10220]
+[10/10/2023 09:13:11]       INFO: Query  20 /  70 : real records      0 ( +    50 padding +     0 noise,     50 total) (  614 s, or    0 ns / record)
+[10/10/2023 09:13:11]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:   614 s, after: 8271 ns}
+[10/10/2023 09:13:11]       INFO: padToBuckets result: fromBucket 110 toBucket 115 n_from 10220 n_to 10232
+[10/10/2023 09:25:25]       INFO: Query: Query[, attributeIndex:0 from:10220, to:10230, pointQuery:0, whereIndex:0, whereFrom:10220, whereTo:10230, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:25:25]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10220,10232]
+[10/10/2023 09:25:25]       INFO: Query  21 /  70 : real records      0 ( +    60 padding +     0 noise,     60 total) (  733 s, or    0 ns / record)
+[10/10/2023 09:25:25]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   733 s, after: 9460 ns}
+[10/10/2023 09:25:25]       INFO: padToBuckets result: fromBucket 115 toBucket 120 n_from 10230 n_to 10242
+[10/10/2023 09:25:43]       INFO: Query: Query[, attributeIndex:0 from:10231, to:10241, pointQuery:0, whereIndex:0, whereFrom:10231, whereTo:10241, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:25:43]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10230,10242]
+[10/10/2023 09:25:43]       INFO: Query  22 /  70 : real records      0 ( +     1 padding +     0 noise,      1 total) (   17 s, or    0 ns / record)
+[10/10/2023 09:25:43]       INFO: Runtime Measurment: {before:   14 μs, ORAMs:    17 s, after: 1550 ns}
+[10/10/2023 09:25:43]       INFO: padToBuckets result: fromBucket 121 toBucket 126 n_from 10242 n_to 10254
+[10/10/2023 09:27:50]       INFO: Query: Query[, attributeIndex:0 from:10242, to:10252, pointQuery:0, whereIndex:0, whereFrom:10242, whereTo:10252, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:27:50]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10242,10254]
+[10/10/2023 09:27:50]       INFO: Query  23 /  70 : real records      0 ( +    10 padding +     0 noise,     10 total) (  127 s, or    0 ns / record)
+[10/10/2023 09:27:50]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   127 s, after: 2990 ns}
+[10/10/2023 09:27:50]       INFO: padToBuckets result: fromBucket 126 toBucket 131 n_from 10252 n_to 10264
+[10/10/2023 09:32:00]       INFO: Query: Query[, attributeIndex:0 from:10253, to:10263, pointQuery:0, whereIndex:0, whereFrom:10253, whereTo:10263, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:32:00]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10252,10264]
+[10/10/2023 09:32:00]       INFO: Query  24 /  70 : real records      0 ( +    20 padding +     0 noise,     20 total) (  249 s, or    0 ns / record)
+[10/10/2023 09:32:00]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   249 s, after: 4180 ns}
+[10/10/2023 09:32:00]       INFO: padToBuckets result: fromBucket 132 toBucket 137 n_from 10264 n_to 10276
+[10/10/2023 09:38:11]       INFO: Query: Query[, attributeIndex:0 from:10264, to:10274, pointQuery:0, whereIndex:0, whereFrom:10264, whereTo:10274, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:38:11]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10264,10276]
+[10/10/2023 09:38:11]       INFO: Query  25 /  70 : real records      0 ( +    30 padding +     0 noise,     30 total) (  371 s, or    0 ns / record)
+[10/10/2023 09:38:11]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   371 s, after: 4670 ns}
+[10/10/2023 09:38:11]       INFO: padToBuckets result: fromBucket 137 toBucket 142 n_from 10274 n_to 10286
+[10/10/2023 09:46:24]       INFO: Query: Query[, attributeIndex:0 from:10275, to:10285, pointQuery:0, whereIndex:0, whereFrom:10275, whereTo:10285, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:46:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10274,10286]
+[10/10/2023 09:46:24]       INFO: Query  26 /  70 : real records      0 ( +    40 padding +     0 noise,     40 total) (  492 s, or    0 ns / record)
+[10/10/2023 09:46:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   492 s, after: 8100 ns}
+[10/10/2023 09:46:24]       INFO: padToBuckets result: fromBucket 143 toBucket 148 n_from 10286 n_to 10298
+[10/10/2023 09:56:36]       INFO: Query: Query[, attributeIndex:0 from:10286, to:10296, pointQuery:0, whereIndex:0, whereFrom:10286, whereTo:10296, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 09:56:36]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10286,10298]
+[10/10/2023 09:56:36]       INFO: Query  27 /  70 : real records      0 ( +    50 padding +     0 noise,     50 total) (  611 s, or    0 ns / record)
+[10/10/2023 09:56:36]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   611 s, after: 8360 ns}
+[10/10/2023 09:56:36]       INFO: padToBuckets result: fromBucket 148 toBucket 153 n_from 10296 n_to 10308
+[10/10/2023 10:08:48]       INFO: Query: Query[, attributeIndex:0 from:10297, to:10307, pointQuery:0, whereIndex:0, whereFrom:10297, whereTo:10307, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:08:48]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10296,10308]
+[10/10/2023 10:08:48]       INFO: Query  28 /  70 : real records      0 ( +    60 padding +     0 noise,     60 total) (  732 s, or    0 ns / record)
+[10/10/2023 10:08:48]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   732 s, after: 9631 ns}
+[10/10/2023 10:08:48]       INFO: padToBuckets result: fromBucket 154 toBucket 159 n_from 10308 n_to 10320
+[10/10/2023 10:09:06]       INFO: Query: Query[, attributeIndex:0 from:10308, to:10318, pointQuery:0, whereIndex:0, whereFrom:10308, whereTo:10318, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:09:06]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10308,10320]
+[10/10/2023 10:09:06]       INFO: Query  29 /  70 : real records      0 ( +     1 padding +     0 noise,      1 total) (   17 s, or    0 ns / record)
+[10/10/2023 10:09:06]       INFO: Runtime Measurment: {before:   14 μs, ORAMs:    17 s, after: 1760 ns}
+[10/10/2023 10:09:06]       INFO: padToBuckets result: fromBucket 159 toBucket 164 n_from 10318 n_to 10330
+[10/10/2023 10:11:14]       INFO: Query: Query[, attributeIndex:0 from:10319, to:10329, pointQuery:0, whereIndex:0, whereFrom:10319, whereTo:10329, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:11:14]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10318,10330]
+[10/10/2023 10:11:14]       INFO: Query  30 /  70 : real records      0 ( +    10 padding +     0 noise,     10 total) (  127 s, or    0 ns / record)
+[10/10/2023 10:11:14]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   127 s, after: 3060 ns}
+[10/10/2023 10:11:14]       INFO: padToBuckets result: fromBucket 165 toBucket 170 n_from 10330 n_to 10342
+[10/10/2023 10:15:23]       INFO: Query: Query[, attributeIndex:0 from:10330, to:10340, pointQuery:0, whereIndex:0, whereFrom:10330, whereTo:10340, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:15:23]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10330,10342]
+[10/10/2023 10:15:23]       INFO: Query  31 /  70 : real records      0 ( +    20 padding +     0 noise,     20 total) (  248 s, or    0 ns / record)
+[10/10/2023 10:15:23]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   248 s, after: 4351 ns}
+[10/10/2023 10:15:23]       INFO: padToBuckets result: fromBucket 170 toBucket 175 n_from 10340 n_to 10352
+[10/10/2023 10:21:33]       INFO: Query: Query[, attributeIndex:0 from:10341, to:10351, pointQuery:0, whereIndex:0, whereFrom:10341, whereTo:10351, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:21:33]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10340,10352]
+[10/10/2023 10:21:33]       INFO: Query  32 /  70 : real records      0 ( +    30 padding +     0 noise,     30 total) (  370 s, or    0 ns / record)
+[10/10/2023 10:21:33]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:   370 s, after: 4960 ns}
+[10/10/2023 10:21:33]       INFO: padToBuckets result: fromBucket 176 toBucket 181 n_from 10352 n_to 10364
+[10/10/2023 10:29:45]       INFO: Query: Query[, attributeIndex:0 from:10352, to:10362, pointQuery:0, whereIndex:0, whereFrom:10352, whereTo:10362, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:29:45]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10352,10364]
+[10/10/2023 10:29:45]       INFO: Query  33 /  70 : real records      0 ( +    40 padding +     0 noise,     40 total) (  491 s, or    0 ns / record)
+[10/10/2023 10:29:45]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   491 s, after: 7791 ns}
+[10/10/2023 10:29:45]       INFO: padToBuckets result: fromBucket 181 toBucket 186 n_from 10362 n_to 10374
+[10/10/2023 10:39:59]       INFO: Query: Query[, attributeIndex:0 from:10363, to:10373, pointQuery:0, whereIndex:0, whereFrom:10363, whereTo:10373, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:39:59]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10362,10374]
+[10/10/2023 10:39:59]       INFO: Query  34 /  70 : real records      0 ( +    50 padding +     0 noise,     50 total) (  614 s, or    0 ns / record)
+[10/10/2023 10:39:59]       INFO: Runtime Measurment: {before:   14 μs, ORAMs:   614 s, after: 7910 ns}
+[10/10/2023 10:39:59]       INFO: padToBuckets result: fromBucket 187 toBucket 192 n_from 10374 n_to 10386
+[10/10/2023 10:52:14]       INFO: Query: Query[, attributeIndex:0 from:10374, to:10384, pointQuery:0, whereIndex:0, whereFrom:10374, whereTo:10384, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:52:14]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10374,10386]
+[10/10/2023 10:52:14]       INFO: Query  35 /  70 : real records      0 ( +    60 padding +     0 noise,     60 total) (  734 s, or    0 ns / record)
+[10/10/2023 10:52:14]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:   734 s, after: 9171 ns}
+[10/10/2023 10:52:14]       INFO: padToBuckets result: fromBucket 192 toBucket 197 n_from 10384 n_to 10396
+[10/10/2023 10:52:31]       INFO: Query: Query[, attributeIndex:0 from:10385, to:10395, pointQuery:0, whereIndex:0, whereFrom:10385, whereTo:10395, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:52:31]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10384,10396]
+[10/10/2023 10:52:31]       INFO: Query  36 /  70 : real records      0 ( +     1 padding +     0 noise,      1 total) (   17 s, or    0 ns / record)
+[10/10/2023 10:52:31]       INFO: Runtime Measurment: {before:   13 μs, ORAMs:    17 s, after: 2100 ns}
+[10/10/2023 10:52:31]       INFO: padToBuckets result: fromBucket 198 toBucket 203 n_from 10396 n_to 10408
+[10/10/2023 10:54:40]       INFO: Query: Query[, attributeIndex:0 from:10396, to:10406, pointQuery:0, whereIndex:0, whereFrom:10396, whereTo:10406, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:54:40]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10396,10408]
+[10/10/2023 10:54:40]       INFO: Query  37 /  70 : real records      0 ( +    10 padding +     0 noise,     10 total) (  128 s, or    0 ns / record)
+[10/10/2023 10:54:40]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   128 s, after: 3100 ns}
+[10/10/2023 10:54:40]       INFO: padToBuckets result: fromBucket 203 toBucket 208 n_from 10406 n_to 10418
+[10/10/2023 10:58:48]       INFO: Query: Query[, attributeIndex:0 from:10407, to:10417, pointQuery:0, whereIndex:0, whereFrom:10407, whereTo:10417, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 10:58:48]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10406,10418]
+[10/10/2023 10:58:48]       INFO: Query  38 /  70 : real records      0 ( +    20 padding +     0 noise,     20 total) (  248 s, or    0 ns / record)
+[10/10/2023 10:58:48]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   248 s, after: 4361 ns}
+[10/10/2023 10:58:48]       INFO: padToBuckets result: fromBucket 209 toBucket 214 n_from 10418 n_to 10430
+[10/10/2023 11:04:58]       INFO: Query: Query[, attributeIndex:0 from:10418, to:10428, pointQuery:0, whereIndex:0, whereFrom:10418, whereTo:10428, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 11:04:58]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10418,10430]
+[10/10/2023 11:04:58]       INFO: Query  39 /  70 : real records      0 ( +    30 padding +     0 noise,     30 total) (  369 s, or    0 ns / record)
+[10/10/2023 11:04:58]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   369 s, after: 4741 ns}
+[10/10/2023 11:04:58]       INFO: padToBuckets result: fromBucket 214 toBucket 219 n_from 10428 n_to 10440
+[10/10/2023 11:13:09]       INFO: Query: Query[, attributeIndex:0 from:10429, to:10439, pointQuery:0, whereIndex:0, whereFrom:10429, whereTo:10439, agg:0, epsilon:0.0142857, extra:0]
+[10/10/2023 11:13:09]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10428,10440]
+[10/10/2023 11:13:09]       INFO: Query  40 /  70 : real records      0 ( +    40 padding +     0 noise,     40 total) (  490 s, or    0 ns / record)
+[10/10/2023 11:13:09]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   490 s, after: 7830 ns}
+[10/10/2023 11:13:09]       INFO: padToBuckets result: fromBucket 220 toBucket 225 n_from 10440 n_to 10452

@@ -1,0 +1,354 @@
+         [17/10/2023 08:40:57]       INFO: Generating indices...
+[17/10/2023 08:40:57]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[17/10/2023 08:40:57]       INFO: Constructing synthetic data set and queries...
+[17/10/2023 08:40:57]       INFO: Column 1 - mean  335570, std 94414.4 
+[17/10/2023 08:40:57]       INFO: Column 2 - mean  77196.4, std 14.9922 
+[17/10/2023 08:40:57]       INFO: Column 3 - mean  454682, std 39627.3 
+[17/10/2023 08:40:57]       INFO: Column 4 - mean  154085, std 19235.6 
+[17/10/2023 08:40:57]       INFO: n_sel = 656
+[17/10/2023 08:40:57]       INFO: Column 0 - min 10000, max 534288
+[17/10/2023 08:40:57]       INFO: Column 1 - min 10000, max 534288
+[17/10/2023 08:40:57]       INFO: Column 2 - min 10000, max 534288
+[17/10/2023 08:40:57]       INFO: Column 3 - min 10000, max 534288
+[17/10/2023 08:40:57]       INFO: Column 4 - min 10000, max 534288
+[17/10/2023 08:40:57]       INFO: NUM_ATTRIBUTES = 5
+[17/10/2023 08:40:58]       INFO: FILE_LOGGING = 1
+[17/10/2023 08:40:58]       INFO: DATASOURCE = 0
+[17/10/2023 08:40:58]       INFO: OUT_DIR: ./results/size:2^16-domainsizes:2^10,20
+[17/10/2023 08:40:58]       INFO: FILES_DIR: /home/lreichert/tmp/storage-files-thread1-seed:1
+[17/10/2023 08:40:58]       INFO: NUM_DATAPOINTS = 65536
+[17/10/2023 08:40:58]       INFO: NUM_QUERIES = 10
+[17/10/2023 08:40:58]       INFO: DELETION = 0
+[17/10/2023 08:40:58]       INFO: NUM_ATTRIBUTES = 5
+[17/10/2023 08:40:58]       INFO: COLUMN_FORMAT: INT,INT,INT,INT,INT
+[17/10/2023 08:40:58]       INFO: DATA_RESOLUTION: 1,1,1,1,1
+[17/10/2023 08:40:58]       INFO: MIN_VALUE: 10000,10000,10000,10000,10000
+[17/10/2023 08:40:58]       INFO: MAX_VALUE: 534288,534288,534288,534288,534288
+[17/10/2023 08:40:58]       INFO: RANGEQUERY_RANGE = 10
+[17/10/2023 08:40:58]       INFO: DATASET = data/covid-data.csv
+[17/10/2023 08:40:58]       INFO: NUM_DATAPOINTS = 65536
+[17/10/2023 08:40:58]       INFO: RETRIEVE_EXACTLY: 
+[17/10/2023 08:40:58]       INFO: QUERY_RESPONSE_EPSILON = 1
+[17/10/2023 08:40:58]       INFO: QUERY_INDEX = 0
+[17/10/2023 08:40:58]       INFO: WHERE_INDEX = 0
+[17/10/2023 08:40:58]       INFO: QUERY_FUNCTION = 0
+[17/10/2023 08:40:58]       INFO: POINT_QUERIES = 0
+[17/10/2023 08:40:58]       INFO: NUM_QUERIES = 10
+[17/10/2023 08:40:58]       INFO: MAX_SENSITIVITY = 0.01
+[17/10/2023 08:40:58]       INFO: SEED = 1
+[17/10/2023 08:40:58]       INFO: ORAM_LOG_CAPACITY = 16
+[17/10/2023 08:40:58]       INFO: ORAM_Z = 3
+[17/10/2023 08:40:58]       INFO: STASH_FACTOR = 10
+[17/10/2023 08:40:58]       INFO: USE_ORAM = 1
+[17/10/2023 08:40:58]       INFO: BATCH_SIZE = 1
+[17/10/2023 08:40:58]       INFO: DP_K = 2
+[17/10/2023 08:40:58]       INFO: DP_BETA = 20
+[17/10/2023 08:40:58]       INFO: DP_EPSILON = 0.693
+[17/10/2023 08:40:58]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[17/10/2023 08:40:58]       INFO: Insert data in Bulk-> nonObliv Sorting, then constructing tree on sorted list(s).
+[17/10/2023 08:40:58]       INFO: INPUT_DATA.size() = 65536
+[17/10/2023 08:40:58]       INFO: INSERT_BULK = 1
+[17/10/2023 08:40:58]       INFO: this->maxPerTree = 65535
+[17/10/2023 08:40:58]       INFO: this->numOSMs = 2
+[17/10/2023 08:40:58]       INFO: Generating sanitizers for  1/2. (USE GAMMA 1)
+[17/10/2023 08:40:58]       INFO: Noise Parameters Column 0 - min 10000, max 534288, range 524288
+[17/10/2023 08:40:58]       INFO: this_DP_domain = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_levels = 100
+[17/10/2023 08:40:58]       INFO: this_dp_alpha = 459
+[17/10/2023 08:40:58]       INFO: Noise Parameters Column 1 - min 10000, max 534288, range 524288
+[17/10/2023 08:40:58]       INFO: this_DP_domain = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_levels = 100
+[17/10/2023 08:40:58]       INFO: this_dp_alpha = 459
+[17/10/2023 08:40:58]       INFO: Noise Parameters Column 2 - min 10000, max 534288, range 524288
+[17/10/2023 08:40:58]       INFO: this_DP_domain = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_levels = 100
+[17/10/2023 08:40:58]       INFO: this_dp_alpha = 459
+[17/10/2023 08:40:58]       INFO: Noise Parameters Column 3 - min 10000, max 534288, range 524288
+[17/10/2023 08:40:58]       INFO: this_DP_domain = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_levels = 100
+[17/10/2023 08:40:58]       INFO: this_dp_alpha = 459
+[17/10/2023 08:40:58]       INFO: Noise Parameters Column 4 - min 10000, max 534288, range 524288
+[17/10/2023 08:40:58]       INFO: this_DP_domain = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:40:58]       INFO: this_dp_levels = 100
+[17/10/2023 08:40:58]       INFO: this_dp_alpha = 459
+[17/10/2023 08:40:58]       INFO: Generating DP noise tree...
+[17/10/2023 08:41:00]       INFO: For column 0: DP tree has 1048655 elements
+[17/10/2023 08:41:02]       INFO: For column 1: DP tree has 1048655 elements
+[17/10/2023 08:41:04]       INFO: For column 2: DP tree has 1048655 elements
+[17/10/2023 08:41:06]       INFO: For column 3: DP tree has 1048655 elements
+[17/10/2023 08:41:08]       INFO: For column 4: DP tree has 1048655 elements
+[17/10/2023 08:41:08]       INFO: Generating sanitizers for  2/2. (USE GAMMA 1)
+[17/10/2023 08:41:08]       INFO: Noise Parameters Column 0 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:08]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:08]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:08]       INFO: Noise Parameters Column 1 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:08]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:08]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:08]       INFO: Noise Parameters Column 2 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:08]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:08]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:08]       INFO: Noise Parameters Column 3 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:08]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:08]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:08]       INFO: Noise Parameters Column 4 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:08]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:08]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:08]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:08]       INFO: Generating DP noise tree...
+[17/10/2023 08:41:09]       INFO: For column 0: DP tree has 1048655 elements
+[17/10/2023 08:41:11]       INFO: For column 1: DP tree has 1048655 elements
+[17/10/2023 08:41:13]       INFO: For column 2: DP tree has 1048655 elements
+[17/10/2023 08:41:15]       INFO: For column 3: DP tree has 1048655 elements
+[17/10/2023 08:41:17]       INFO: For column 4: DP tree has 1048655 elements
+[17/10/2023 08:41:17]       INFO: Generating sanitizers for  3/2. (USE GAMMA 1)
+[17/10/2023 08:41:17]       INFO: Noise Parameters Column 0 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:17]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:17]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:17]       INFO: Noise Parameters Column 1 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:17]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:17]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:17]       INFO: Noise Parameters Column 2 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:17]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:17]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:17]       INFO: Noise Parameters Column 3 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:17]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:17]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:17]       INFO: Noise Parameters Column 4 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:17]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:17]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:17]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:17]       INFO: Generating DP noise tree...
+[17/10/2023 08:41:19]       INFO: For column 0: DP tree has 1048655 elements
+[17/10/2023 08:41:21]       INFO: For column 1: DP tree has 1048655 elements
+[17/10/2023 08:41:22]       INFO: For column 2: DP tree has 1048655 elements
+[17/10/2023 08:41:24]       INFO: For column 3: DP tree has 1048655 elements
+[17/10/2023 08:41:26]       INFO: For column 4: DP tree has 1048655 elements
+[17/10/2023 08:41:26]       INFO: Generating sanitizers for  4/2. (USE GAMMA 1)
+[17/10/2023 08:41:26]       INFO: Noise Parameters Column 0 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:26]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:26]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:26]       INFO: Noise Parameters Column 1 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:26]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:26]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:26]       INFO: Noise Parameters Column 2 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:26]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:26]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:26]       INFO: Noise Parameters Column 3 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:26]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:26]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:26]       INFO: Noise Parameters Column 4 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:26]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:26]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:26]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:26]       INFO: Generating DP noise tree...
+[17/10/2023 08:41:28]       INFO: For column 0: DP tree has 1048655 elements
+[17/10/2023 08:41:30]       INFO: For column 1: DP tree has 1048655 elements
+[17/10/2023 08:41:32]       INFO: For column 2: DP tree has 1048655 elements
+[17/10/2023 08:41:34]       INFO: For column 3: DP tree has 1048655 elements
+[17/10/2023 08:41:36]       INFO: For column 4: DP tree has 1048655 elements
+[17/10/2023 08:41:36]       INFO: Generating sanitizers for  5/2. (USE GAMMA 1)
+[17/10/2023 08:41:36]       INFO: Noise Parameters Column 0 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:36]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:36]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:36]       INFO: Noise Parameters Column 1 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:36]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:36]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:36]       INFO: Noise Parameters Column 2 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:36]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:36]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:36]       INFO: Noise Parameters Column 3 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:36]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:36]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:36]       INFO: Noise Parameters Column 4 - min 10000, max 534288, range 524288
+[17/10/2023 08:41:36]       INFO: this_DP_domain = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_buckets = 524288
+[17/10/2023 08:41:36]       INFO: this_dp_levels = 100
+[17/10/2023 08:41:36]       INFO: this_dp_alpha = 459
+[17/10/2023 08:41:36]       INFO: Generating DP noise tree...
+[17/10/2023 08:41:38]       INFO: For column 0: DP tree has 1048655 elements
+[17/10/2023 08:41:40]       INFO: For column 1: DP tree has 1048655 elements
+[17/10/2023 08:41:41]       INFO: For column 2: DP tree has 1048655 elements
+[17/10/2023 08:41:43]       INFO: For column 3: DP tree has 1048655 elements
+[17/10/2023 08:41:45]       INFO: For column 4: DP tree has 1048655 elements
+[17/10/2023 08:41:45]       INFO: Creating OSM data split 1/2.
+[17/10/2023 08:41:45]       INFO: start 1, end 65535, num 65535
+[17/10/2023 08:41:45]       INFO: Creating OSM data split 2/2.
+[17/10/2023 08:41:45]       INFO: start 0, end 0, num 1
+[17/10/2023 08:41:45]       INFO: Creating AVLTree for OSM  1/2 with 65534 datapoints
+[17/10/2023 08:41:45]       INFO: Creating Histograms for OSM  1.
+[17/10/2023 08:41:45]       INFO: Creating AVLTree for OSM  2/2 with 0 datapoints
+[17/10/2023 08:41:45]       INFO: Creating Histograms for OSM  2.
+[17/10/2023 08:41:46]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 08:41:46]       INFO: ORAM_Z = 3
+[17/10/2023 08:41:46]       INFO: STASH_FACTOR = 10
+[17/10/2023 08:41:46]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 08:41:46]       INFO: BATCH_SIZE = 1
+[17/10/2023 08:41:46]       INFO: ORAM_BLOCK_SIZE = 196
+[17/10/2023 08:41:46]       INFO: oramParameter = 196611
+[17/10/2023 08:41:46]       INFO: ORAM Stash Size is: 480
+[17/10/2023 08:41:46]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 08:41:46]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 08:41:46]       INFO: ORAM_Z = 3
+[17/10/2023 08:41:46]       INFO: STASH_FACTOR = 10
+[17/10/2023 08:41:46]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 08:41:46]       INFO: BATCH_SIZE = 1
+[17/10/2023 08:41:46]       INFO: ORAM_BLOCK_SIZE = 196
+[17/10/2023 08:41:46]       INFO: oramParameter = 196611
+[17/10/2023 08:41:46]       INFO: ORAM Stash Size is: 480
+[17/10/2023 08:41:46]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 08:41:46]       INFO: Creating ORAM
+[17/10/2023 08:41:48]       INFO: starting to build Tree
+[[[17/10/2023 08:41:48] 17/10/2023 08:41:48        ]       INFO: building Tree from sorted list for Colum 0
+[[[17/10/2023 08:41:48] 17/10/2023 08:41:48        ]       INFO: building Tree from sorted list for Colum 0
+INFO: building Tree from sorted list for Colum 1
+[[[17/10/2023 08:41:48] 17/10/2023 08:41:48        ]       INFO: building Tree from sorted list for Colum 0
+INFO: building Tree from sorted list for Colum 1
+17/10/2023 08:[1:4]       INFO: building Tree from sorted list for Colum 2
+[[[17/10/2023 08:41:48] 17/10/2023 08:41:48        ]       INFO: building Tree from sorted list for Colum 0
+INFO: building Tree from sorted list for Colum 1
+17/10/2023 08:[1:4]       INFO: building Tree from sorted list for Colum 2
+17/10/2023 08:41:48]       INFO: building Tree from sorted list for Colum 4
+[[[17/10/2023 08:41:48] 17/10/2023 08:41:48        ]       INFO: building Tree from sorted list for Colum 0
+INFO: building Tree from sorted list for Colum 1
+17/10/2023 08:[1:4]       INFO: building Tree from sorted list for Colum 2
+17/10/2023 08:41:48]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 08:41:48]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 08:41:48]       INFO: Loading Data into ORAM
+[17/10/2023 08:41:48]       INFO: Finished loading data into ORAM
+[17/10/2023 08:41:48]       INFO: Removed RAM lock
+[17/10/2023 08:41:48]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 08:41:53]       INFO: Finished building tree from sorted list for Colum 3
+[17/10/2023 08:41:53]       INFO: Finished building tree from sorted list for Colum 1
+[17/10/2023 08:41:53]       INFO: Finished building tree from sorted list for Colum 4
+[17/10/2023 08:41:53]       INFO: Finished building tree from sorted list for Colum 2
+[17/10/2023 08:41:54]       INFO: Finished building tree from sorted list for Colum 0
+[17/10/2023 08:41:54]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 08:41:54]       INFO: Creating ORAM
+[17/10/2023 08:41:56]       INFO: Loading Data into ORAM
+[17/10/2023 08:41:56]       INFO: Finished loading data into ORAM
+[17/10/2023 08:41:56]       INFO: Removed RAM lock
+[17/10/2023 08:41:56]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 08:41:57]       INFO: BLOCK_SIZE=196
+[17/10/2023 08:41:57]       INFO: Put 65536 datapoints: { duration    0 ns, mean    0 ns}
+[17/10/2023 08:41:57]       INFO: Finished inserting Datapoints
+[17/10/2023 08:41:57]       INFO: Server  transitioned from old state 3 via transition edge 201 to new state 4
+[17/10/2023 08:41:57]       INFO: Running 10 QUERIES...
+[17/10/2023 08:41:57]       INFO: getBuckets result: fromBucket 0 toBucket 10 n_from 10000 n_to 10010
+[17/10/2023 08:41:57]       INFO: Parallelised accessing osm 0
+      INFO: Parallelised accessing osm 1
+[17/10/2023 08:41:58]       INFO: Query: Query[, attributeIndex:0 from:10000, to:10010, pointQuery:0, whereIndex:0, whereFrom:10000, whereTo:10010, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:41:58]       INFO: Retrieval: number of datapoints   2096 noise 1778 , interval [10000,10010]
+[17/10/2023 08:41:58]       INFO: Query   1 /  10 : real records    318 ( +     0 padding +  1778 noise,   2096 total) (1017 ms, or 3199 μs / record)
+[17/10/2023 08:41:58]       INFO: Runtime Measurment: {before:  552 ms, ORAMs:  463 ms, after: 2094 μs}
+[17/10/2023 08:41:58]       INFO: getBuckets result: fromBucket 11 toBucket 21 n_from 10011 n_to 10021
+[17/10/2023 08:41:58]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:41:58]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:41:58]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:41:59]       INFO: Query: Query[, attributeIndex:0 from:10011, to:10021, pointQuery:0, whereIndex:0, whereFrom:10011, whereTo:10021, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:41:59]       INFO: Retrieval: number of datapoints   2637 noise 2308 , interval [10011,10021]
+[17/10/2023 08:41:59]       INFO: Query   2 /  10 : real records    329 ( +     0 padding +  2308 noise,   2637 total) ( 982 ms, or 2986 μs / record)
+[17/10/2023 08:41:59]       INFO: Runtime Measurment: {before:  457 ms, ORAMs:  522 ms, after: 2683 μs}
+[17/10/2023 08:41:59]       INFO: getBuckets result: fromBucket 22 toBucket 32 n_from 10022 n_to 10032
+[17/10/2023 08:41:59]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:41:59]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:41:59]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:00]       INFO: Query: Query[, attributeIndex:0 from:10022, to:10032, pointQuery:0, whereIndex:0, whereFrom:10022, whereTo:10032, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:00]       INFO: Retrieval: number of datapoints   2091 noise 1778 , interval [10022,10032]
+[17/10/2023 08:42:00]       INFO: Query   3 /  10 : real records    313 ( +     0 padding +  1778 noise,   2091 total) ( 909 ms, or 2904 μs / record)
+[17/10/2023 08:42:00]       INFO: Runtime Measurment: {before:  470 ms, ORAMs:  437 ms, after: 2009 μs}
+[17/10/2023 08:42:00]       INFO: getBuckets result: fromBucket 33 toBucket 43 n_from 10033 n_to 10043
+[17/10/2023 08:42:00]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:00]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:01]       INFO: Query: Query[, attributeIndex:0 from:10033, to:10043, pointQuery:0, whereIndex:0, whereFrom:10033, whereTo:10043, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:01]       INFO: Retrieval: number of datapoints   2639 noise 2308 , interval [10033,10043]
+[17/10/2023 08:42:01]       INFO: Query   4 /  10 : real records    331 ( +     0 padding +  2308 noise,   2639 total) (1024 ms, or 3095 μs / record)
+[17/10/2023 08:42:01]       INFO: Runtime Measurment: {before:  468 ms, ORAMs:  553 ms, after: 2598 μs}
+[17/10/2023 08:42:01]       INFO: getBuckets result: fromBucket 44 toBucket 54 n_from 10044 n_to 10054
+[17/10/2023 08:42:01]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:01]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:01]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:02]       INFO: Query: Query[, attributeIndex:0 from:10044, to:10054, pointQuery:0, whereIndex:0, whereFrom:10044, whereTo:10054, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:02]       INFO: Retrieval: number of datapoints   2625 noise 2308 , interval [10044,10054]
+[17/10/2023 08:42:02]       INFO: Query   5 /  10 : real records    317 ( +     0 padding +  2308 noise,   2625 total) ( 981 ms, or 3095 μs / record)
+[17/10/2023 08:42:02]       INFO: Runtime Measurment: {before:  450 ms, ORAMs:  528 ms, after: 2583 μs}
+[17/10/2023 08:42:02]       INFO: getBuckets result: fromBucket 55 toBucket 65 n_from 10055 n_to 10065
+[17/10/2023 08:42:02]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:02]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:03]       INFO: Query: Query[, attributeIndex:0 from:10055, to:10065, pointQuery:0, whereIndex:0, whereFrom:10055, whereTo:10065, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:03]       INFO: Retrieval: number of datapoints   2114 noise 1778 , interval [10055,10065]
+[17/10/2023 08:42:03]       INFO: Query   6 /  10 : real records    336 ( +     0 padding +  1778 noise,   2114 total) ( 927 ms, or 2761 μs / record)
+[17/10/2023 08:42:03]       INFO: Runtime Measurment: {before:  465 ms, ORAMs:  459 ms, after: 2489 μs}
+[17/10/2023 08:42:03]       INFO: getBuckets result: fromBucket 66 toBucket 76 n_from 10066 n_to 10076
+[17/10/2023 08:42:03]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:03]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:04]       INFO: Query: Query[, attributeIndex:0 from:10066, to:10076, pointQuery:0, whereIndex:0, whereFrom:10066, whereTo:10076, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:04]       INFO: Retrieval: number of datapoints   2635 noise 2308 , interval [10066,10076]
+[17/10/2023 08:42:04]       INFO: Query   7 /  10 : real records    327 ( +     0 padding +  2308 noise,   2635 total) (1048 ms, or 3206 μs / record)
+[17/10/2023 08:42:04]       INFO: Runtime Measurment: {before:  488 ms, ORAMs:  556 ms, after: 2764 μs}
+[17/10/2023 08:42:04]       INFO: getBuckets result: fromBucket 77 toBucket 87 n_from 10077 n_to 10087
+[17/10/2023 08:42:04]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:04]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:04]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:05]       INFO: Query: Query[, attributeIndex:0 from:10077, to:10087, pointQuery:0, whereIndex:0, whereFrom:10077, whereTo:10087, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:05]       INFO: Retrieval: number of datapoints   2109 noise 1778 , interval [10077,10087]
+[17/10/2023 08:42:05]       INFO: Query   8 /  10 : real records    331 ( +     0 padding +  1778 noise,   2109 total) (1047 ms, or 3164 μs / record)
+[17/10/2023 08:42:05]       INFO: Runtime Measurment: {before:  495 ms, ORAMs:  550 ms, after: 2235 μs}
+[17/10/2023 08:42:05]       INFO: getBuckets result: fromBucket 88 toBucket 98 n_from 10088 n_to 10098
+[17/10/2023 08:42:05]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:05]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:05]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:06]       INFO: Query: Query[, attributeIndex:0 from:10088, to:10098, pointQuery:0, whereIndex:0, whereFrom:10088, whereTo:10098, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:06]       INFO: Retrieval: number of datapoints   2113 noise 1778 , interval [10088,10098]
+[17/10/2023 08:42:06]       INFO: Query   9 /  10 : real records    335 ( +     0 padding +  1778 noise,   2113 total) ( 993 ms, or 2964 μs / record)
+[17/10/2023 08:42:06]       INFO: Runtime Measurment: {before:  507 ms, ORAMs:  483 ms, after: 2285 μs}
+[17/10/2023 08:42:06]       INFO: getBuckets result: fromBucket 99 toBucket 109 n_from 10099 n_to 10109
+[17/10/2023 08:42:06]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:06]       INFO: Parallelised accessing osm 0
+[17/10/2023 08:42:06]       INFO: Parallelised accessing osm 1
+[17/10/2023 08:42:07]       INFO: Query: Query[, attributeIndex:0 from:10099, to:10109, pointQuery:0, whereIndex:0, whereFrom:10099, whereTo:10109, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 08:42:07]       INFO: Retrieval: number of datapoints   2631 noise 2308 , interval [10099,10109]
+[17/10/2023 08:42:07]       INFO: Query  10 /  10 : real records    323 ( +     0 padding +  2308 noise,   2631 total) (1055 ms, or 3268 μs / record)
+[17/10/2023 08:42:07]       INFO: Runtime Measurment: {before:  488 ms, ORAMs:  564 ms, after: 2567 μs}
+[17/10/2023 08:42:07]       INFO: Server  transitioned from old state 4 via transition edge 401 to new state 5
+[17/10/2023 08:42:07]       INFO: For 10 QUERIES: total: 9988 ms, average: 998 ms / query,  query, 1 ns/ fetched item; (511890199+484500683+2431329=326) records / query
+[17/10/2023 08:42:07]       INFO: Log written to ./results/size:2^16-domainsizes:2^10,20/1--2023-10-17-08-40-57--1542434981975501.json

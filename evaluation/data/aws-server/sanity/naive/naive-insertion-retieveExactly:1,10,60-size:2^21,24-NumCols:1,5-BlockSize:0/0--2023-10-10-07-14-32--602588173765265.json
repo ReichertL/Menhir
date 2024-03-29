@@ -1,0 +1,332 @@
+{
+    "DATASOURCE": "0",
+    "FILES_DIR": "\/home\/ec2-user\/tmp\/storage-files-thread0-seed:0",
+    "NUM_ATTRIBUTES": "1",
+    "COLUMN_FORMAT": "INT",
+    "DATA_RESOLUTION": "1",
+    "MIN_VALUES": "10000",
+    "MAX_VALUE": "11000",
+    "RANGEQUERY_RANGE": "10",
+    "VALUE_SIZE": "0",
+    "NUM_DATAPOINTS": "16777214",
+    "DELETION": "false",
+    "SEED": "0",
+    "RETRIEVE_EXACTLY": "1,10,20,30,40,50,60",
+    "QUERY_RESPONSE_EPSILON": "1",
+    "QUERY_INDEX": "1",
+    "WHERE_INDEX": "0",
+    "QUERY_FUNCTION": "0",
+    "POINT_QUERIES": "false",
+    "NUM_QUERIES": "40",
+    "MAX_SENSITIVITY": "0.01",
+    "DATASET": "data\/covid-data.csv",
+    "BLOCK_SIZE": "52",
+    "ORAM_CAPACITY": "16777214",
+    "ORAM_Z": "3",
+    "STASH_FACTOR": "4",
+    "USE_ORAM": "false",
+    "BATCH_SIZE": "1",
+    "DP_BUCKETS": "0",
+    "DP_K": "2",
+    "DP_BETA": "20",
+    "DP_EPSILON": "0.69299999999999995",
+    "FILE_LOGGING": "true",
+    "OUT_DIR": ".\/results\/naive-insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0",
+    "LOG_FILENAME": "0--2023-10-09-21-09-16--566271761438589",
+    "InsetionTimes": "",
+    "DeletionTimes": "",
+    "aggregates": {
+        "insertionTotal": "108618609",
+        "insertionMean": "64769",
+        "timeTotal": "194620296",
+        "timePerQuery": "194620296",
+        "realTotal": "0",
+        "realPerQuery": "0",
+        "paddingPerQuery": "1",
+        "noisePerQuery": "0",
+        "totalPerQuery": "1"
+    },
+    "QUERIES": [
+        {
+            "overhead": "18000000000",
+            "real": "0",
+            "padding": "1",
+            "noise": "0",
+            "total": "1"
+        },
+        {
+            "overhead": "127000000000",
+            "real": "0",
+            "padding": "10",
+            "noise": "0",
+            "total": "10"
+        },
+        {
+            "overhead": "248000000000",
+            "real": "0",
+            "padding": "20",
+            "noise": "0",
+            "total": "20"
+        },
+        {
+            "overhead": "370000000000",
+            "real": "0",
+            "padding": "30",
+            "noise": "0",
+            "total": "30"
+        },
+        {
+            "overhead": "490000000000",
+            "real": "0",
+            "padding": "40",
+            "noise": "0",
+            "total": "40"
+        },        
+        {
+            "overhead": "611000000000",
+            "real": "0",
+            "padding": "50",
+            "noise": "0",
+            "total": "50"
+        },
+        {
+            "overhead": "731000000000",
+            "real": "0",
+            "padding": "60",
+            "noise": "0",
+            "total": "60"
+        },
+        {
+            "overhead": "17000000000",
+            "real": "0",
+            "padding": "1",
+            "noise": "0",
+            "total": "1"
+        },        
+        {
+            "overhead": "127000000000",
+            "real": "0",
+            "padding": "10",
+            "noise": "0",
+            "total": "10"
+        },
+        {
+            "overhead": "248000000000",
+            "real": "0",
+            "padding": "20",
+            "noise": "0",
+            "total": "20"
+        },
+        {
+            "overhead": "369000000000",
+            "real": "0",
+            "padding": "30",
+            "noise": "0",
+            "total": "30"
+        },
+        {
+            "overhead": "490000000000",
+            "real": "0",
+            "padding": "40",
+            "noise": "0",
+            "total": "40"
+        },
+        {
+            "overhead": "611000000000",
+            "real": "0",
+            "padding": "50",
+            "noise": "0",
+            "total": "50"
+        },
+        {
+            "overhead": "730000000000",
+            "real": "0",
+            "padding": "60",
+            "noise": "0",
+            "total": "60"
+        },        
+        {
+            "overhead": "17000000000",
+            "real": "0",
+            "padding": "1",
+            "noise": "0",
+            "total": "1"
+        },
+        {
+            "overhead": "127000000000",
+            "real": "0",
+            "padding": "10",
+            "noise": "0",
+            "total": "10"
+        },
+        {
+            "overhead": "250000000000",
+            "real": "0",
+            "padding": "20",
+            "noise": "0",
+            "total": "20"
+        },
+        {
+            "overhead": "371000000000",
+            "real": "0",
+            "padding": "30",
+            "noise": "0",
+            "total": "30"
+        },
+        {
+            "overhead": "492000000000",
+            "real": "0",
+            "padding": "40",
+            "noise": "0",
+            "total": "40"
+        },
+        {
+            "overhead": "614000000000",
+            "real": "0",
+            "padding": "50",
+            "noise": "0",
+            "total": "50"
+        },        
+        {
+            "overhead": "733000000000",
+            "real": "0",
+            "padding": "60",
+            "noise": "0",
+            "total": "60"
+        },
+        {
+            "overhead": "17000000000",
+            "real": "0",
+            "padding": "1",
+            "noise": "0",
+            "total": "1"
+        },
+        {
+            "overhead": "127000000000",
+            "real": "0",
+            "padding": "10",
+            "noise": "0",
+            "total": "10"
+        },        
+        {
+            "overhead": "249000000000",
+            "real": "0",
+            "padding": "20",
+            "noise": "0",
+            "total": "20"
+        },
+        {
+            "overhead": "371000000000",
+            "real": "0",
+            "padding": "30",
+            "noise": "0",
+            "total": "30"
+        },
+        {
+            "overhead": "492000000000",
+            "real": "0",
+            "padding": "40",
+            "noise": "0",
+            "total": "40"
+        },
+        {
+            "overhead": "611000000000",
+            "real": "0",
+            "padding": "50",
+            "noise": "0",
+            "total": "50"
+        },
+        {
+            "overhead": "732000000000",
+            "real": "0",
+            "padding": "60",
+            "noise": "0",
+            "total": "60"
+        },
+        {
+            "overhead": "17000000000",
+            "real": "0",
+            "padding": "1",
+            "noise": "0",
+            "total": "1"
+        },        
+        {
+            "overhead": "127000000000",
+            "real": "0",
+            "padding": "10",
+            "noise": "0",
+            "total": "10"
+        },
+        {
+            "overhead": "248000000000",
+            "real": "0",
+            "padding": "20",
+            "noise": "0",
+            "total": "20"
+        },
+        {
+            "overhead": "370000000000",
+            "real": "0",
+            "padding": "30",
+            "noise": "0",
+            "total": "30"
+        },
+        {
+            "overhead": "491000000000",
+            "real": "0",
+            "padding": "40",
+            "noise": "0",
+            "total": "40"
+        },
+        {
+            "overhead": "614000000000",
+            "real": "0",
+            "padding": "50",
+            "noise": "0",
+            "total": "50"
+        },
+        {
+            "overhead": "734000000000",
+            "real": "0",
+            "padding": "60",
+            "noise": "0",
+            "total": "60"
+        },   
+        {
+            "overhead": "17000000000",
+            "real": "0",
+            "padding": "1",
+            "noise": "0",
+            "total": "1"
+        },        
+        {
+            "overhead": "128000000000",
+            "real": "0",
+            "padding": "10",
+            "noise": "0",
+            "total": "10"
+        },
+        {
+            "overhead": "248000000000",
+            "real": "0",
+            "padding": "20",
+            "noise": "0",
+            "total": "20"
+        },
+        {
+            "overhead": "369000000000",
+            "real": "0",
+            "padding": "30",
+            "noise": "0",
+            "total": "30"
+        },
+        {
+            "overhead": "490000000000",
+            "real": "0",
+            "padding": "40",
+            "noise": "0",
+            "total": "40"
+        }
+       
+    ]
+}

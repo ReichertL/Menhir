@@ -1,0 +1,460 @@
+         [18/10/2023 08:20:03]       INFO: Generating indices...
+[18/10/2023 08:20:03]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[18/10/2023 08:20:03]       INFO: Constructing synthetic data set and queries...
+[18/10/2023 08:20:03]       INFO: Column 1 - mean  15980.5, std 1787.97 
+[18/10/2023 08:20:03]       INFO: Column 2 - mean  16421.9, std 1506.91 
+[18/10/2023 08:20:03]       INFO: Column 3 - mean  16580.4, std 1362.21 
+[18/10/2023 08:20:03]       INFO: Column 4 - mean  15712.2, std 1059.14 
+[18/10/2023 08:20:53]       INFO: Column 0 - min 10000, max 20000
+[18/10/2023 08:20:53]       INFO: Column 1 - min 10000, max 20000
+[18/10/2023 08:20:53]       INFO: Column 2 - min 10000, max 20000
+[18/10/2023 08:20:53]       INFO: Column 3 - min 10000, max 20000
+[18/10/2023 08:20:53]       INFO: Column 4 - min 10167, max 20000
+[18/10/2023 08:20:53]       INFO: Generated Queries aim to provide certain levels of query senstivity. (MANAGE_SENSITIVITY is true.)
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0002 (3529 datapoints). Num Generated Queries 1/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0003 (4689 datapoints). Num Generated Queries 2/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0003 (5500 datapoints). Num Generated Queries 3/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0006 (9675 datapoints). Num Generated Queries 4/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0006 (10295 datapoints). Num Generated Queries 5/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0009 (14468 datapoints). Num Generated Queries 6/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0007 (11908 datapoints). Num Generated Queries 7/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0008 (14196 datapoints). Num Generated Queries 8/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 18331 (sel 0.0011). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:02]       INFO: Iteration 2
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0002 (3015 datapoints). Num Generated Queries 9/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0003 (4292 datapoints). Num Generated Queries 10/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0006 (9605 datapoints). Num Generated Queries 11/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0005 (7893 datapoints). Num Generated Queries 12/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0006 (9517 datapoints). Num Generated Queries 13/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0007 (11864 datapoints). Num Generated Queries 14/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0007 (12027 datapoints). Num Generated Queries 15/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0009 (14654 datapoints). Num Generated Queries 16/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0010 (16543 datapoints). Num Generated Queries 17/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0001 (1847 datapoints). Num Generated Queries 18/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0003 (4894 datapoints). Num Generated Queries 19/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0006 (9743 datapoints). Num Generated Queries 20/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:02]       INFO: Adding Query with selectivity 0.0006 (9293 datapoints). Num Generated Queries 21/100
+[18/10/2023 08:21:02]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0006 (9413 datapoints). Num Generated Queries 22/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0007 (11612 datapoints). Num Generated Queries 23/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0009 (14718 datapoints). Num Generated Queries 24/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0009 (14663 datapoints). Num Generated Queries 25/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 17920 (sel 0.0011). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:03]       INFO: Iteration 2
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0003 (4583 datapoints). Num Generated Queries 26/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0002 (3454 datapoints). Num Generated Queries 27/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0006 (9510 datapoints). Num Generated Queries 28/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0005 (8072 datapoints). Num Generated Queries 29/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0006 (9443 datapoints). Num Generated Queries 30/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0007 (10998 datapoints). Num Generated Queries 31/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0009 (15200 datapoints). Num Generated Queries 32/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0009 (15277 datapoints). Num Generated Queries 33/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0010 (16416 datapoints). Num Generated Queries 34/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0003 (4705 datapoints). Num Generated Queries 35/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0002 (4034 datapoints). Num Generated Queries 36/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0003 (5175 datapoints). Num Generated Queries 37/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0005 (8379 datapoints). Num Generated Queries 38/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0006 (9243 datapoints). Num Generated Queries 39/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0007 (11519 datapoints). Num Generated Queries 40/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0008 (13911 datapoints). Num Generated Queries 41/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:03]       INFO: Adding Query with selectivity 0.0008 (13440 datapoints). Num Generated Queries 42/100
+[18/10/2023 08:21:03]       INFO: Iteration 1
+[18/10/2023 08:21:04]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 17223 (sel 0.0010). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:04]       INFO: Iteration 2
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0002 (2664 datapoints). Num Generated Queries 43/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0002 (3618 datapoints). Num Generated Queries 44/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0003 (5859 datapoints). Num Generated Queries 45/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0005 (8737 datapoints). Num Generated Queries 46/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0006 (10181 datapoints). Num Generated Queries 47/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0008 (13835 datapoints). Num Generated Queries 48/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0009 (15131 datapoints). Num Generated Queries 49/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0008 (13583 datapoints). Num Generated Queries 50/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 17446 (sel 0.0010). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:04]       INFO: Iteration 2
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0003 (4318 datapoints). Num Generated Queries 51/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0003 (4508 datapoints). Num Generated Queries 52/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0004 (6432 datapoints). Num Generated Queries 53/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0005 (7855 datapoints). Num Generated Queries 54/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0007 (12247 datapoints). Num Generated Queries 55/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0006 (10679 datapoints). Num Generated Queries 56/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0007 (12403 datapoints). Num Generated Queries 57/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0008 (14223 datapoints). Num Generated Queries 58/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 18471 (sel 0.0011). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:04]       INFO: Iteration 2
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0002 (3398 datapoints). Num Generated Queries 59/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0003 (4675 datapoints). Num Generated Queries 60/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0005 (9015 datapoints). Num Generated Queries 61/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:04]       INFO: Adding Query with selectivity 0.0006 (9630 datapoints). Num Generated Queries 62/100
+[18/10/2023 08:21:04]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0006 (9431 datapoints). Num Generated Queries 63/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0008 (13044 datapoints). Num Generated Queries 64/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0007 (12286 datapoints). Num Generated Queries 65/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0010 (16113 datapoints). Num Generated Queries 66/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 17516 (sel 0.0010). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:05]       INFO: Iteration 2
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0002 (3524 datapoints). Num Generated Queries 67/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0002 (3567 datapoints). Num Generated Queries 68/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0004 (6674 datapoints). Num Generated Queries 69/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0004 (7057 datapoints). Num Generated Queries 70/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0006 (10081 datapoints). Num Generated Queries 71/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0006 (10068 datapoints). Num Generated Queries 72/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0009 (14534 datapoints). Num Generated Queries 73/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0009 (14702 datapoints). Num Generated Queries 74/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 19443 (sel 0.0012). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:05]       INFO: Iteration 2
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0002 (2958 datapoints). Num Generated Queries 75/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0002 (4084 datapoints). Num Generated Queries 76/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0006 (9510 datapoints). Num Generated Queries 77/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0006 (9747 datapoints). Num Generated Queries 78/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0005 (8375 datapoints). Num Generated Queries 79/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0008 (13026 datapoints). Num Generated Queries 80/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:05]       INFO: Adding Query with selectivity 0.0008 (14122 datapoints). Num Generated Queries 81/100
+[18/10/2023 08:21:05]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0008 (13825 datapoints). Num Generated Queries 82/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 19414 (sel 0.0012). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:06]       INFO: Iteration 2
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0003 (4567 datapoints). Num Generated Queries 83/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0003 (4595 datapoints). Num Generated Queries 84/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0004 (6180 datapoints). Num Generated Queries 85/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0005 (8309 datapoints). Num Generated Queries 86/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0005 (9048 datapoints). Num Generated Queries 87/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0006 (10052 datapoints). Num Generated Queries 88/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0009 (14333 datapoints). Num Generated Queries 89/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0009 (14609 datapoints). Num Generated Queries 90/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 17888 (sel 0.0011). Targeted number: 15102  (sel 0.0009)
+[18/10/2023 08:21:06]       INFO: Iteration 2
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0002 (3074 datapoints). Num Generated Queries 91/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0003 (4752 datapoints). Num Generated Queries 92/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0003 (5852 datapoints). Num Generated Queries 93/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0004 (7463 datapoints). Num Generated Queries 94/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0006 (9517 datapoints). Num Generated Queries 95/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0008 (13749 datapoints). Num Generated Queries 96/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0007 (12217 datapoints). Num Generated Queries 97/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]    WARNING: Discarded this query because selectivity was not reached. Number of datapoints in query 17444 (sel 0.0010). Targeted number: 13424  (sel 0.0008)
+[18/10/2023 08:21:06]       INFO: Iteration 2
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0010 (16700 datapoints). Num Generated Queries 98/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:06]       INFO: Adding Query with selectivity 0.0003 (4534 datapoints). Num Generated Queries 99/100
+[18/10/2023 08:21:06]       INFO: Iteration 1
+[18/10/2023 08:21:07]       INFO: Adding Query with selectivity 0.0003 (4851 datapoints). Num Generated Queries 100/100
+[18/10/2023 08:21:07]       INFO: NUM_ATTRIBUTES = 5
+[18/10/2023 08:21:53]       INFO: FILE_LOGGING = 1
+[18/10/2023 08:21:53]       INFO: DATASOURCE = 0
+[18/10/2023 08:21:53]       INFO: OUT_DIR: ./results/insertionDeletion-size:2^20-cols:1,5-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0
+[18/10/2023 08:21:53]       INFO: FILES_DIR: /home/ec2-user/tmp/storage-files-thread0-seed:0
+[18/10/2023 08:21:53]       INFO: NUM_DATAPOINTS = 16777208
+[18/10/2023 08:21:53]       INFO: NUM_QUERIES = 100
+[18/10/2023 08:21:53]       INFO: DELETION = 0
+[18/10/2023 08:21:53]       INFO: NUM_ATTRIBUTES = 5
+[18/10/2023 08:21:53]       INFO: COLUMN_FORMAT: INT,INT,INT,INT,INT
+[18/10/2023 08:21:53]       INFO: DATA_RESOLUTION: 1,1,1,1,1
+[18/10/2023 08:21:53]       INFO: MIN_VALUE: 10000,10000,10000,10000,10167
+[18/10/2023 08:21:53]       INFO: MAX_VALUE: 20000,20000,20000,20000,20000
+[18/10/2023 08:21:53]       INFO: RANGEQUERY_RANGE = 10
+[18/10/2023 08:21:53]       INFO: DATASET = data/covid-data.csv
+[18/10/2023 08:21:53]       INFO: NUM_DATAPOINTS = 16777208
+[18/10/2023 08:21:53]       INFO: RETRIEVE_EXACTLY: 1,10,20,30,40,50,60
+[18/10/2023 08:21:53]       INFO: QUERY_RESPONSE_EPSILON = 1
+[18/10/2023 08:21:53]       INFO: QUERY_INDEX = 0
+[18/10/2023 08:21:53]       INFO: WHERE_INDEX = 0
+[18/10/2023 08:21:53]       INFO: QUERY_FUNCTION = 0
+[18/10/2023 08:21:53]       INFO: POINT_QUERIES = 0
+[18/10/2023 08:21:53]       INFO: NUM_QUERIES = 100
+[18/10/2023 08:21:53]       INFO: MAX_SENSITIVITY = 0.001
+[18/10/2023 08:21:53]       INFO: SEED = 0
+[18/10/2023 08:21:53]       INFO: USE_GAMMA = 1
+[18/10/2023 08:21:53]       INFO: ORAM_LOG_CAPACITY = 24
+[18/10/2023 08:21:53]       INFO: ORAM_Z = 3
+[18/10/2023 08:21:53]       INFO: STASH_FACTOR = 4
+[18/10/2023 08:21:53]       INFO: USE_ORAM = 1
+[18/10/2023 08:21:53]       INFO: BATCH_SIZE = 1
+[18/10/2023 08:21:53]       INFO: DP_K = 2
+[18/10/2023 08:21:53]       INFO: DP_BETA = 20
+[18/10/2023 08:21:53]       INFO: DP_EPSILON = 0.693
+[18/10/2023 08:21:53]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[18/10/2023 08:21:53]       INFO: Insert data as bulk. Last Datapoint inserted manually (for runtime measurments).
+[18/10/2023 08:21:53]       INFO: INSERT_BULK = 0
+[18/10/2023 08:21:53]       INFO: this->maxPerTree = 16777215
+[18/10/2023 08:21:53]       INFO: this->numOSMs = 1
+[18/10/2023 08:21:53]       INFO: Generating sanitizers for  1/5. (USE GAMMA 1)
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 0 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 1 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 2 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 3 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 4 - min 10167, max 20000, range 9833
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 9833
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Generating DP noise tree...
+[18/10/2023 08:21:53]       INFO: For column 0: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 1: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 2: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 3: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 4: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: Generating sanitizers for  2/5. (USE GAMMA 1)
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 0 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 1 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 2 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 3 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 4 - min 10167, max 20000, range 9833
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 9833
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Generating DP noise tree...
+[18/10/2023 08:21:53]       INFO: For column 0: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 1: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 2: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 3: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 4: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: Generating sanitizers for  3/5. (USE GAMMA 1)
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 0 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 1 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 2 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 3 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 4 - min 10167, max 20000, range 9833
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 9833
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Generating DP noise tree...
+[18/10/2023 08:21:53]       INFO: For column 0: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 1: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 2: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 3: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 4: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: Generating sanitizers for  4/5. (USE GAMMA 1)
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 0 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 1 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 2 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 3 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 4 - min 10167, max 20000, range 9833
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 9833
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Generating DP noise tree...
+[18/10/2023 08:21:53]       INFO: For column 0: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 1: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 2: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 3: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 4: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: Generating sanitizers for  5/5. (USE GAMMA 1)
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 0 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 1 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 2 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 3 - min 10000, max 20000, range 10000
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 10000
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Noise Parameters Column 4 - min 10167, max 20000, range 9833
+[18/10/2023 08:21:53]       INFO: this_DP_domain = 9833
+[18/10/2023 08:21:53]       INFO: this_dp_buckets = 8192
+[18/10/2023 08:21:53]       INFO: this_dp_levels = 100
+[18/10/2023 08:21:53]       INFO: this_dp_alpha = 306
+[18/10/2023 08:21:53]       INFO: Generating DP noise tree...
+[18/10/2023 08:21:53]       INFO: For column 0: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 1: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 2: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 3: DP tree has 16469 elements
+[18/10/2023 08:21:53]       INFO: For column 4: DP tree has 16469 elements
+[18/10/2023 08:21:57]       INFO: Creating OSM data split 1/1.
+[18/10/2023 08:21:57]       INFO: start 1, end 16777207, num 16777207
+[18/10/2023 08:22:18]       INFO: Creating AVLTree for OSM  1/1 with 16777206 datapoints
+[18/10/2023 08:22:21]       INFO: Creating Histograms for OSM  1.
+[18/10/2023 08:22:29]       INFO: AVLTree.maxCapacity =16777216 
+[18/10/2023 08:22:29]       INFO: ORAM_Z = 3
+[18/10/2023 08:22:29]       INFO: STASH_FACTOR = 4
+[18/10/2023 08:22:29]       INFO: this->ORAM_LOG_CAPACITY = 24
+[18/10/2023 08:22:29]       INFO: BATCH_SIZE = 1
+[18/10/2023 08:22:29]       INFO: ORAM_BLOCK_SIZE = 196
+[18/10/2023 08:22:29]       INFO: oramParameter = 50331651
+[18/10/2023 08:22:29]       INFO: ORAM Stash Size is: 288
+[18/10/2023 08:22:29]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[18/10/2023 08:44:38]       INFO: starting to build Tree
+[18/10/2023 08:44:38]       INFO: building Tree from sorted list for Colum 0
+[18/10/2023 08:44:38]       INFO: building Tree from sorted list for Colum 0
+[18/10/2023 08:44:38]       INFO: building Tree from sorted list for Colum 3
+[18/10/2023 08:44:38]       INFO: building Tree from sorted list for Colum 1
+[18/10/2023 08:44:38]       INFO: building Tree from sorted list for Colum 2
+[18/10/2023 08:44:38]       INFO: building Tree from sorted list for Colum 4
+[18/10/2023 09:50:40]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[18/10/2023 09:51:19]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[18/10/2023 09:51:26]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[18/10/2023 09:51:28]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[18/10/2023 09:51:52]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[18/10/2023 09:54:31]       INFO: data size 16777206
+[18/10/2023 09:54:39]       INFO: Attempting to lock 41 GB of RAM. 
+[18/10/2023 09:54:40]       INFO: Creating ORAM

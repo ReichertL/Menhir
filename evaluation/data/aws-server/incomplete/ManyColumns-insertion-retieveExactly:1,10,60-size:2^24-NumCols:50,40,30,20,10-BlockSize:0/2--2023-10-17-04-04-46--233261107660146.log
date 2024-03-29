@@ -1,0 +1,1909 @@
+         [17/10/2023 04:04:46]       INFO: Generating indices...
+[17/10/2023 04:04:46]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[17/10/2023 04:04:46]       INFO: Constructing synthetic data set and queries...
+[17/10/2023 04:04:46]       INFO: Column 1 - mean  10920.4, std 6.48156 
+[17/10/2023 04:04:46]       INFO: Column 2 - mean  10701.6, std 137.416 
+[17/10/2023 04:04:46]       INFO: Column 3 - mean  10491.4, std 108.831 
+[17/10/2023 04:04:46]       INFO: Column 4 - mean  10396, std 105.092 
+[17/10/2023 04:04:46]       INFO: Column 5 - mean  10268.6, std 82.5837 
+[17/10/2023 04:04:46]       INFO: Column 6 - mean  10658.2, std 51.1622 
+[17/10/2023 04:04:46]       INFO: Column 7 - mean  10355.3, std 154.818 
+[17/10/2023 04:04:46]       INFO: Column 8 - mean  10489.6, std 74.9137 
+[17/10/2023 04:04:46]       INFO: Column 9 - mean  10597.3, std 66.7068 
+[17/10/2023 04:04:46]       INFO: n_sel = 104858
+[17/10/2023 04:04:46]    WARNING: Error in Query generation process (More datapoints supposed to be createfor queries than the maximal size of datapoints: 943722>1048575). Decreasing Number of Queries to 9. 
+[17/10/2023 04:04:49]       INFO: Column 0 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 1 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 2 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 3 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 4 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 5 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 6 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 7 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 8 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: Column 9 - min 10000, max 11000
+[17/10/2023 04:04:49]       INFO: NUM_ATTRIBUTES = 10
+[17/10/2023 04:04:53]       INFO: FILE_LOGGING = 1
+[17/10/2023 04:04:53]       INFO: DATASOURCE = 0
+[17/10/2023 04:04:53]       INFO: OUT_DIR: ./results/ManyColumns-insertion-retieveExactly:1,10,60-size:2^24-NumCols:1-BlockSize:200
+[17/10/2023 04:04:53]       INFO: FILES_DIR: /home/ec2-user/tmp/storage-files-thread2-seed:2
+[17/10/2023 04:04:53]       INFO: NUM_DATAPOINTS = 1048575
+[17/10/2023 04:04:53]       INFO: NUM_QUERIES = 9
+[17/10/2023 04:04:53]       INFO: DELETION = 0
+[17/10/2023 04:04:53]       INFO: NUM_ATTRIBUTES = 10
+[17/10/2023 04:04:53]       INFO: COLUMN_FORMAT: INT,INT,INT,INT,INT,INT,INT,INT,INT,INT
+[17/10/2023 04:04:53]       INFO: DATA_RESOLUTION: 1,1,1,1,1,1,1,1,1,1
+[17/10/2023 04:04:53]       INFO: MIN_VALUE: 10000,10000,10000,10000,10000,10000,10000,10000,10000,10000
+[17/10/2023 04:04:53]       INFO: MAX_VALUE: 11000,11000,11000,11000,11000,11000,11000,11000,11000,11000
+[17/10/2023 04:04:53]       INFO: RANGEQUERY_RANGE = 10
+[17/10/2023 04:04:53]       INFO: DATASET = data/covid-data.csv
+[17/10/2023 04:04:53]       INFO: NUM_DATAPOINTS = 1048575
+[17/10/2023 04:04:53]       INFO: RETRIEVE_EXACTLY: 
+[17/10/2023 04:04:53]       INFO: QUERY_RESPONSE_EPSILON = 1
+[17/10/2023 04:04:53]       INFO: QUERY_INDEX = 0
+[17/10/2023 04:04:53]       INFO: WHERE_INDEX = 0
+[17/10/2023 04:04:53]       INFO: QUERY_FUNCTION = 0
+[17/10/2023 04:04:53]       INFO: POINT_QUERIES = 0
+[17/10/2023 04:04:53]       INFO: NUM_QUERIES = 9
+[17/10/2023 04:04:53]       INFO: MAX_SENSITIVITY = 0.1
+[17/10/2023 04:04:53]       INFO: SEED = 2
+[17/10/2023 04:04:53]       INFO: USE_GAMMA = 1
+[17/10/2023 04:04:53]       INFO: ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:53]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:53]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:53]       INFO: USE_ORAM = 1
+[17/10/2023 04:04:53]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:53]       INFO: DP_K = 2
+[17/10/2023 04:04:53]       INFO: DP_BETA = 20
+[17/10/2023 04:04:53]       INFO: DP_EPSILON = 0.693
+[17/10/2023 04:04:53]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[17/10/2023 04:04:53]       INFO: Insert data as bulk. Last Datapoint inserted manually (for runtime measurments).
+[17/10/2023 04:04:53]       INFO: INSERT_BULK = 0
+[17/10/2023 04:04:53]       INFO: this->maxPerTree = 65535
+[17/10/2023 04:04:53]       INFO: this->numOSMs = 17
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  1/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  2/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  3/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  4/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  5/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  6/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  7/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  8/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  9/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Generating sanitizers for  10/10. (USE GAMMA 1)
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 5 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 6 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 7 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 8 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Noise Parameters Column 9 - min 10000, max 11000, range 1000
+[17/10/2023 04:04:53]       INFO: this_DP_domain = 1000
+[17/10/2023 04:04:53]       INFO: this_dp_buckets = 512
+[17/10/2023 04:04:53]       INFO: this_dp_levels = 100
+[17/10/2023 04:04:53]       INFO: this_dp_alpha = 208
+[17/10/2023 04:04:53]       INFO: Generating DP noise tree...
+[17/10/2023 04:04:53]       INFO: For column 0: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 1: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 2: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 3: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 4: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 5: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 6: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 7: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 8: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: For column 9: DP tree has 1113 elements
+[17/10/2023 04:04:53]       INFO: Creating OSM data split 1/17.
+[17/10/2023 04:04:53]       INFO: start 983040, end 1048574, num 65535
+[17/10/2023 04:04:53]       INFO: Creating OSM data split 2/17.
+[17/10/2023 04:04:53]       INFO: start 917505, end 983039, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 3/17.
+[17/10/2023 04:04:54]       INFO: start 851970, end 917504, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 4/17.
+[17/10/2023 04:04:54]       INFO: start 786435, end 851969, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 5/17.
+[17/10/2023 04:04:54]       INFO: start 720900, end 786434, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 6/17.
+[17/10/2023 04:04:54]       INFO: start 655365, end 720899, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 7/17.
+[17/10/2023 04:04:54]       INFO: start 589830, end 655364, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 8/17.
+[17/10/2023 04:04:54]       INFO: start 524295, end 589829, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 9/17.
+[17/10/2023 04:04:54]       INFO: start 458760, end 524294, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 10/17.
+[17/10/2023 04:04:54]       INFO: start 393225, end 458759, num 65535
+[17/10/2023 04:04:54]       INFO: Creating OSM data split 11/17.
+[17/10/2023 04:04:54]       INFO: start 327690, end 393224, num 65535
+[17/10/2023 04:04:55]       INFO: Creating OSM data split 12/17.
+[17/10/2023 04:04:55]       INFO: start 262155, end 327689, num 65535
+[17/10/2023 04:04:55]       INFO: Creating OSM data split 13/17.
+[17/10/2023 04:04:55]       INFO: start 196620, end 262154, num 65535
+[17/10/2023 04:04:55]       INFO: Creating OSM data split 14/17.
+[17/10/2023 04:04:55]       INFO: start 131085, end 196619, num 65535
+[17/10/2023 04:04:55]       INFO: Creating OSM data split 15/17.
+[17/10/2023 04:04:55]       INFO: start 65550, end 131084, num 65535
+[17/10/2023 04:04:55]       INFO: Creating OSM data split 16/17.
+[17/10/2023 04:04:55]       INFO: start 15, end 65549, num 65535
+[17/10/2023 04:04:55]       INFO: Creating OSM data split 17/17.
+[17/10/2023 04:04:55]       INFO: start 1, end 14, num 14
+[17/10/2023 04:04:55]       INFO: Creating AVLTree for OSM  1/17 with 65534 datapoints
+[17/10/2023 04:04:55]       INFO: Creating Histograms for OSM  1.
+[17/10/2023 04:04:55]       INFO: Creating AVLTree for OSM  2/17 with 65534 datapoints
+[17/10/2023 04:04:55]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:55]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:55]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:55]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:55]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:55]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:55]       INFO: oramParameter = 196611
+[17/10/2023 04:04:55]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:55]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:55]       INFO: Creating Histograms for OSM  2.
+[17/10/2023 04:04:55]       INFO: Creating AVLTree for OSM  3/17 with 65534 datapoints
+[17/10/2023 04:04:55]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:55]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:55]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:55]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:55]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:55]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:55]       INFO: oramParameter = 196611
+[17/10/2023 04:04:55]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:55]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:55]       INFO: Creating Histograms for OSM  3.
+[17/10/2023 04:04:55]       INFO: Creating AVLTree for OSM  4/17 with 65534 datapoints
+[17/10/2023 04:04:55]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:55]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:55]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:55]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:55]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:55]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:55]       INFO: oramParameter = 196611
+[17/10/2023 04:04:55]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:55]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:55]       INFO: Creating Histograms for OSM  4.
+[17/10/2023 04:04:55]       INFO: Creating AVLTree for OSM  5/17 with 65534 datapoints
+[17/10/2023 04:04:55]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:55]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:55]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:55]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:55]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:55]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:55]       INFO: oramParameter = 196611
+[17/10/2023 04:04:55]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:55]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:55]       INFO: Creating Histograms for OSM  5.
+[17/10/2023 04:04:55]       INFO: Creating AVLTree for OSM  6/17 with 65534 datapoints
+[17/10/2023 04:04:55]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:55]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:55]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:55]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:55]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:55]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:55]       INFO: oramParameter = 196611
+[17/10/2023 04:04:55]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:55]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:56]       INFO: Creating Histograms for OSM  6.
+[17/10/2023 04:04:56]       INFO: Creating AVLTree for OSM  7/17 with 65534 datapoints
+[17/10/2023 04:04:56]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:56]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:56]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:56]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:56]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:56]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:56]       INFO: oramParameter = 196611
+[17/10/2023 04:04:56]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:56]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:56]       INFO: Creating Histograms for OSM  7.
+[17/10/2023 04:04:56]       INFO: Creating AVLTree for OSM  8/17 with 65534 datapoints
+[17/10/2023 04:04:56]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:56]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:56]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:56]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:56]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:56]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:56]       INFO: oramParameter = 196611
+[17/10/2023 04:04:56]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:56]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:56]       INFO: Creating Histograms for OSM  8.
+[17/10/2023 04:04:56]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:56]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:56]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:56]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:56]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:56]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:56]       INFO: oramParameter = 196611
+[17/10/2023 04:04:56]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:56]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:56]       INFO: Creating AVLTree for OSM  9/17 with 65534 datapoints
+[17/10/2023 04:04:57]       INFO: Creating Histograms for OSM  9.
+[17/10/2023 04:04:57]       INFO: Creating AVLTree for OSM  10/17 with 65534 datapoints
+[17/10/2023 04:04:57]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:57]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:57]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:57]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:57]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:57]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:57]       INFO: oramParameter = 196611
+[17/10/2023 04:04:57]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:57]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:04:58]       INFO: Creating Histograms for OSM  10.
+[17/10/2023 04:04:58]       INFO: Creating AVLTree for OSM  11/17 with 65534 datapoints
+[17/10/2023 04:04:58]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:04:58]       INFO: ORAM_Z = 3
+[17/10/2023 04:04:58]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:04:58]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:04:58]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:04:58]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:04:58]       INFO: oramParameter = 196611
+[17/10/2023 04:04:58]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:04:58]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:05:00]       INFO: Creating Histograms for OSM  11.
+[17/10/2023 04:05:00]       INFO: Creating AVLTree for OSM  12/17 with 65534 datapoints
+[17/10/2023 04:05:00]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:05:00]       INFO: ORAM_Z = 3
+[17/10/2023 04:05:00]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:05:00]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:05:00]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:05:00]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:05:00]       INFO: oramParameter = 196611
+[17/10/2023 04:05:00]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:05:00]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:05:02]       INFO: Creating Histograms for OSM  12.
+[17/10/2023 04:05:02]       INFO: Creating AVLTree for OSM  13/17 with 65534 datapoints
+[17/10/2023 04:05:02]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:05:02]       INFO: ORAM_Z = 3
+[17/10/2023 04:05:02]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:05:02]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:05:02]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:05:02]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:05:02]       INFO: oramParameter = 196611
+[17/10/2023 04:05:02]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:05:02]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:05:04]       INFO: starting to build Tree
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:04]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:05]       INFO: starting to build Tree
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:05]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:06]       INFO: starting to build Tree
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:06]       INFO: Creating Histograms for OSM  13.
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:06]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:06]       INFO: Creating AVLTree for OSM  14/17 with 65534 datapoints
+[17/10/2023 04:05:06]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:05:06]       INFO: ORAM_Z = 3
+[17/10/2023 04:05:06]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:05:06]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:05:06]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:05:06]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:05:06]       INFO: oramParameter = 196611
+[17/10/2023 04:05:06]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:05:06]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:05:08]       INFO: starting to build Tree
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:08]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:15]       INFO: starting to build Tree
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:16]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:20]       INFO: starting to build Tree
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:20]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:24]       INFO: Creating Histograms for OSM  14.
+[17/10/2023 04:05:24]       INFO: Creating AVLTree for OSM  15/17 with 65534 datapoints
+[17/10/2023 04:05:24]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:05:24]       INFO: ORAM_Z = 3
+[17/10/2023 04:05:24]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:05:24]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:05:24]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:05:24]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:05:24]       INFO: oramParameter = 196611
+[17/10/2023 04:05:24]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:05:24]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:05:32]       INFO: starting to build Tree
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:32]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:47]       INFO: Creating Histograms for OSM  15.
+[17/10/2023 04:05:47]       INFO: Creating AVLTree for OSM  16/17 with 65534 datapoints
+[17/10/2023 04:05:47]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:05:47]       INFO: ORAM_Z = 3
+[17/10/2023 04:05:47]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:05:47]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:05:47]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:05:47]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:05:47]       INFO: oramParameter = 196611
+[17/10/2023 04:05:47]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:05:47]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:05:50]       INFO: starting to build Tree
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:05:50]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:03]       INFO: Creating Histograms for OSM  16.
+[17/10/2023 04:06:04]       INFO: Creating AVLTree for OSM  17/17 with 13 datapoints
+[17/10/2023 04:06:04]       INFO: Creating Histograms for OSM  17.
+[17/10/2023 04:06:04]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:06:04]       INFO: ORAM_Z = 3
+[17/10/2023 04:06:04]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:06:04]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:06:04]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:06:04]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:06:04]       INFO: oramParameter = 196611
+[17/10/2023 04:06:04]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:06:04]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:06:04]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 04:06:04]       INFO: ORAM_Z = 3
+[17/10/2023 04:06:04]       INFO: STASH_FACTOR = 4
+[17/10/2023 04:06:04]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 04:06:04]       INFO: BATCH_SIZE = 1
+[17/10/2023 04:06:04]       INFO: ORAM_BLOCK_SIZE = 376
+[17/10/2023 04:06:04]       INFO: oramParameter = 196611
+[17/10/2023 04:06:04]       INFO: ORAM Stash Size is: 192
+[17/10/2023 04:06:04]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 04:06:04]       INFO: starting to build Tree
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:06:04]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:06:04]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:06:04]       INFO: data size 13
+[17/10/2023 04:06:04]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:06:04]       INFO: Creating ORAM
+[17/10/2023 04:06:16]       INFO: Loading Data into ORAM (13 datapoints) 
+[17/10/2023 04:06:16]       INFO: Finished loading data into ORAM
+[17/10/2023 04:06:16]       INFO: Removed RAM lock
+[17/10/2023 04:06:16]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:06:17]       INFO: starting to build Tree
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:17]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:20]       INFO: starting to build Tree
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:20]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:31]       INFO: starting to build Tree
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:31]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:34]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:06:34]       INFO: starting to build Tree
+[17/10/2023 04:06:34]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:34]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:34]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:34]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:34]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:34]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:35]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:35]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:35]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:35]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:37]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:06:38]       INFO: starting to build Tree
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 0
+17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:38]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:39]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:06:40]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:06:40]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:06:41]       INFO: starting to build Tree
+[17/10/2023 04:06:41]       INFO: starting to build Tree
+[17/10/2023 04:06:41]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:06:41]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:06:41]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:41]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:41]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:41]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:42]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:06:42]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:06:43]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:06:43]       INFO: starting to build Tree
+[17/10/2023 04:06:43]       INFO: building Tree from sorted list for Colum 2
+[17/10/2023 04:06:43]       INFO: building Tree from sorted list for Colum 3
+[17/10/2023 04:06:43]       INFO: building Tree from sorted list for Colum 6
+[17/10/2023 04:06:43]       INFO: building Tree from sorted list for Colum 9
+[17/10/2023 04:06:43]       INFO: building Tree from sorted list for Colum 4
+[17/10/2023 04:06:43]       INFO: building Tree from sorted list for Colum 1
+[17/10/2023 04:06:44]       INFO: building Tree from sorted list for Colum 8
+[17/10/2023 04:06:44]       INFO: building Tree from sorted list for Colum 7
+[17/10/2023 04:06:44]       INFO: building Tree from sorted list for Colum 5
+[17/10/2023 04:06:44]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 04:06:44]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:06:45]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:06:47]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:06:48]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:06:50]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:06:52]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:06:52]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:06:52]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:06:53]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:06:54]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:06:56]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:06:56]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:06:59]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:06:59]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:07:01]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:07:05]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:07:05]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:06]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:07:07]       INFO: data size 65534
+[17/10/2023 04:07:07]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:07:07]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:07:07]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:07]       INFO: Creating ORAM
+[17/10/2023 04:07:08]       INFO: data size 65534
+[17/10/2023 04:07:08]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:08]       INFO: Creating ORAM
+[17/10/2023 04:07:09]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:07:11]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:07:12]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:07:12]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:07:14]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:07:14]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:07:14]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:07:15]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:07:16]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:16]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:07:17]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:07:20]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:07:22]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:07:22]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:24]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:24]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:07:24]       INFO: data size 65534
+[17/10/2023 04:07:25]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:25]       INFO: Creating ORAM
+[17/10/2023 04:07:26]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:07:26]       INFO: Finished loading data into ORAM
+[17/10/2023 04:07:26]       INFO: Removed RAM lock
+[17/10/2023 04:07:26]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:07:28]       INFO: Finished loading data into ORAM
+[17/10/2023 04:07:28]       INFO: Removed RAM lock
+[17/10/2023 04:07:28]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:07:29]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:07:29]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:07:30]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:07:30]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:07:31]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:07:32]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:07:33]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:07:34]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:07:35]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:07:36]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:07:37]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:07:37]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:07:37]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:07:39]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:07:39]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:07:39]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:07:40]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:07:40]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:07:40]       INFO: data size 65534
+[17/10/2023 04:07:40]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:40]       INFO: Creating ORAM
+[17/10/2023 04:07:40]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:07:40]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:07:41]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:07:41]       INFO: Finished loading data into ORAM
+[17/10/2023 04:07:41]       INFO: Removed RAM lock
+[17/10/2023 04:07:41]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:07:41]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:42]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:07:43]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:07:43]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:07:44]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:07:44]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:44]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:07:44]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:07:45]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:07:46]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:07:46]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:46]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:07:47]       INFO: data size 65534
+[17/10/2023 04:07:47]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:07:47]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:47]       INFO: Creating ORAM
+[17/10/2023 04:07:48]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:51]       INFO: data size 65534
+[17/10/2023 04:07:51]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:07:51]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:51]       INFO: Creating ORAM
+[17/10/2023 04:07:52]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:07:53]       INFO: Finished loading data into ORAM
+[17/10/2023 04:07:53]       INFO: data size 65534
+[17/10/2023 04:07:53]       INFO: Removed RAM lock
+[17/10/2023 04:07:53]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:07:53]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:07:53]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:53]       INFO: Creating ORAM
+[17/10/2023 04:07:53]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:07:54]       INFO: data size 65534
+[17/10/2023 04:07:54]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:07:54]       INFO: Creating ORAM
+[17/10/2023 04:07:55]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:07:55]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:07:56]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:07:56]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:07:57]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:07:58]       INFO: Finished loading data into ORAM
+[17/10/2023 04:07:58]       INFO: Removed RAM lock
+[17/10/2023 04:07:58]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:07:58]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:07:59]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:07:59]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:07:59]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:07:59]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:08:00]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:08:00]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:00]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:08:01]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:01]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:08:02]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:08:02]       INFO: Finished loading data into ORAM
+[17/10/2023 04:08:02]       INFO: Removed RAM lock
+[17/10/2023 04:08:02]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:08:02]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:08:02]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:08:02]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:08:03]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:08:03]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:08:03]       INFO: Finished loading data into ORAM
+[17/10/2023 04:08:03]       INFO: Removed RAM lock
+[17/10/2023 04:08:03]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:08:04]       INFO: data size 65534
+[17/10/2023 04:08:04]       INFO: Finished loading data into ORAM
+[17/10/2023 04:08:04]       INFO: Removed RAM lock
+[17/10/2023 04:08:04]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:08:04]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:04]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:04]       INFO: Creating ORAM
+[17/10/2023 04:08:05]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:08:06]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:08:06]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:08:06]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:08:06]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:08:07]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:08:07]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:08:07]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:08:07]       INFO: data size 65534
+[17/10/2023 04:08:07]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:08:07]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:08:07]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:07]       INFO: Creating ORAM
+[17/10/2023 04:08:07]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:08:07]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:08:08]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:08]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:08:08]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:08:08]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:08:09]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:08:09]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:08:10]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:08:10]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:08:10]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:08:10]       INFO: Finished loading data into ORAM
+[17/10/2023 04:08:10]       INFO: Removed RAM lock
+[17/10/2023 04:08:10]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:08:10]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:10]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:08:11]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 8
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 5
+[17/10/2023 04:08:11]       INFO: data size 65534
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:08:11]       INFO: Finished loading data into ORAM
+[17/10/2023 04:08:11]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:11]       INFO: Removed RAM lock
+[17/10/2023 04:08:11]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:08:11]       INFO: Creating ORAM
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 2
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 7
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 9
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 4
+[17/10/2023 04:08:11]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:08:12]       INFO: Finished building tree from sortethisNodesd list for Colum 1
+[17/10/2023 04:08:12]       INFO: Finished building tree from sortethisNodesd list for Colum 6
+[17/10/2023 04:08:12]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:08:12]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 04:08:12]       INFO: data size 65534
+[17/10/2023 04:08:12]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:12]       INFO: Creating ORAM
+[17/10/2023 04:08:12]       INFO: Finished building tree from sortethisNodesd list for Colum 3
+[17/10/2023 04:08:12]       INFO: data size 65534
+[17/10/2023 04:08:12]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:12]      ERROR: SQL error: UNIQUE constraint failed: LOCKED.ID
+
+[17/10/2023 04:08:12]       INFO: Creating ORAM
+[17/10/2023 04:08:12]       INFO: data size 65534
+[17/10/2023 04:08:12]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:12]      ERROR: SQL error: UNIQUE constraint failed: LOCKED.ID
+
+[17/10/2023 04:08:12]       INFO: Creating ORAM
+[17/10/2023 04:08:13]       INFO: data size 65534
+[17/10/2023 04:08:13]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:13]       INFO: Creating ORAM
+[17/10/2023 04:08:13]       INFO: data size 65534
+[17/10/2023 04:08:13]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 04:08:13]      ERROR: SQL error: UNIQUE constraint failed: LOCKED.ID
+
+[17/10/2023 04:08:13]       INFO: Creating ORAM
+[17/10/2023 04:08:55]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:08:55]       INFO: Finished loading data into ORAM
+[17/10/2023 04:08:55]       INFO: Removed RAM lock
+[17/10/2023 04:08:55]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:08:58]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:08:58]       INFO: Finished loading data into ORAM
+[17/10/2023 04:08:58]       INFO: Removed RAM lock
+[17/10/2023 04:08:58]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:09:00]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:09:00]       INFO: Finished loading data into ORAM
+[17/10/2023 04:09:00]       INFO: Removed RAM lock
+[17/10/2023 04:09:00]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:09:01]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:09:01]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:09:01]       INFO: Loading Data into ORAM (65534 datapoints) 
+[17/10/2023 04:09:01]       INFO: Finished loading data into ORAM
+[17/10/2023 04:09:01]       INFO: Removed RAM lock
+[17/10/2023 04:09:01]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:09:01]       INFO: Finished loading data into ORAM
+[17/10/2023 04:09:01]       INFO: Removed RAM lock
+[17/10/2023 04:09:01]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:09:01]       INFO: Finished loading data into ORAM
+[17/10/2023 04:09:01]       INFO: Removed RAM lock
+[17/10/2023 04:09:01]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 04:09:02]       INFO: BLOCK_SIZE=376
+[17/10/2023 04:09:02]       INFO: Inserting 1048574/1048575 -repetition 0
+[17/10/2023 04:09:06]       INFO: Inserting 1048574/1048575 -repetition 1
+[17/10/2023 04:09:10]       INFO: Inserting 1048574/1048575 -repetition 2
+[17/10/2023 04:09:14]       INFO: Inserting 1048574/1048575 -repetition 3
+[17/10/2023 04:09:18]       INFO: Inserting 1048574/1048575 -repetition 4
+[17/10/2023 04:09:22]       INFO: Inserting 1048574/1048575 -repetition 5
+[17/10/2023 04:09:26]       INFO: Inserting 1048574/1048575 -repetition 6
+[17/10/2023 04:09:30]       INFO: Inserting 1048574/1048575 -repetition 7
+[17/10/2023 04:09:34]       INFO: Inserting 1048574/1048575 -repetition 8
+[17/10/2023 04:09:38]       INFO: Inserting 1048574/1048575 -repetition 9
+[17/10/2023 04:09:42]       INFO: Put 1048575 datapoints: { duration  257 μs, mean    0 ns}
+[17/10/2023 04:09:42]       INFO: Finished inserting Datapoints
+[17/10/2023 04:09:42]       INFO: Server  transitioned from old state 3 via transition edge 201 to new state 4
+[17/10/2023 04:09:42]       INFO: Running 9 QUERIES...
+[17/10/2023 04:09:42]       INFO: Noise nodes 3
+[17/10/2023 04:09:42]       INFO: num in osm 0: 6356
+[17/10/2023 04:09:42]       INFO: num in osm 1: 6500
+[17/10/2023 04:09:42]       INFO: num in osm 2: 6715
+[17/10/2023 04:09:42]       INFO: num in osm 3: 6559
+[17/10/2023 04:09:42]       INFO: num in osm 4: 6537
+[17/10/2023 04:09:42]       INFO: num in osm 5: 6507
+[17/10/2023 04:09:42]       INFO: num in osm 6: 6509
+[17/10/2023 04:09:42]       INFO: num in osm 7: 6616
+[17/10/2023 04:09:42]       INFO: num in osm 8: 6642
+[17/10/2023 04:09:42]       INFO: num in osm 9: 6596
+[17/10/2023 04:09:42]       INFO: num in osm 10: 6450
+[17/10/2023 04:09:42]       INFO: num in osm 11: 6649
+[17/10/2023 04:09:42]       INFO: num in osm 12: 6589
+[17/10/2023 04:09:42]       INFO: num in osm 13: 6565
+[17/10/2023 04:09:42]       INFO: num in osm 14: 6441
+[17/10/2023 04:09:42]       INFO: num in osm 15: 6620
+[17/10/2023 04:09:42]       INFO: num in osm 16: 2
+[17/10/2023 04:09:42]       INFO: estimate 374  for dosm 0
+[17/10/2023 04:09:42]       INFO: estimate 230  for dosm 1
+[17/10/2023 04:09:42]       INFO: estimate 15  for dosm 2
+[17/10/2023 04:09:42]       INFO: estimate 171  for dosm 3
+[17/10/2023 04:09:42]       INFO: estimate 193  for dosm 4
+[17/10/2023 04:09:42]       INFO: estimate 223  for dosm 5
+[17/10/2023 04:09:42]       INFO: estimate 221  for dosm 6
+[17/10/2023 04:09:42]       INFO: estimate 114  for dosm 7
+[17/10/2023 04:09:42]       INFO: estimate 88  for dosm 8
+[17/10/2023 04:09:42]       INFO: estimate 134  for dosm 9
+[17/10/2023 04:09:42]       INFO: estimate 280  for dosm 10
+[17/10/2023 04:09:42]       INFO: estimate 81  for dosm 11
+[17/10/2023 04:09:42]       INFO: estimate 141  for dosm 12
+[17/10/2023 04:09:42]       INFO: estimate 165  for dosm 13
+[17/10/2023 04:09:42]       INFO: estimate 289  for dosm 14
+[17/10/2023 04:09:42]       INFO: estimate 110  for dosm 15
+[17/10/2023 04:09:42]       INFO: estimate 6728  for dosm 16
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 0 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 1 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 2 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 3 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 4 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 5 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 6 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 7 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 8 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 9 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 10 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 11 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 12 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 13 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 14 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 15 
+[17/10/2023 04:09:46]       INFO: got 6730 datapoints from osm 16 
+[17/10/2023 04:09:46]       INFO: Query: Query[, attributeIndex:0 from:10000, to:10010, pointQuery:0, whereIndex:0, whereFrom:10000, whereTo:10010, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:09:46]       INFO: Retrieval: number of datapoints 114410 noise 9557 , interval [10000,10010]
+[17/10/2023 04:09:47]       INFO: Query   1 /   9 : real records 104853 ( +     0 padding +  9557 noise, 114410 total) (3712 ms, or   35 μs / record)
+[17/10/2023 04:09:47]       INFO: Runtime Measurment: {before: 1268 μs, ORAMs: 3601 ms, after:  109 ms}
+[17/10/2023 04:09:47]       INFO: Noise nodes 4
+[17/10/2023 04:09:47]       INFO: num in osm 0: 6470
+[17/10/2023 04:09:47]       INFO: num in osm 1: 6691
+[17/10/2023 04:09:47]       INFO: num in osm 2: 6533
+[17/10/2023 04:09:47]       INFO: num in osm 3: 6642
+[17/10/2023 04:09:47]       INFO: num in osm 4: 6628
+[17/10/2023 04:09:47]       INFO: num in osm 5: 6586
+[17/10/2023 04:09:47]       INFO: num in osm 6: 6699
+[17/10/2023 04:09:47]       INFO: num in osm 7: 6453
+[17/10/2023 04:09:47]       INFO: num in osm 8: 6527
+[17/10/2023 04:09:47]       INFO: num in osm 9: 6543
+[17/10/2023 04:09:47]       INFO: num in osm 10: 6563
+[17/10/2023 04:09:47]       INFO: num in osm 11: 6416
+[17/10/2023 04:09:47]       INFO: num in osm 12: 6460
+[17/10/2023 04:09:47]       INFO: num in osm 13: 6562
+[17/10/2023 04:09:47]       INFO: num in osm 14: 6574
+[17/10/2023 04:09:47]       INFO: num in osm 15: 6508
+[17/10/2023 04:09:47]       INFO: num in osm 16: 1
+[17/10/2023 04:09:47]       INFO: estimate 278  for dosm 0
+[17/10/2023 04:09:47]       INFO: estimate 57  for dosm 1
+[17/10/2023 04:09:47]       INFO: estimate 215  for dosm 2
+[17/10/2023 04:09:47]       INFO: estimate 106  for dosm 3
+[17/10/2023 04:09:47]       INFO: estimate 120  for dosm 4
+[17/10/2023 04:09:47]       INFO: estimate 162  for dosm 5
+[17/10/2023 04:09:47]       INFO: estimate 49  for dosm 6
+[17/10/2023 04:09:47]       INFO: estimate 295  for dosm 7
+[17/10/2023 04:09:47]       INFO: estimate 221  for dosm 8
+[17/10/2023 04:09:47]       INFO: estimate 205  for dosm 9
+[17/10/2023 04:09:47]       INFO: estimate 185  for dosm 10
+[17/10/2023 04:09:47]       INFO: estimate 332  for dosm 11
+[17/10/2023 04:09:47]       INFO: estimate 288  for dosm 12
+[17/10/2023 04:09:47]       INFO: estimate 186  for dosm 13
+[17/10/2023 04:09:47]       INFO: estimate 174  for dosm 14
+[17/10/2023 04:09:47]       INFO: estimate 240  for dosm 15
+[17/10/2023 04:09:47]       INFO: estimate 6747  for dosm 16
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 0 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 1 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 2 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 3 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 4 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 5 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 6 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 7 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 8 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 9 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 10 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 11 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 12 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 13 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 14 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 15 
+[17/10/2023 04:09:50]       INFO: got 6748 datapoints from osm 16 
+[17/10/2023 04:09:51]       INFO: Query: Query[, attributeIndex:0 from:10011, to:10021, pointQuery:0, whereIndex:0, whereFrom:10011, whereTo:10021, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:09:51]       INFO: Retrieval: number of datapoints 114716 noise 9860 , interval [10011,10021]
+[17/10/2023 04:09:52]       INFO: Query   2 /   9 : real records 104856 ( +     0 padding +  9860 noise, 114716 total) (3672 ms, or   35 μs / record)
+[17/10/2023 04:09:52]       INFO: Runtime Measurment: {before: 1291 μs, ORAMs: 3560 ms, after:  110 ms}
+[17/10/2023 04:09:52]       INFO: Noise nodes 3
+[17/10/2023 04:09:52]       INFO: num in osm 0: 6563
+[17/10/2023 04:09:52]       INFO: num in osm 1: 6517
+[17/10/2023 04:09:52]       INFO: num in osm 2: 6561
+[17/10/2023 04:09:52]       INFO: num in osm 3: 6502
+[17/10/2023 04:09:52]       INFO: num in osm 4: 6473
+[17/10/2023 04:09:52]       INFO: num in osm 5: 6723
+[17/10/2023 04:09:52]       INFO: num in osm 6: 6633
+[17/10/2023 04:09:52]       INFO: num in osm 7: 6486
+[17/10/2023 04:09:52]       INFO: num in osm 8: 6519
+[17/10/2023 04:09:52]       INFO: num in osm 9: 6521
+[17/10/2023 04:09:52]       INFO: num in osm 10: 6459
+[17/10/2023 04:09:52]       INFO: num in osm 11: 6551
+[17/10/2023 04:09:52]       INFO: num in osm 12: 6535
+[17/10/2023 04:09:52]       INFO: num in osm 13: 6591
+[17/10/2023 04:09:52]       INFO: num in osm 14: 6622
+[17/10/2023 04:09:52]       INFO: num in osm 15: 6599
+[17/10/2023 04:09:52]       INFO: num in osm 16: 2
+[17/10/2023 04:09:52]       INFO: estimate 167  for dosm 0
+[17/10/2023 04:09:52]       INFO: estimate 213  for dosm 1
+[17/10/2023 04:09:52]       INFO: estimate 169  for dosm 2
+[17/10/2023 04:09:52]       INFO: estimate 228  for dosm 3
+[17/10/2023 04:09:52]       INFO: estimate 257  for dosm 4
+[17/10/2023 04:09:52]       INFO: estimate 7  for dosm 5
+[17/10/2023 04:09:52]       INFO: estimate 97  for dosm 6
+[17/10/2023 04:09:52]       INFO: estimate 244  for dosm 7
+[17/10/2023 04:09:52]       INFO: estimate 211  for dosm 8
+[17/10/2023 04:09:52]       INFO: estimate 209  for dosm 9
+[17/10/2023 04:09:52]       INFO: estimate 271  for dosm 10
+[17/10/2023 04:09:52]       INFO: estimate 179  for dosm 11
+[17/10/2023 04:09:52]       INFO: estimate 195  for dosm 12
+[17/10/2023 04:09:52]       INFO: estimate 139  for dosm 13
+[17/10/2023 04:09:52]       INFO: estimate 108  for dosm 14
+[17/10/2023 04:09:52]       INFO: estimate 131  for dosm 15
+[17/10/2023 04:09:52]       INFO: estimate 6728  for dosm 16
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 0 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 1 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 2 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 3 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 4 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 5 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 6 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 7 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 8 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 9 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 10 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 11 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 12 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 13 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 14 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 15 
+[17/10/2023 04:09:55]       INFO: got 6730 datapoints from osm 16 
+[17/10/2023 04:09:55]       INFO: Query: Query[, attributeIndex:0 from:10022, to:10032, pointQuery:0, whereIndex:0, whereFrom:10022, whereTo:10032, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:09:55]       INFO: Retrieval: number of datapoints 114410 noise 9553 , interval [10022,10032]
+[17/10/2023 04:09:56]       INFO: Query   3 /   9 : real records 104857 ( +     0 padding +  9553 noise, 114410 total) (3590 ms, or   34 μs / record)
+[17/10/2023 04:09:56]       INFO: Runtime Measurment: {before: 1280 μs, ORAMs: 3480 ms, after:  108 ms}
+[17/10/2023 04:09:56]       INFO: Noise nodes 4
+[17/10/2023 04:09:56]       INFO: num in osm 0: 6522
+[17/10/2023 04:09:56]       INFO: num in osm 1: 6565
+[17/10/2023 04:09:56]       INFO: num in osm 2: 6526
+[17/10/2023 04:09:56]       INFO: num in osm 3: 6539
+[17/10/2023 04:09:56]       INFO: num in osm 4: 6672
+[17/10/2023 04:09:56]       INFO: num in osm 5: 6533
+[17/10/2023 04:09:56]       INFO: num in osm 6: 6520
+[17/10/2023 04:09:56]       INFO: num in osm 7: 6673
+[17/10/2023 04:09:56]       INFO: num in osm 8: 6642
+[17/10/2023 04:09:56]       INFO: num in osm 9: 6490
+[17/10/2023 04:09:56]       INFO: num in osm 10: 6561
+[17/10/2023 04:09:56]       INFO: num in osm 11: 6592
+[17/10/2023 04:09:56]       INFO: num in osm 12: 6516
+[17/10/2023 04:09:56]       INFO: num in osm 13: 6457
+[17/10/2023 04:09:56]       INFO: num in osm 14: 6542
+[17/10/2023 04:09:56]       INFO: num in osm 15: 6507
+[17/10/2023 04:09:56]       INFO: num in osm 16: 1
+[17/10/2023 04:09:56]       INFO: estimate 226  for dosm 0
+[17/10/2023 04:09:56]       INFO: estimate 183  for dosm 1
+[17/10/2023 04:09:56]       INFO: estimate 222  for dosm 2
+[17/10/2023 04:09:56]       INFO: estimate 209  for dosm 3
+[17/10/2023 04:09:56]       INFO: estimate 76  for dosm 4
+[17/10/2023 04:09:56]       INFO: estimate 215  for dosm 5
+[17/10/2023 04:09:56]       INFO: estimate 228  for dosm 6
+[17/10/2023 04:09:56]       INFO: estimate 75  for dosm 7
+[17/10/2023 04:09:56]       INFO: estimate 106  for dosm 8
+[17/10/2023 04:09:56]       INFO: estimate 258  for dosm 9
+[17/10/2023 04:09:56]       INFO: estimate 187  for dosm 10
+[17/10/2023 04:09:56]       INFO: estimate 156  for dosm 11
+[17/10/2023 04:09:56]       INFO: estimate 232  for dosm 12
+[17/10/2023 04:09:56]       INFO: estimate 291  for dosm 13
+[17/10/2023 04:09:56]       INFO: estimate 206  for dosm 14
+[17/10/2023 04:09:56]       INFO: estimate 241  for dosm 15
+[17/10/2023 04:09:56]       INFO: estimate 6747  for dosm 16
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 0 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 1 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 2 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 3 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 4 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 5 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 6 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 7 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 8 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 9 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 10 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 11 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 12 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 13 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 14 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 15 
+[17/10/2023 04:10:00]       INFO: got 6748 datapoints from osm 16 
+[17/10/2023 04:10:00]       INFO: Query: Query[, attributeIndex:0 from:10033, to:10043, pointQuery:0, whereIndex:0, whereFrom:10033, whereTo:10043, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:10:00]       INFO: Retrieval: number of datapoints 114716 noise 9858 , interval [10033,10043]
+[17/10/2023 04:10:01]       INFO: Query   4 /   9 : real records 104858 ( +     0 padding +  9858 noise, 114716 total) (3631 ms, or   34 μs / record)
+[17/10/2023 04:10:01]       INFO: Runtime Measurment: {before: 1290 μs, ORAMs: 3522 ms, after:  107 ms}
+[17/10/2023 04:10:01]       INFO: Noise nodes 4
+[17/10/2023 04:10:01]       INFO: num in osm 0: 6618
+[17/10/2023 04:10:01]       INFO: num in osm 1: 6513
+[17/10/2023 04:10:01]       INFO: num in osm 2: 6516
+[17/10/2023 04:10:01]       INFO: num in osm 3: 6558
+[17/10/2023 04:10:01]       INFO: num in osm 4: 6609
+[17/10/2023 04:10:01]       INFO: num in osm 5: 6469
+[17/10/2023 04:10:01]       INFO: num in osm 6: 6611
+[17/10/2023 04:10:01]       INFO: num in osm 7: 6502
+[17/10/2023 04:10:01]       INFO: num in osm 8: 6493
+[17/10/2023 04:10:01]       INFO: num in osm 9: 6515
+[17/10/2023 04:10:01]       INFO: num in osm 10: 6500
+[17/10/2023 04:10:01]       INFO: num in osm 11: 6498
+[17/10/2023 04:10:01]       INFO: num in osm 12: 6703
+[17/10/2023 04:10:01]       INFO: num in osm 13: 6583
+[17/10/2023 04:10:01]       INFO: num in osm 14: 6600
+[17/10/2023 04:10:01]       INFO: num in osm 15: 6565
+[17/10/2023 04:10:01]       INFO: num in osm 16: 3
+[17/10/2023 04:10:01]       INFO: estimate 130  for dosm 0
+[17/10/2023 04:10:01]       INFO: estimate 235  for dosm 1
+[17/10/2023 04:10:01]       INFO: estimate 232  for dosm 2
+[17/10/2023 04:10:01]       INFO: estimate 190  for dosm 3
+[17/10/2023 04:10:01]       INFO: estimate 139  for dosm 4
+[17/10/2023 04:10:01]       INFO: estimate 279  for dosm 5
+[17/10/2023 04:10:01]       INFO: estimate 137  for dosm 6
+[17/10/2023 04:10:01]       INFO: estimate 246  for dosm 7
+[17/10/2023 04:10:01]       INFO: estimate 255  for dosm 8
+[17/10/2023 04:10:01]       INFO: estimate 233  for dosm 9
+[17/10/2023 04:10:01]       INFO: estimate 248  for dosm 10
+[17/10/2023 04:10:01]       INFO: estimate 250  for dosm 11
+[17/10/2023 04:10:01]       INFO: estimate 45  for dosm 12
+[17/10/2023 04:10:01]       INFO: estimate 165  for dosm 13
+[17/10/2023 04:10:01]       INFO: estimate 148  for dosm 14
+[17/10/2023 04:10:01]       INFO: estimate 183  for dosm 15
+[17/10/2023 04:10:01]       INFO: estimate 6745  for dosm 16
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 0 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 1 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 2 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 3 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 4 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 5 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 6 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 7 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 8 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 9 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 10 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 11 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 12 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 13 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 14 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 15 
+[17/10/2023 04:10:04]       INFO: got 6748 datapoints from osm 16 
+[17/10/2023 04:10:04]       INFO: Query: Query[, attributeIndex:0 from:10044, to:10054, pointQuery:0, whereIndex:0, whereFrom:10044, whereTo:10054, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:10:04]       INFO: Retrieval: number of datapoints 114716 noise 9860 , interval [10044,10054]
+[17/10/2023 04:10:05]       INFO: Query   5 /   9 : real records 104856 ( +     0 padding +  9860 noise, 114716 total) (3608 ms, or   34 μs / record)
+[17/10/2023 04:10:05]       INFO: Runtime Measurment: {before: 1273 μs, ORAMs: 3498 ms, after:  108 ms}
+[17/10/2023 04:10:05]       INFO: Noise nodes 3
+[17/10/2023 04:10:05]       INFO: num in osm 0: 6643
+[17/10/2023 04:10:05]       INFO: num in osm 1: 6652
+[17/10/2023 04:10:05]       INFO: num in osm 2: 6404
+[17/10/2023 04:10:05]       INFO: num in osm 3: 6537
+[17/10/2023 04:10:05]       INFO: num in osm 4: 6727
+[17/10/2023 04:10:05]       INFO: num in osm 5: 6532
+[17/10/2023 04:10:05]       INFO: num in osm 6: 6472
+[17/10/2023 04:10:05]       INFO: num in osm 7: 6583
+[17/10/2023 04:10:05]       INFO: num in osm 8: 6571
+[17/10/2023 04:10:05]       INFO: num in osm 9: 6519
+[17/10/2023 04:10:05]       INFO: num in osm 10: 6584
+[17/10/2023 04:10:05]       INFO: num in osm 11: 6679
+[17/10/2023 04:10:05]       INFO: num in osm 12: 6535
+[17/10/2023 04:10:05]       INFO: num in osm 13: 6495
+[17/10/2023 04:10:05]       INFO: num in osm 14: 6410
+[17/10/2023 04:10:05]       INFO: num in osm 15: 6511
+[17/10/2023 04:10:05]       INFO: num in osm 16: 2
+[17/10/2023 04:10:05]       INFO: estimate 87  for dosm 0
+[17/10/2023 04:10:05]       INFO: estimate 78  for dosm 1
+[17/10/2023 04:10:05]       INFO: estimate 326  for dosm 2
+[17/10/2023 04:10:05]       INFO: estimate 193  for dosm 3
+[17/10/2023 04:10:05]       INFO: estimate 3  for dosm 4
+[17/10/2023 04:10:05]       INFO: estimate 198  for dosm 5
+[17/10/2023 04:10:05]       INFO: estimate 258  for dosm 6
+[17/10/2023 04:10:05]       INFO: estimate 147  for dosm 7
+[17/10/2023 04:10:05]       INFO: estimate 159  for dosm 8
+[17/10/2023 04:10:05]       INFO: estimate 211  for dosm 9
+[17/10/2023 04:10:05]       INFO: estimate 146  for dosm 10
+[17/10/2023 04:10:05]       INFO: estimate 51  for dosm 11
+[17/10/2023 04:10:05]       INFO: estimate 195  for dosm 12
+[17/10/2023 04:10:05]       INFO: estimate 235  for dosm 13
+[17/10/2023 04:10:05]       INFO: estimate 320  for dosm 14
+[17/10/2023 04:10:05]       INFO: estimate 219  for dosm 15
+[17/10/2023 04:10:05]       INFO: estimate 6728  for dosm 16
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 0 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 1 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 2 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 3 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 4 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 5 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 6 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 7 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 8 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 9 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 10 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 11 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 12 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 13 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 14 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 15 
+[17/10/2023 04:10:09]       INFO: got 6730 datapoints from osm 16 
+[17/10/2023 04:10:09]       INFO: Query: Query[, attributeIndex:0 from:10055, to:10065, pointQuery:0, whereIndex:0, whereFrom:10055, whereTo:10065, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:10:09]       INFO: Retrieval: number of datapoints 114410 noise 9554 , interval [10055,10065]
+[17/10/2023 04:10:10]       INFO: Query   6 /   9 : real records 104856 ( +     0 padding +  9554 noise, 114410 total) (3590 ms, or   34 μs / record)
+[17/10/2023 04:10:10]       INFO: Runtime Measurment: {before: 1268 μs, ORAMs: 3480 ms, after:  108 ms}
+[17/10/2023 04:10:10]       INFO: Noise nodes 4
+[17/10/2023 04:10:10]       INFO: num in osm 0: 6570
+[17/10/2023 04:10:10]       INFO: num in osm 1: 6558
+[17/10/2023 04:10:10]       INFO: num in osm 2: 6501
+[17/10/2023 04:10:10]       INFO: num in osm 3: 6574
+[17/10/2023 04:10:10]       INFO: num in osm 4: 6406
+[17/10/2023 04:10:10]       INFO: num in osm 5: 6486
+[17/10/2023 04:10:10]       INFO: num in osm 6: 6468
+[17/10/2023 04:10:10]       INFO: num in osm 7: 6600
+[17/10/2023 04:10:10]       INFO: num in osm 8: 6578
+[17/10/2023 04:10:10]       INFO: num in osm 9: 6637
+[17/10/2023 04:10:10]       INFO: num in osm 10: 6552
+[17/10/2023 04:10:10]       INFO: num in osm 11: 6464
+[17/10/2023 04:10:10]       INFO: num in osm 12: 6638
+[17/10/2023 04:10:10]       INFO: num in osm 13: 6593
+[17/10/2023 04:10:10]       INFO: num in osm 14: 6606
+[17/10/2023 04:10:10]       INFO: num in osm 15: 6626
+[17/10/2023 04:10:10]       INFO: num in osm 16: 0
+[17/10/2023 04:10:10]       INFO: estimate 178  for dosm 0
+[17/10/2023 04:10:10]       INFO: estimate 190  for dosm 1
+[17/10/2023 04:10:10]       INFO: estimate 247  for dosm 2
+[17/10/2023 04:10:10]       INFO: estimate 174  for dosm 3
+[17/10/2023 04:10:10]       INFO: estimate 342  for dosm 4
+[17/10/2023 04:10:10]       INFO: estimate 262  for dosm 5
+[17/10/2023 04:10:10]       INFO: estimate 280  for dosm 6
+[17/10/2023 04:10:10]       INFO: estimate 148  for dosm 7
+[17/10/2023 04:10:10]       INFO: estimate 170  for dosm 8
+[17/10/2023 04:10:10]       INFO: estimate 111  for dosm 9
+[17/10/2023 04:10:10]       INFO: estimate 196  for dosm 10
+[17/10/2023 04:10:10]       INFO: estimate 284  for dosm 11
+[17/10/2023 04:10:10]       INFO: estimate 110  for dosm 12
+[17/10/2023 04:10:10]       INFO: estimate 155  for dosm 13
+[17/10/2023 04:10:10]       INFO: estimate 142  for dosm 14
+[17/10/2023 04:10:10]       INFO: estimate 122  for dosm 15
+[17/10/2023 04:10:10]       INFO: estimate 6748  for dosm 16
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 0 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 1 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 2 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 3 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 4 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 5 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 6 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 7 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 8 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 9 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 10 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 11 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 12 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 13 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 14 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 15 
+[17/10/2023 04:10:13]       INFO: got 6748 datapoints from osm 16 
+[17/10/2023 04:10:14]       INFO: Query: Query[, attributeIndex:0 from:10066, to:10076, pointQuery:0, whereIndex:0, whereFrom:10066, whereTo:10076, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:10:14]       INFO: Retrieval: number of datapoints 114716 noise 9859 , interval [10066,10076]
+[17/10/2023 04:10:15]       INFO: Query   7 /   9 : real records 104857 ( +     0 padding +  9859 noise, 114716 total) (3614 ms, or   34 μs / record)
+[17/10/2023 04:10:15]       INFO: Runtime Measurment: {before: 1268 μs, ORAMs: 3505 ms, after:  108 ms}
+[17/10/2023 04:10:15]       INFO: Noise nodes 3
+[17/10/2023 04:10:15]       INFO: num in osm 0: 6496
+[17/10/2023 04:10:15]       INFO: num in osm 1: 6509
+[17/10/2023 04:10:15]       INFO: num in osm 2: 6689
+[17/10/2023 04:10:15]       INFO: num in osm 3: 6519
+[17/10/2023 04:10:15]       INFO: num in osm 4: 6507
+[17/10/2023 04:10:15]       INFO: num in osm 5: 6503
+[17/10/2023 04:10:15]       INFO: num in osm 6: 6610
+[17/10/2023 04:10:15]       INFO: num in osm 7: 6607
+[17/10/2023 04:10:15]       INFO: num in osm 8: 6496
+[17/10/2023 04:10:15]       INFO: num in osm 9: 6520
+[17/10/2023 04:10:15]       INFO: num in osm 10: 6693
+[17/10/2023 04:10:15]       INFO: num in osm 11: 6624
+[17/10/2023 04:10:15]       INFO: num in osm 12: 6517
+[17/10/2023 04:10:15]       INFO: num in osm 13: 6509
+[17/10/2023 04:10:15]       INFO: num in osm 14: 6565
+[17/10/2023 04:10:15]       INFO: num in osm 15: 6492
+[17/10/2023 04:10:15]       INFO: num in osm 16: 1
+[17/10/2023 04:10:15]       INFO: estimate 234  for dosm 0
+[17/10/2023 04:10:15]       INFO: estimate 221  for dosm 1
+[17/10/2023 04:10:15]       INFO: estimate 41  for dosm 2
+[17/10/2023 04:10:15]       INFO: estimate 211  for dosm 3
+[17/10/2023 04:10:15]       INFO: estimate 223  for dosm 4
+[17/10/2023 04:10:15]       INFO: estimate 227  for dosm 5
+[17/10/2023 04:10:15]       INFO: estimate 120  for dosm 6
+[17/10/2023 04:10:15]       INFO: estimate 123  for dosm 7
+[17/10/2023 04:10:15]       INFO: estimate 234  for dosm 8
+[17/10/2023 04:10:15]       INFO: estimate 210  for dosm 9
+[17/10/2023 04:10:15]       INFO: estimate 37  for dosm 10
+[17/10/2023 04:10:15]       INFO: estimate 106  for dosm 11
+[17/10/2023 04:10:15]       INFO: estimate 213  for dosm 12
+[17/10/2023 04:10:15]       INFO: estimate 221  for dosm 13
+[17/10/2023 04:10:15]       INFO: estimate 165  for dosm 14
+[17/10/2023 04:10:15]       INFO: estimate 238  for dosm 15
+[17/10/2023 04:10:15]       INFO: estimate 6729  for dosm 16
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 0 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 1 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 2 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 3 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 4 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 5 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 6 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 7 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 8 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 9 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 10 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 11 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 12 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 13 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 14 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 15 
+[17/10/2023 04:10:18]       INFO: got 6730 datapoints from osm 16 
+[17/10/2023 04:10:18]       INFO: Query: Query[, attributeIndex:0 from:10077, to:10087, pointQuery:0, whereIndex:0, whereFrom:10077, whereTo:10087, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:10:18]       INFO: Retrieval: number of datapoints 114410 noise 9553 , interval [10077,10087]
+[17/10/2023 04:10:19]       INFO: Query   8 /   9 : real records 104857 ( +     0 padding +  9553 noise, 114410 total) (3618 ms, or   34 μs / record)
+[17/10/2023 04:10:19]       INFO: Runtime Measurment: {before: 1266 μs, ORAMs: 3508 ms, after:  108 ms}
+[17/10/2023 04:10:19]       INFO: Noise nodes 3
+[17/10/2023 04:10:19]       INFO: num in osm 0: 6690
+[17/10/2023 04:10:19]       INFO: num in osm 1: 6553
+[17/10/2023 04:10:19]       INFO: num in osm 2: 6535
+[17/10/2023 04:10:19]       INFO: num in osm 3: 6492
+[17/10/2023 04:10:19]       INFO: num in osm 4: 6524
+[17/10/2023 04:10:19]       INFO: num in osm 5: 6609
+[17/10/2023 04:10:19]       INFO: num in osm 6: 6549
+[17/10/2023 04:10:19]       INFO: num in osm 7: 6470
+[17/10/2023 04:10:19]       INFO: num in osm 8: 6594
+[17/10/2023 04:10:19]       INFO: num in osm 9: 6610
+[17/10/2023 04:10:19]       INFO: num in osm 10: 6578
+[17/10/2023 04:10:19]       INFO: num in osm 11: 6464
+[17/10/2023 04:10:19]       INFO: num in osm 12: 6513
+[17/10/2023 04:10:19]       INFO: num in osm 13: 6554
+[17/10/2023 04:10:19]       INFO: num in osm 14: 6671
+[17/10/2023 04:10:19]       INFO: num in osm 15: 6452
+[17/10/2023 04:10:19]       INFO: num in osm 16: 0
+[17/10/2023 04:10:19]       INFO: estimate 40  for dosm 0
+[17/10/2023 04:10:19]       INFO: estimate 177  for dosm 1
+[17/10/2023 04:10:19]       INFO: estimate 195  for dosm 2
+[17/10/2023 04:10:19]       INFO: estimate 238  for dosm 3
+[17/10/2023 04:10:19]       INFO: estimate 206  for dosm 4
+[17/10/2023 04:10:19]       INFO: estimate 121  for dosm 5
+[17/10/2023 04:10:19]       INFO: estimate 181  for dosm 6
+[17/10/2023 04:10:19]       INFO: estimate 260  for dosm 7
+[17/10/2023 04:10:19]       INFO: estimate 136  for dosm 8
+[17/10/2023 04:10:19]       INFO: estimate 120  for dosm 9
+[17/10/2023 04:10:19]       INFO: estimate 152  for dosm 10
+[17/10/2023 04:10:19]       INFO: estimate 266  for dosm 11
+[17/10/2023 04:10:19]       INFO: estimate 217  for dosm 12
+[17/10/2023 04:10:19]       INFO: estimate 176  for dosm 13
+[17/10/2023 04:10:19]       INFO: estimate 59  for dosm 14
+[17/10/2023 04:10:19]       INFO: estimate 278  for dosm 15
+[17/10/2023 04:10:19]       INFO: estimate 6730  for dosm 16
+[17/10/2023 04:10:22]       INFO: got 6730 datapoints from osm 0 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 1 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 2 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 3 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 4 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 5 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 6 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 7 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 8 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 9 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 10 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 11 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 12 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 13 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 14 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 15 
+[17/10/2023 04:10:23]       INFO: got 6730 datapoints from osm 16 
+[17/10/2023 04:10:23]       INFO: Query: Query[, attributeIndex:0 from:10088, to:10098, pointQuery:0, whereIndex:0, whereFrom:10088, whereTo:10098, agg:0, epsilon:0.111111, extra:0]
+[17/10/2023 04:10:23]       INFO: Retrieval: number of datapoints 114410 noise 9552 , interval [10088,10098]
+[17/10/2023 04:10:24]       INFO: Query   9 /   9 : real records 104858 ( +     0 padding +  9552 noise, 114410 total) (3565 ms, or   34 μs / record)
+[17/10/2023 04:10:24]       INFO: Runtime Measurment: {before: 1290 μs, ORAMs: 3454 ms, after:  109 ms}
+[17/10/2023 04:10:24]       INFO: Server  transitioned from old state 4 via transition edge 401 to new state 5
+[17/10/2023 04:10:24]       INFO: For 9 QUERIES: total: 32 s, average: 3622 ms / query,  query, 1 ns/ fetched item; (3512559152+1277628+108861577=104856) records / query
+[17/10/2023 04:10:24]       INFO: Log written to ./results/ManyColumns-insertion-retieveExactly:1,10,60-size:2^24-NumCols:1-BlockSize:200/2--2023-10-17-04-04-46--233261107660146.json

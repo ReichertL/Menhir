@@ -1,0 +1,1466 @@
+         [09/10/2023 02:37:07]       INFO: Generating indices...
+[09/10/2023 02:37:07]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[09/10/2023 02:37:07]       INFO: Constructing synthetic data set and queries...
+[09/10/2023 02:37:07]       INFO: Column 1 - mean  10351.8, std 136.808 
+[09/10/2023 02:37:07]       INFO: Column 2 - mean  10509.7, std 243.171 
+[09/10/2023 02:37:07]       INFO: Column 3 - mean  10531.1, std 178.704 
+[09/10/2023 02:37:07]       INFO: Column 4 - mean  10529.5, std 174.432 
+[09/10/2023 02:37:07]       INFO: n_sel = 83887
+[09/10/2023 02:37:21]       INFO: Column 0 - min 10000, max 11000
+[09/10/2023 02:37:21]       INFO: Column 1 - min 10000, max 11000
+[09/10/2023 02:37:21]       INFO: Column 2 - min 10000, max 11000
+[09/10/2023 02:37:21]       INFO: Column 3 - min 10000, max 11000
+[09/10/2023 02:37:21]       INFO: Column 4 - min 10000, max 11000
+[09/10/2023 02:37:21]       INFO: NUM_ATTRIBUTES = 5
+[09/10/2023 02:37:44]       INFO: ORAM_CAPACITY = 8388606
+[09/10/2023 02:37:44]       INFO: FILE_LOGGING = 1
+[09/10/2023 02:37:44]       INFO: DATASOURCE = 0
+[09/10/2023 02:37:44]       INFO: OUT_DIR: ./results/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0
+[09/10/2023 02:37:44]       INFO: FILES_DIR: /home/ec2-user/tmp/storage-files-thread4-seed:4
+[09/10/2023 02:37:44]       INFO: NUM_DATAPOINTS = 8388606
+[09/10/2023 02:37:44]       INFO: NUM_QUERIES = 70
+[09/10/2023 02:37:44]       INFO: DELETION = 0
+[09/10/2023 02:37:44]       INFO: NUM_ATTRIBUTES = 5
+[09/10/2023 02:37:44]       INFO: COLUMN_FORMAT: INT,INT,INT,INT,INT
+[09/10/2023 02:37:44]       INFO: DATA_RESOLUTION: 1,1,1,1,1
+[09/10/2023 02:37:44]       INFO: MIN_VALUE: 10000,10000,10000,10000,10000
+[09/10/2023 02:37:44]       INFO: MAX_VALUE: 11000,11000,11000,11000,11000
+[09/10/2023 02:37:44]       INFO: RANGEQUERY_RANGE = 10
+[09/10/2023 02:37:44]       INFO: DATASET = data/covid-data.csv
+[09/10/2023 02:37:44]       INFO: NUM_DATAPOINTS = 8388606
+[09/10/2023 02:37:44]       INFO: RETRIEVE_EXACTLY: 1,10,20,30,40,50,60
+[09/10/2023 02:37:44]       INFO: QUERY_RESPONSE_EPSILON = 1
+[09/10/2023 02:37:44]       INFO: QUERY_INDEX = 0
+[09/10/2023 02:37:44]       INFO: WHERE_INDEX = 0
+[09/10/2023 02:37:44]       INFO: QUERY_FUNCTION = 0
+[09/10/2023 02:37:44]       INFO: POINT_QUERIES = 0
+[09/10/2023 02:37:44]       INFO: NUM_QUERIES = 70
+[09/10/2023 02:37:44]       INFO: MAX_SENSITIVITY = 0.01
+[09/10/2023 02:37:44]       INFO: SEED = 4
+[09/10/2023 02:37:44]       INFO: ORAM_CAPACITY = 8388606
+[09/10/2023 02:37:44]       INFO: ORAM_Z = 3
+[09/10/2023 02:37:44]       INFO: STASH_FACTOR = 4
+[09/10/2023 02:37:44]       INFO: USE_ORAM = 1
+[09/10/2023 02:37:44]       INFO: BATCH_SIZE = 1
+[09/10/2023 02:37:44]       INFO: DP_K = 2
+[09/10/2023 02:37:44]       INFO: DP_BETA = 20
+[09/10/2023 02:37:44]       INFO: DP_EPSILON = 0.693
+[09/10/2023 02:37:44]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[09/10/2023 02:37:44]       INFO: Insert data as bulk. Last Datapoint inserted manually (for runtime measurments).
+[09/10/2023 02:37:44]       INFO: INSERT_BULK = 0
+[09/10/2023 02:37:44]       INFO: AVLTree.maxCapacity =8388607 
+[09/10/2023 02:37:44]       INFO: capacity = 8388606
+[09/10/2023 02:37:44]       INFO: ORAM_Z = 3
+[09/10/2023 02:37:44]       INFO: STASH_FACTOR = 4
+[09/10/2023 02:37:44]       INFO: this->ORAM_LOG_CAPACITY = 22
+[09/10/2023 02:37:44]       INFO: BATCH_SIZE = 1
+[09/10/2023 02:37:44]       INFO: ORAM_BLOCK_SIZE = 196
+[09/10/2023 02:37:44]       INFO: oramParameter = 12582915
+[09/10/2023 02:37:44]       INFO: ORAM Stash Size is: 264
+[09/10/2023 02:37:44]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[09/10/2023 02:45:44]       INFO: starting to build Tree
+[09/10/2023 02:45:44]       INFO: building Tree from sorted list for Colum 0
+[09/10/2023 02:45:44]       INFO: building Tree from sorted list for Colum 1
+[09/10/2023 02:45:44]       INFO: building Tree from sorted list for Colum 3
+[09/10/2023 02:45:44]       INFO: building Tree from sorted list for Colum 2
+[09/10/2023 02:45:44]       INFO: building Tree from sorted list for Colum 4
+[09/10/2023 03:11:23]       INFO: Finished building tree from sorted list for Colum 0
+[09/10/2023 03:15:47]       INFO: Finished building tree from sorted list for Colum 3
+[09/10/2023 03:15:47]       INFO: Finished building tree from sorted list for Colum 1
+[09/10/2023 03:15:59]       INFO: Finished building tree from sorted list for Colum 2
+[09/10/2023 03:16:33]       INFO: Finished building tree from sorted list for Colum 4
+[09/10/2023 03:17:43]       INFO: Attempting to lock 20 GB of RAM. 
+[09/10/2023 03:17:43]       INFO: Creating ORAM
+[09/10/2023 03:18:31]       INFO: Loading Data into ORAM
+[09/10/2023 03:18:55]       INFO: Finished loading data into ORAM
+[09/10/2023 03:18:55]       INFO: Removed RAM lock
+[09/10/2023 03:18:55]       INFO: Removed Lock for 20 GB of RAM.
+[09/10/2023 03:19:00]       INFO: OBLIV_TREE->getORAMBLOCKSIZE() = 196
+[09/10/2023 03:19:00]       INFO: Inserting 8388605/8388606 -repetition 0
+[09/10/2023 03:19:00]       INFO: Inserting 8388605/8388606 -repetition 1
+[09/10/2023 03:19:00]       INFO: Inserting 8388605/8388606 -repetition 2
+[09/10/2023 03:19:01]       INFO: Inserting 8388605/8388606 -repetition 3
+[09/10/2023 03:19:01]       INFO: Inserting 8388605/8388606 -repetition 4
+[09/10/2023 03:19:01]       INFO: Inserting 8388605/8388606 -repetition 5
+[09/10/2023 03:19:01]       INFO: Inserting 8388605/8388606 -repetition 6
+[09/10/2023 03:19:02]       INFO: Inserting 8388605/8388606 -repetition 7
+[09/10/2023 03:19:02]       INFO: Inserting 8388605/8388606 -repetition 8
+[09/10/2023 03:19:02]       INFO: Inserting 8388605/8388606 -repetition 9
+[09/10/2023 03:19:03]       INFO: Inserting 8388605/8388606 -repetition 10
+[09/10/2023 03:19:03]       INFO: Inserting 8388605/8388606 -repetition 11
+[09/10/2023 03:19:03]       INFO: Inserting 8388605/8388606 -repetition 12
+[09/10/2023 03:19:03]       INFO: Inserting 8388605/8388606 -repetition 13
+[09/10/2023 03:19:04]       INFO: Inserting 8388605/8388606 -repetition 14
+[09/10/2023 03:19:04]       INFO: Inserting 8388605/8388606 -repetition 15
+[09/10/2023 03:19:04]       INFO: Inserting 8388605/8388606 -repetition 16
+[09/10/2023 03:19:04]       INFO: Inserting 8388605/8388606 -repetition 17
+[09/10/2023 03:19:05]       INFO: Inserting 8388605/8388606 -repetition 18
+[09/10/2023 03:19:05]       INFO: Inserting 8388605/8388606 -repetition 19
+[09/10/2023 03:19:05]       INFO: Inserting 8388605/8388606 -repetition 20
+[09/10/2023 03:19:06]       INFO: Inserting 8388605/8388606 -repetition 21
+[09/10/2023 03:19:06]       INFO: Inserting 8388605/8388606 -repetition 22
+[09/10/2023 03:19:06]       INFO: Inserting 8388605/8388606 -repetition 23
+[09/10/2023 03:19:06]       INFO: Inserting 8388605/8388606 -repetition 24
+[09/10/2023 03:19:07]       INFO: Inserting 8388605/8388606 -repetition 25
+[09/10/2023 03:19:07]       INFO: Inserting 8388605/8388606 -repetition 26
+[09/10/2023 03:19:07]       INFO: Inserting 8388605/8388606 -repetition 27
+[09/10/2023 03:19:07]       INFO: Inserting 8388605/8388606 -repetition 28
+[09/10/2023 03:19:08]       INFO: Inserting 8388605/8388606 -repetition 29
+[09/10/2023 03:19:08]       INFO: Inserting 8388605/8388606 -repetition 30
+[09/10/2023 03:19:08]       INFO: Inserting 8388605/8388606 -repetition 31
+[09/10/2023 03:19:09]       INFO: Inserting 8388605/8388606 -repetition 32
+[09/10/2023 03:19:09]       INFO: Inserting 8388605/8388606 -repetition 33
+[09/10/2023 03:19:09]       INFO: Inserting 8388605/8388606 -repetition 34
+[09/10/2023 03:19:09]       INFO: Inserting 8388605/8388606 -repetition 35
+[09/10/2023 03:19:10]       INFO: Inserting 8388605/8388606 -repetition 36
+[09/10/2023 03:19:10]       INFO: Inserting 8388605/8388606 -repetition 37
+[09/10/2023 03:19:10]       INFO: Inserting 8388605/8388606 -repetition 38
+[09/10/2023 03:19:10]       INFO: Inserting 8388605/8388606 -repetition 39
+[09/10/2023 03:19:11]       INFO: Inserting 8388605/8388606 -repetition 40
+[09/10/2023 03:19:11]       INFO: Inserting 8388605/8388606 -repetition 41
+[09/10/2023 03:19:11]       INFO: Inserting 8388605/8388606 -repetition 42
+[09/10/2023 03:19:11]       INFO: Inserting 8388605/8388606 -repetition 43
+[09/10/2023 03:19:12]       INFO: Inserting 8388605/8388606 -repetition 44
+[09/10/2023 03:19:12]       INFO: Inserting 8388605/8388606 -repetition 45
+[09/10/2023 03:19:12]       INFO: Inserting 8388605/8388606 -repetition 46
+[09/10/2023 03:19:13]       INFO: Inserting 8388605/8388606 -repetition 47
+[09/10/2023 03:19:13]       INFO: Inserting 8388605/8388606 -repetition 48
+[09/10/2023 03:19:13]       INFO: Inserting 8388605/8388606 -repetition 49
+[09/10/2023 03:19:13]       INFO: Inserting 8388605/8388606 -repetition 50
+[09/10/2023 03:19:14]       INFO: Inserting 8388605/8388606 -repetition 51
+[09/10/2023 03:19:14]       INFO: Inserting 8388605/8388606 -repetition 52
+[09/10/2023 03:19:14]       INFO: Inserting 8388605/8388606 -repetition 53
+[09/10/2023 03:19:14]       INFO: Inserting 8388605/8388606 -repetition 54
+[09/10/2023 03:19:15]       INFO: Inserting 8388605/8388606 -repetition 55
+[09/10/2023 03:19:15]       INFO: Inserting 8388605/8388606 -repetition 56
+[09/10/2023 03:19:15]       INFO: Inserting 8388605/8388606 -repetition 57
+[09/10/2023 03:19:16]       INFO: Inserting 8388605/8388606 -repetition 58
+[09/10/2023 03:19:16]       INFO: Inserting 8388605/8388606 -repetition 59
+[09/10/2023 03:19:16]       INFO: Inserting 8388605/8388606 -repetition 60
+[09/10/2023 03:19:16]       INFO: Inserting 8388605/8388606 -repetition 61
+[09/10/2023 03:19:17]       INFO: Inserting 8388605/8388606 -repetition 62
+[09/10/2023 03:19:17]       INFO: Inserting 8388605/8388606 -repetition 63
+[09/10/2023 03:19:17]       INFO: Inserting 8388605/8388606 -repetition 64
+[09/10/2023 03:19:17]       INFO: Inserting 8388605/8388606 -repetition 65
+[09/10/2023 03:19:18]       INFO: Inserting 8388605/8388606 -repetition 66
+[09/10/2023 03:19:18]       INFO: Inserting 8388605/8388606 -repetition 67
+[09/10/2023 03:19:18]       INFO: Inserting 8388605/8388606 -repetition 68
+[09/10/2023 03:19:18]       INFO: Inserting 8388605/8388606 -repetition 69
+[09/10/2023 03:19:19]       INFO: Inserting 8388605/8388606 -repetition 70
+[09/10/2023 03:19:19]       INFO: Inserting 8388605/8388606 -repetition 71
+[09/10/2023 03:19:19]       INFO: Inserting 8388605/8388606 -repetition 72
+[09/10/2023 03:19:20]       INFO: Inserting 8388605/8388606 -repetition 73
+[09/10/2023 03:19:20]       INFO: Inserting 8388605/8388606 -repetition 74
+[09/10/2023 03:19:20]       INFO: Inserting 8388605/8388606 -repetition 75
+[09/10/2023 03:19:20]       INFO: Inserting 8388605/8388606 -repetition 76
+[09/10/2023 03:19:21]       INFO: Inserting 8388605/8388606 -repetition 77
+[09/10/2023 03:19:21]       INFO: Inserting 8388605/8388606 -repetition 78
+[09/10/2023 03:19:21]       INFO: Inserting 8388605/8388606 -repetition 79
+[09/10/2023 03:19:21]       INFO: Inserting 8388605/8388606 -repetition 80
+[09/10/2023 03:19:22]       INFO: Inserting 8388605/8388606 -repetition 81
+[09/10/2023 03:19:22]       INFO: Inserting 8388605/8388606 -repetition 82
+[09/10/2023 03:19:22]       INFO: Inserting 8388605/8388606 -repetition 83
+[09/10/2023 03:19:22]       INFO: Inserting 8388605/8388606 -repetition 84
+[09/10/2023 03:19:23]       INFO: Inserting 8388605/8388606 -repetition 85
+[09/10/2023 03:19:23]       INFO: Inserting 8388605/8388606 -repetition 86
+[09/10/2023 03:19:23]       INFO: Inserting 8388605/8388606 -repetition 87
+[09/10/2023 03:19:24]       INFO: Inserting 8388605/8388606 -repetition 88
+[09/10/2023 03:19:24]       INFO: Inserting 8388605/8388606 -repetition 89
+[09/10/2023 03:19:24]       INFO: Inserting 8388605/8388606 -repetition 90
+[09/10/2023 03:19:24]       INFO: Inserting 8388605/8388606 -repetition 91
+[09/10/2023 03:19:25]       INFO: Inserting 8388605/8388606 -repetition 92
+[09/10/2023 03:19:25]       INFO: Inserting 8388605/8388606 -repetition 93
+[09/10/2023 03:19:25]       INFO: Inserting 8388605/8388606 -repetition 94
+[09/10/2023 03:19:25]       INFO: Inserting 8388605/8388606 -repetition 95
+[09/10/2023 03:19:26]       INFO: Inserting 8388605/8388606 -repetition 96
+[09/10/2023 03:19:26]       INFO: Inserting 8388605/8388606 -repetition 97
+[09/10/2023 03:19:26]       INFO: Inserting 8388605/8388606 -repetition 98
+[09/10/2023 03:19:26]       INFO: Inserting 8388605/8388606 -repetition 99
+[09/10/2023 03:19:27]       INFO: Inserting 8388605/8388606 -repetition 100
+[09/10/2023 03:19:27]       INFO: Inserting 8388605/8388606 -repetition 101
+[09/10/2023 03:19:27]       INFO: Inserting 8388605/8388606 -repetition 102
+[09/10/2023 03:19:28]       INFO: Inserting 8388605/8388606 -repetition 103
+[09/10/2023 03:19:28]       INFO: Inserting 8388605/8388606 -repetition 104
+[09/10/2023 03:19:28]       INFO: Inserting 8388605/8388606 -repetition 105
+[09/10/2023 03:19:28]       INFO: Inserting 8388605/8388606 -repetition 106
+[09/10/2023 03:19:29]       INFO: Inserting 8388605/8388606 -repetition 107
+[09/10/2023 03:19:29]       INFO: Inserting 8388605/8388606 -repetition 108
+[09/10/2023 03:19:29]       INFO: Inserting 8388605/8388606 -repetition 109
+[09/10/2023 03:19:29]       INFO: Inserting 8388605/8388606 -repetition 110
+[09/10/2023 03:19:30]       INFO: Inserting 8388605/8388606 -repetition 111
+[09/10/2023 03:19:30]       INFO: Inserting 8388605/8388606 -repetition 112
+[09/10/2023 03:19:30]       INFO: Inserting 8388605/8388606 -repetition 113
+[09/10/2023 03:19:30]       INFO: Inserting 8388605/8388606 -repetition 114
+[09/10/2023 03:19:31]       INFO: Inserting 8388605/8388606 -repetition 115
+[09/10/2023 03:19:31]       INFO: Inserting 8388605/8388606 -repetition 116
+[09/10/2023 03:19:31]       INFO: Inserting 8388605/8388606 -repetition 117
+[09/10/2023 03:19:32]       INFO: Inserting 8388605/8388606 -repetition 118
+[09/10/2023 03:19:32]       INFO: Inserting 8388605/8388606 -repetition 119
+[09/10/2023 03:19:32]       INFO: Inserting 8388605/8388606 -repetition 120
+[09/10/2023 03:19:32]       INFO: Inserting 8388605/8388606 -repetition 121
+[09/10/2023 03:19:33]       INFO: Inserting 8388605/8388606 -repetition 122
+[09/10/2023 03:19:33]       INFO: Inserting 8388605/8388606 -repetition 123
+[09/10/2023 03:19:33]       INFO: Inserting 8388605/8388606 -repetition 124
+[09/10/2023 03:19:33]       INFO: Inserting 8388605/8388606 -repetition 125
+[09/10/2023 03:19:34]       INFO: Inserting 8388605/8388606 -repetition 126
+[09/10/2023 03:19:34]       INFO: Inserting 8388605/8388606 -repetition 127
+[09/10/2023 03:19:34]       INFO: Inserting 8388605/8388606 -repetition 128
+[09/10/2023 03:19:35]       INFO: Inserting 8388605/8388606 -repetition 129
+[09/10/2023 03:19:35]       INFO: Inserting 8388605/8388606 -repetition 130
+[09/10/2023 03:19:35]       INFO: Inserting 8388605/8388606 -repetition 131
+[09/10/2023 03:19:35]       INFO: Inserting 8388605/8388606 -repetition 132
+[09/10/2023 03:19:36]       INFO: Inserting 8388605/8388606 -repetition 133
+[09/10/2023 03:19:36]       INFO: Inserting 8388605/8388606 -repetition 134
+[09/10/2023 03:19:36]       INFO: Inserting 8388605/8388606 -repetition 135
+[09/10/2023 03:19:36]       INFO: Inserting 8388605/8388606 -repetition 136
+[09/10/2023 03:19:37]       INFO: Inserting 8388605/8388606 -repetition 137
+[09/10/2023 03:19:37]       INFO: Inserting 8388605/8388606 -repetition 138
+[09/10/2023 03:19:37]       INFO: Inserting 8388605/8388606 -repetition 139
+[09/10/2023 03:19:37]       INFO: Inserting 8388605/8388606 -repetition 140
+[09/10/2023 03:19:38]       INFO: Inserting 8388605/8388606 -repetition 141
+[09/10/2023 03:19:38]       INFO: Inserting 8388605/8388606 -repetition 142
+[09/10/2023 03:19:38]       INFO: Inserting 8388605/8388606 -repetition 143
+[09/10/2023 03:19:39]       INFO: Inserting 8388605/8388606 -repetition 144
+[09/10/2023 03:19:39]       INFO: Inserting 8388605/8388606 -repetition 145
+[09/10/2023 03:19:39]       INFO: Inserting 8388605/8388606 -repetition 146
+[09/10/2023 03:19:39]       INFO: Inserting 8388605/8388606 -repetition 147
+[09/10/2023 03:19:40]       INFO: Inserting 8388605/8388606 -repetition 148
+[09/10/2023 03:19:40]       INFO: Inserting 8388605/8388606 -repetition 149
+[09/10/2023 03:19:40]       INFO: Inserting 8388605/8388606 -repetition 150
+[09/10/2023 03:19:40]       INFO: Inserting 8388605/8388606 -repetition 151
+[09/10/2023 03:19:41]       INFO: Inserting 8388605/8388606 -repetition 152
+[09/10/2023 03:19:41]       INFO: Inserting 8388605/8388606 -repetition 153
+[09/10/2023 03:19:41]       INFO: Inserting 8388605/8388606 -repetition 154
+[09/10/2023 03:19:41]       INFO: Inserting 8388605/8388606 -repetition 155
+[09/10/2023 03:19:42]       INFO: Inserting 8388605/8388606 -repetition 156
+[09/10/2023 03:19:42]       INFO: Inserting 8388605/8388606 -repetition 157
+[09/10/2023 03:19:42]       INFO: Inserting 8388605/8388606 -repetition 158
+[09/10/2023 03:19:43]       INFO: Inserting 8388605/8388606 -repetition 159
+[09/10/2023 03:19:43]       INFO: Inserting 8388605/8388606 -repetition 160
+[09/10/2023 03:19:43]       INFO: Inserting 8388605/8388606 -repetition 161
+[09/10/2023 03:19:43]       INFO: Inserting 8388605/8388606 -repetition 162
+[09/10/2023 03:19:44]       INFO: Inserting 8388605/8388606 -repetition 163
+[09/10/2023 03:19:44]       INFO: Inserting 8388605/8388606 -repetition 164
+[09/10/2023 03:19:44]       INFO: Inserting 8388605/8388606 -repetition 165
+[09/10/2023 03:19:44]       INFO: Inserting 8388605/8388606 -repetition 166
+[09/10/2023 03:19:45]       INFO: Inserting 8388605/8388606 -repetition 167
+[09/10/2023 03:19:45]       INFO: Inserting 8388605/8388606 -repetition 168
+[09/10/2023 03:19:45]       INFO: Inserting 8388605/8388606 -repetition 169
+[09/10/2023 03:19:45]       INFO: Inserting 8388605/8388606 -repetition 170
+[09/10/2023 03:19:46]       INFO: Inserting 8388605/8388606 -repetition 171
+[09/10/2023 03:19:46]       INFO: Inserting 8388605/8388606 -repetition 172
+[09/10/2023 03:19:46]       INFO: Inserting 8388605/8388606 -repetition 173
+[09/10/2023 03:19:47]       INFO: Inserting 8388605/8388606 -repetition 174
+[09/10/2023 03:19:47]       INFO: Inserting 8388605/8388606 -repetition 175
+[09/10/2023 03:19:47]       INFO: Inserting 8388605/8388606 -repetition 176
+[09/10/2023 03:19:47]       INFO: Inserting 8388605/8388606 -repetition 177
+[09/10/2023 03:19:48]       INFO: Inserting 8388605/8388606 -repetition 178
+[09/10/2023 03:19:48]       INFO: Inserting 8388605/8388606 -repetition 179
+[09/10/2023 03:19:48]       INFO: Inserting 8388605/8388606 -repetition 180
+[09/10/2023 03:19:48]       INFO: Inserting 8388605/8388606 -repetition 181
+[09/10/2023 03:19:49]       INFO: Inserting 8388605/8388606 -repetition 182
+[09/10/2023 03:19:49]       INFO: Inserting 8388605/8388606 -repetition 183
+[09/10/2023 03:19:49]       INFO: Inserting 8388605/8388606 -repetition 184
+[09/10/2023 03:19:49]       INFO: Inserting 8388605/8388606 -repetition 185
+[09/10/2023 03:19:50]       INFO: Inserting 8388605/8388606 -repetition 186
+[09/10/2023 03:19:50]       INFO: Inserting 8388605/8388606 -repetition 187
+[09/10/2023 03:19:50]       INFO: Inserting 8388605/8388606 -repetition 188
+[09/10/2023 03:19:50]       INFO: Inserting 8388605/8388606 -repetition 189
+[09/10/2023 03:19:51]       INFO: Inserting 8388605/8388606 -repetition 190
+[09/10/2023 03:19:51]       INFO: Inserting 8388605/8388606 -repetition 191
+[09/10/2023 03:19:51]       INFO: Inserting 8388605/8388606 -repetition 192
+[09/10/2023 03:19:52]       INFO: Inserting 8388605/8388606 -repetition 193
+[09/10/2023 03:19:52]       INFO: Inserting 8388605/8388606 -repetition 194
+[09/10/2023 03:19:52]       INFO: Inserting 8388605/8388606 -repetition 195
+[09/10/2023 03:19:52]       INFO: Inserting 8388605/8388606 -repetition 196
+[09/10/2023 03:19:53]       INFO: Inserting 8388605/8388606 -repetition 197
+[09/10/2023 03:19:53]       INFO: Inserting 8388605/8388606 -repetition 198
+[09/10/2023 03:19:53]       INFO: Inserting 8388605/8388606 -repetition 199
+[09/10/2023 03:19:53]       INFO: Inserting 8388605/8388606 -repetition 200
+[09/10/2023 03:19:54]       INFO: Inserting 8388605/8388606 -repetition 201
+[09/10/2023 03:19:54]       INFO: Inserting 8388605/8388606 -repetition 202
+[09/10/2023 03:19:54]       INFO: Inserting 8388605/8388606 -repetition 203
+[09/10/2023 03:19:54]       INFO: Inserting 8388605/8388606 -repetition 204
+[09/10/2023 03:19:55]       INFO: Inserting 8388605/8388606 -repetition 205
+[09/10/2023 03:19:55]       INFO: Inserting 8388605/8388606 -repetition 206
+[09/10/2023 03:19:55]       INFO: Inserting 8388605/8388606 -repetition 207
+[09/10/2023 03:19:56]       INFO: Inserting 8388605/8388606 -repetition 208
+[09/10/2023 03:19:56]       INFO: Inserting 8388605/8388606 -repetition 209
+[09/10/2023 03:19:56]       INFO: Inserting 8388605/8388606 -repetition 210
+[09/10/2023 03:19:56]       INFO: Inserting 8388605/8388606 -repetition 211
+[09/10/2023 03:19:57]       INFO: Inserting 8388605/8388606 -repetition 212
+[09/10/2023 03:19:57]       INFO: Inserting 8388605/8388606 -repetition 213
+[09/10/2023 03:19:57]       INFO: Inserting 8388605/8388606 -repetition 214
+[09/10/2023 03:19:57]       INFO: Inserting 8388605/8388606 -repetition 215
+[09/10/2023 03:19:58]       INFO: Inserting 8388605/8388606 -repetition 216
+[09/10/2023 03:19:58]       INFO: Inserting 8388605/8388606 -repetition 217
+[09/10/2023 03:19:58]       INFO: Inserting 8388605/8388606 -repetition 218
+[09/10/2023 03:19:58]       INFO: Inserting 8388605/8388606 -repetition 219
+[09/10/2023 03:19:59]       INFO: Inserting 8388605/8388606 -repetition 220
+[09/10/2023 03:19:59]       INFO: Inserting 8388605/8388606 -repetition 221
+[09/10/2023 03:19:59]       INFO: Inserting 8388605/8388606 -repetition 222
+[09/10/2023 03:20:00]       INFO: Inserting 8388605/8388606 -repetition 223
+[09/10/2023 03:20:00]       INFO: Inserting 8388605/8388606 -repetition 224
+[09/10/2023 03:20:00]       INFO: Inserting 8388605/8388606 -repetition 225
+[09/10/2023 03:20:00]       INFO: Inserting 8388605/8388606 -repetition 226
+[09/10/2023 03:20:01]       INFO: Inserting 8388605/8388606 -repetition 227
+[09/10/2023 03:20:01]       INFO: Inserting 8388605/8388606 -repetition 228
+[09/10/2023 03:20:01]       INFO: Inserting 8388605/8388606 -repetition 229
+[09/10/2023 03:20:01]       INFO: Inserting 8388605/8388606 -repetition 230
+[09/10/2023 03:20:02]       INFO: Inserting 8388605/8388606 -repetition 231
+[09/10/2023 03:20:02]       INFO: Inserting 8388605/8388606 -repetition 232
+[09/10/2023 03:20:02]       INFO: Inserting 8388605/8388606 -repetition 233
+[09/10/2023 03:20:02]       INFO: Inserting 8388605/8388606 -repetition 234
+[09/10/2023 03:20:03]       INFO: Inserting 8388605/8388606 -repetition 235
+[09/10/2023 03:20:03]       INFO: Inserting 8388605/8388606 -repetition 236
+[09/10/2023 03:20:03]       INFO: Inserting 8388605/8388606 -repetition 237
+[09/10/2023 03:20:03]       INFO: Inserting 8388605/8388606 -repetition 238
+[09/10/2023 03:20:04]       INFO: Inserting 8388605/8388606 -repetition 239
+[09/10/2023 03:20:04]       INFO: Inserting 8388605/8388606 -repetition 240
+[09/10/2023 03:20:04]       INFO: Inserting 8388605/8388606 -repetition 241
+[09/10/2023 03:20:05]       INFO: Inserting 8388605/8388606 -repetition 242
+[09/10/2023 03:20:05]       INFO: Inserting 8388605/8388606 -repetition 243
+[09/10/2023 03:20:05]       INFO: Inserting 8388605/8388606 -repetition 244
+[09/10/2023 03:20:05]       INFO: Inserting 8388605/8388606 -repetition 245
+[09/10/2023 03:20:06]       INFO: Inserting 8388605/8388606 -repetition 246
+[09/10/2023 03:20:06]       INFO: Inserting 8388605/8388606 -repetition 247
+[09/10/2023 03:20:06]       INFO: Inserting 8388605/8388606 -repetition 248
+[09/10/2023 03:20:06]       INFO: Inserting 8388605/8388606 -repetition 249
+[09/10/2023 03:20:07]       INFO: Inserting 8388605/8388606 -repetition 250
+[09/10/2023 03:20:07]       INFO: Inserting 8388605/8388606 -repetition 251
+[09/10/2023 03:20:07]       INFO: Inserting 8388605/8388606 -repetition 252
+[09/10/2023 03:20:07]       INFO: Inserting 8388605/8388606 -repetition 253
+[09/10/2023 03:20:08]       INFO: Inserting 8388605/8388606 -repetition 254
+[09/10/2023 03:20:08]       INFO: Inserting 8388605/8388606 -repetition 255
+[09/10/2023 03:20:08]       INFO: Inserting 8388605/8388606 -repetition 256
+[09/10/2023 03:20:09]       INFO: Inserting 8388605/8388606 -repetition 257
+[09/10/2023 03:20:09]       INFO: Inserting 8388605/8388606 -repetition 258
+[09/10/2023 03:20:09]       INFO: Inserting 8388605/8388606 -repetition 259
+[09/10/2023 03:20:09]       INFO: Inserting 8388605/8388606 -repetition 260
+[09/10/2023 03:20:10]       INFO: Inserting 8388605/8388606 -repetition 261
+[09/10/2023 03:20:10]       INFO: Inserting 8388605/8388606 -repetition 262
+[09/10/2023 03:20:10]       INFO: Inserting 8388605/8388606 -repetition 263
+[09/10/2023 03:20:10]       INFO: Inserting 8388605/8388606 -repetition 264
+[09/10/2023 03:20:11]       INFO: Inserting 8388605/8388606 -repetition 265
+[09/10/2023 03:20:11]       INFO: Inserting 8388605/8388606 -repetition 266
+[09/10/2023 03:20:11]       INFO: Inserting 8388605/8388606 -repetition 267
+[09/10/2023 03:20:11]       INFO: Inserting 8388605/8388606 -repetition 268
+[09/10/2023 03:20:12]       INFO: Inserting 8388605/8388606 -repetition 269
+[09/10/2023 03:20:12]       INFO: Inserting 8388605/8388606 -repetition 270
+[09/10/2023 03:20:12]       INFO: Inserting 8388605/8388606 -repetition 271
+[09/10/2023 03:20:12]       INFO: Inserting 8388605/8388606 -repetition 272
+[09/10/2023 03:20:13]       INFO: Inserting 8388605/8388606 -repetition 273
+[09/10/2023 03:20:13]       INFO: Inserting 8388605/8388606 -repetition 274
+[09/10/2023 03:20:13]       INFO: Inserting 8388605/8388606 -repetition 275
+[09/10/2023 03:20:14]       INFO: Inserting 8388605/8388606 -repetition 276
+[09/10/2023 03:20:14]       INFO: Inserting 8388605/8388606 -repetition 277
+[09/10/2023 03:20:14]       INFO: Inserting 8388605/8388606 -repetition 278
+[09/10/2023 03:20:14]       INFO: Inserting 8388605/8388606 -repetition 279
+[09/10/2023 03:20:15]       INFO: Inserting 8388605/8388606 -repetition 280
+[09/10/2023 03:20:15]       INFO: Inserting 8388605/8388606 -repetition 281
+[09/10/2023 03:20:15]       INFO: Inserting 8388605/8388606 -repetition 282
+[09/10/2023 03:20:15]       INFO: Inserting 8388605/8388606 -repetition 283
+[09/10/2023 03:20:16]       INFO: Inserting 8388605/8388606 -repetition 284
+[09/10/2023 03:20:16]       INFO: Inserting 8388605/8388606 -repetition 285
+[09/10/2023 03:20:16]       INFO: Inserting 8388605/8388606 -repetition 286
+[09/10/2023 03:20:16]       INFO: Inserting 8388605/8388606 -repetition 287
+[09/10/2023 03:20:17]       INFO: Inserting 8388605/8388606 -repetition 288
+[09/10/2023 03:20:17]       INFO: Inserting 8388605/8388606 -repetition 289
+[09/10/2023 03:20:17]       INFO: Inserting 8388605/8388606 -repetition 290
+[09/10/2023 03:20:17]       INFO: Inserting 8388605/8388606 -repetition 291
+[09/10/2023 03:20:18]       INFO: Inserting 8388605/8388606 -repetition 292
+[09/10/2023 03:20:18]       INFO: Inserting 8388605/8388606 -repetition 293
+[09/10/2023 03:20:18]       INFO: Inserting 8388605/8388606 -repetition 294
+[09/10/2023 03:20:19]       INFO: Inserting 8388605/8388606 -repetition 295
+[09/10/2023 03:20:19]       INFO: Inserting 8388605/8388606 -repetition 296
+[09/10/2023 03:20:19]       INFO: Inserting 8388605/8388606 -repetition 297
+[09/10/2023 03:20:19]       INFO: Inserting 8388605/8388606 -repetition 298
+[09/10/2023 03:20:20]       INFO: Inserting 8388605/8388606 -repetition 299
+[09/10/2023 03:20:20]       INFO: Inserting 8388605/8388606 -repetition 300
+[09/10/2023 03:20:20]       INFO: Inserting 8388605/8388606 -repetition 301
+[09/10/2023 03:20:20]       INFO: Inserting 8388605/8388606 -repetition 302
+[09/10/2023 03:20:21]       INFO: Inserting 8388605/8388606 -repetition 303
+[09/10/2023 03:20:21]       INFO: Inserting 8388605/8388606 -repetition 304
+[09/10/2023 03:20:21]       INFO: Inserting 8388605/8388606 -repetition 305
+[09/10/2023 03:20:21]       INFO: Inserting 8388605/8388606 -repetition 306
+[09/10/2023 03:20:22]       INFO: Inserting 8388605/8388606 -repetition 307
+[09/10/2023 03:20:22]       INFO: Inserting 8388605/8388606 -repetition 308
+[09/10/2023 03:20:22]       INFO: Inserting 8388605/8388606 -repetition 309
+[09/10/2023 03:20:22]       INFO: Inserting 8388605/8388606 -repetition 310
+[09/10/2023 03:20:23]       INFO: Inserting 8388605/8388606 -repetition 311
+[09/10/2023 03:20:23]       INFO: Inserting 8388605/8388606 -repetition 312
+[09/10/2023 03:20:23]       INFO: Inserting 8388605/8388606 -repetition 313
+[09/10/2023 03:20:24]       INFO: Inserting 8388605/8388606 -repetition 314
+[09/10/2023 03:20:24]       INFO: Inserting 8388605/8388606 -repetition 315
+[09/10/2023 03:20:24]       INFO: Inserting 8388605/8388606 -repetition 316
+[09/10/2023 03:20:24]       INFO: Inserting 8388605/8388606 -repetition 317
+[09/10/2023 03:20:25]       INFO: Inserting 8388605/8388606 -repetition 318
+[09/10/2023 03:20:25]       INFO: Inserting 8388605/8388606 -repetition 319
+[09/10/2023 03:20:25]       INFO: Inserting 8388605/8388606 -repetition 320
+[09/10/2023 03:20:25]       INFO: Inserting 8388605/8388606 -repetition 321
+[09/10/2023 03:20:26]       INFO: Inserting 8388605/8388606 -repetition 322
+[09/10/2023 03:20:26]       INFO: Inserting 8388605/8388606 -repetition 323
+[09/10/2023 03:20:26]       INFO: Inserting 8388605/8388606 -repetition 324
+[09/10/2023 03:20:26]       INFO: Inserting 8388605/8388606 -repetition 325
+[09/10/2023 03:20:27]       INFO: Inserting 8388605/8388606 -repetition 326
+[09/10/2023 03:20:27]       INFO: Inserting 8388605/8388606 -repetition 327
+[09/10/2023 03:20:27]       INFO: Inserting 8388605/8388606 -repetition 328
+[09/10/2023 03:20:27]       INFO: Inserting 8388605/8388606 -repetition 329
+[09/10/2023 03:20:28]       INFO: Inserting 8388605/8388606 -repetition 330
+[09/10/2023 03:20:28]       INFO: Inserting 8388605/8388606 -repetition 331
+[09/10/2023 03:20:28]       INFO: Inserting 8388605/8388606 -repetition 332
+[09/10/2023 03:20:29]       INFO: Inserting 8388605/8388606 -repetition 333
+[09/10/2023 03:20:29]       INFO: Inserting 8388605/8388606 -repetition 334
+[09/10/2023 03:20:29]       INFO: Inserting 8388605/8388606 -repetition 335
+[09/10/2023 03:20:29]       INFO: Inserting 8388605/8388606 -repetition 336
+[09/10/2023 03:20:30]       INFO: Inserting 8388605/8388606 -repetition 337
+[09/10/2023 03:20:30]       INFO: Inserting 8388605/8388606 -repetition 338
+[09/10/2023 03:20:30]       INFO: Inserting 8388605/8388606 -repetition 339
+[09/10/2023 03:20:30]       INFO: Inserting 8388605/8388606 -repetition 340
+[09/10/2023 03:20:31]       INFO: Inserting 8388605/8388606 -repetition 341
+[09/10/2023 03:20:31]       INFO: Inserting 8388605/8388606 -repetition 342
+[09/10/2023 03:20:31]       INFO: Inserting 8388605/8388606 -repetition 343
+[09/10/2023 03:20:31]       INFO: Inserting 8388605/8388606 -repetition 344
+[09/10/2023 03:20:32]       INFO: Inserting 8388605/8388606 -repetition 345
+[09/10/2023 03:20:32]       INFO: Inserting 8388605/8388606 -repetition 346
+[09/10/2023 03:20:32]       INFO: Inserting 8388605/8388606 -repetition 347
+[09/10/2023 03:20:32]       INFO: Inserting 8388605/8388606 -repetition 348
+[09/10/2023 03:20:33]       INFO: Inserting 8388605/8388606 -repetition 349
+[09/10/2023 03:20:33]       INFO: Inserting 8388605/8388606 -repetition 350
+[09/10/2023 03:20:33]       INFO: Inserting 8388605/8388606 -repetition 351
+[09/10/2023 03:20:34]       INFO: Inserting 8388605/8388606 -repetition 352
+[09/10/2023 03:20:34]       INFO: Inserting 8388605/8388606 -repetition 353
+[09/10/2023 03:20:34]       INFO: Inserting 8388605/8388606 -repetition 354
+[09/10/2023 03:20:34]       INFO: Inserting 8388605/8388606 -repetition 355
+[09/10/2023 03:20:35]       INFO: Inserting 8388605/8388606 -repetition 356
+[09/10/2023 03:20:35]       INFO: Inserting 8388605/8388606 -repetition 357
+[09/10/2023 03:20:35]       INFO: Inserting 8388605/8388606 -repetition 358
+[09/10/2023 03:20:35]       INFO: Inserting 8388605/8388606 -repetition 359
+[09/10/2023 03:20:36]       INFO: Inserting 8388605/8388606 -repetition 360
+[09/10/2023 03:20:36]       INFO: Inserting 8388605/8388606 -repetition 361
+[09/10/2023 03:20:36]       INFO: Inserting 8388605/8388606 -repetition 362
+[09/10/2023 03:20:36]       INFO: Inserting 8388605/8388606 -repetition 363
+[09/10/2023 03:20:37]       INFO: Inserting 8388605/8388606 -repetition 364
+[09/10/2023 03:20:37]       INFO: Inserting 8388605/8388606 -repetition 365
+[09/10/2023 03:20:37]       INFO: Inserting 8388605/8388606 -repetition 366
+[09/10/2023 03:20:38]       INFO: Inserting 8388605/8388606 -repetition 367
+[09/10/2023 03:20:38]       INFO: Inserting 8388605/8388606 -repetition 368
+[09/10/2023 03:20:38]       INFO: Inserting 8388605/8388606 -repetition 369
+[09/10/2023 03:20:38]       INFO: Inserting 8388605/8388606 -repetition 370
+[09/10/2023 03:20:39]       INFO: Inserting 8388605/8388606 -repetition 371
+[09/10/2023 03:20:39]       INFO: Inserting 8388605/8388606 -repetition 372
+[09/10/2023 03:20:39]       INFO: Inserting 8388605/8388606 -repetition 373
+[09/10/2023 03:20:39]       INFO: Inserting 8388605/8388606 -repetition 374
+[09/10/2023 03:20:40]       INFO: Inserting 8388605/8388606 -repetition 375
+[09/10/2023 03:20:40]       INFO: Inserting 8388605/8388606 -repetition 376
+[09/10/2023 03:20:40]       INFO: Inserting 8388605/8388606 -repetition 377
+[09/10/2023 03:20:40]       INFO: Inserting 8388605/8388606 -repetition 378
+[09/10/2023 03:20:41]       INFO: Inserting 8388605/8388606 -repetition 379
+[09/10/2023 03:20:41]       INFO: Inserting 8388605/8388606 -repetition 380
+[09/10/2023 03:20:41]       INFO: Inserting 8388605/8388606 -repetition 381
+[09/10/2023 03:20:41]       INFO: Inserting 8388605/8388606 -repetition 382
+[09/10/2023 03:20:42]       INFO: Inserting 8388605/8388606 -repetition 383
+[09/10/2023 03:20:42]       INFO: Inserting 8388605/8388606 -repetition 384
+[09/10/2023 03:20:42]       INFO: Inserting 8388605/8388606 -repetition 385
+[09/10/2023 03:20:43]       INFO: Inserting 8388605/8388606 -repetition 386
+[09/10/2023 03:20:43]       INFO: Inserting 8388605/8388606 -repetition 387
+[09/10/2023 03:20:43]       INFO: Inserting 8388605/8388606 -repetition 388
+[09/10/2023 03:20:43]       INFO: Inserting 8388605/8388606 -repetition 389
+[09/10/2023 03:20:44]       INFO: Inserting 8388605/8388606 -repetition 390
+[09/10/2023 03:20:44]       INFO: Inserting 8388605/8388606 -repetition 391
+[09/10/2023 03:20:44]       INFO: Inserting 8388605/8388606 -repetition 392
+[09/10/2023 03:20:44]       INFO: Inserting 8388605/8388606 -repetition 393
+[09/10/2023 03:20:45]       INFO: Inserting 8388605/8388606 -repetition 394
+[09/10/2023 03:20:45]       INFO: Inserting 8388605/8388606 -repetition 395
+[09/10/2023 03:20:45]       INFO: Inserting 8388605/8388606 -repetition 396
+[09/10/2023 03:20:45]       INFO: Inserting 8388605/8388606 -repetition 397
+[09/10/2023 03:20:46]       INFO: Inserting 8388605/8388606 -repetition 398
+[09/10/2023 03:20:46]       INFO: Inserting 8388605/8388606 -repetition 399
+[09/10/2023 03:20:46]       INFO: Inserting 8388605/8388606 -repetition 400
+[09/10/2023 03:20:46]       INFO: Inserting 8388605/8388606 -repetition 401
+[09/10/2023 03:20:47]       INFO: Inserting 8388605/8388606 -repetition 402
+[09/10/2023 03:20:47]       INFO: Inserting 8388605/8388606 -repetition 403
+[09/10/2023 03:20:47]       INFO: Inserting 8388605/8388606 -repetition 404
+[09/10/2023 03:20:48]       INFO: Inserting 8388605/8388606 -repetition 405
+[09/10/2023 03:20:48]       INFO: Inserting 8388605/8388606 -repetition 406
+[09/10/2023 03:20:48]       INFO: Inserting 8388605/8388606 -repetition 407
+[09/10/2023 03:20:48]       INFO: Inserting 8388605/8388606 -repetition 408
+[09/10/2023 03:20:49]       INFO: Inserting 8388605/8388606 -repetition 409
+[09/10/2023 03:20:49]       INFO: Inserting 8388605/8388606 -repetition 410
+[09/10/2023 03:20:49]       INFO: Inserting 8388605/8388606 -repetition 411
+[09/10/2023 03:20:49]       INFO: Inserting 8388605/8388606 -repetition 412
+[09/10/2023 03:20:50]       INFO: Inserting 8388605/8388606 -repetition 413
+[09/10/2023 03:20:50]       INFO: Inserting 8388605/8388606 -repetition 414
+[09/10/2023 03:20:50]       INFO: Inserting 8388605/8388606 -repetition 415
+[09/10/2023 03:20:50]       INFO: Inserting 8388605/8388606 -repetition 416
+[09/10/2023 03:20:51]       INFO: Inserting 8388605/8388606 -repetition 417
+[09/10/2023 03:20:51]       INFO: Inserting 8388605/8388606 -repetition 418
+[09/10/2023 03:20:51]       INFO: Inserting 8388605/8388606 -repetition 419
+[09/10/2023 03:20:51]       INFO: Inserting 8388605/8388606 -repetition 420
+[09/10/2023 03:20:52]       INFO: Inserting 8388605/8388606 -repetition 421
+[09/10/2023 03:20:52]       INFO: Inserting 8388605/8388606 -repetition 422
+[09/10/2023 03:20:52]       INFO: Inserting 8388605/8388606 -repetition 423
+[09/10/2023 03:20:52]       INFO: Inserting 8388605/8388606 -repetition 424
+[09/10/2023 03:20:53]       INFO: Inserting 8388605/8388606 -repetition 425
+[09/10/2023 03:20:53]       INFO: Inserting 8388605/8388606 -repetition 426
+[09/10/2023 03:20:53]       INFO: Inserting 8388605/8388606 -repetition 427
+[09/10/2023 03:20:54]       INFO: Inserting 8388605/8388606 -repetition 428
+[09/10/2023 03:20:54]       INFO: Inserting 8388605/8388606 -repetition 429
+[09/10/2023 03:20:54]       INFO: Inserting 8388605/8388606 -repetition 430
+[09/10/2023 03:20:54]       INFO: Inserting 8388605/8388606 -repetition 431
+[09/10/2023 03:20:55]       INFO: Inserting 8388605/8388606 -repetition 432
+[09/10/2023 03:20:55]       INFO: Inserting 8388605/8388606 -repetition 433
+[09/10/2023 03:20:55]       INFO: Inserting 8388605/8388606 -repetition 434
+[09/10/2023 03:20:55]       INFO: Inserting 8388605/8388606 -repetition 435
+[09/10/2023 03:20:56]       INFO: Inserting 8388605/8388606 -repetition 436
+[09/10/2023 03:20:56]       INFO: Inserting 8388605/8388606 -repetition 437
+[09/10/2023 03:20:56]       INFO: Inserting 8388605/8388606 -repetition 438
+[09/10/2023 03:20:56]       INFO: Inserting 8388605/8388606 -repetition 439
+[09/10/2023 03:20:57]       INFO: Inserting 8388605/8388606 -repetition 440
+[09/10/2023 03:20:57]       INFO: Inserting 8388605/8388606 -repetition 441
+[09/10/2023 03:20:57]       INFO: Inserting 8388605/8388606 -repetition 442
+[09/10/2023 03:20:57]       INFO: Inserting 8388605/8388606 -repetition 443
+[09/10/2023 03:20:58]       INFO: Inserting 8388605/8388606 -repetition 444
+[09/10/2023 03:20:58]       INFO: Inserting 8388605/8388606 -repetition 445
+[09/10/2023 03:20:58]       INFO: Inserting 8388605/8388606 -repetition 446
+[09/10/2023 03:20:59]       INFO: Inserting 8388605/8388606 -repetition 447
+[09/10/2023 03:20:59]       INFO: Inserting 8388605/8388606 -repetition 448
+[09/10/2023 03:20:59]       INFO: Inserting 8388605/8388606 -repetition 449
+[09/10/2023 03:20:59]       INFO: Inserting 8388605/8388606 -repetition 450
+[09/10/2023 03:21:00]       INFO: Inserting 8388605/8388606 -repetition 451
+[09/10/2023 03:21:00]       INFO: Inserting 8388605/8388606 -repetition 452
+[09/10/2023 03:21:00]       INFO: Inserting 8388605/8388606 -repetition 453
+[09/10/2023 03:21:00]       INFO: Inserting 8388605/8388606 -repetition 454
+[09/10/2023 03:21:01]       INFO: Inserting 8388605/8388606 -repetition 455
+[09/10/2023 03:21:01]       INFO: Inserting 8388605/8388606 -repetition 456
+[09/10/2023 03:21:01]       INFO: Inserting 8388605/8388606 -repetition 457
+[09/10/2023 03:21:01]       INFO: Inserting 8388605/8388606 -repetition 458
+[09/10/2023 03:21:02]       INFO: Inserting 8388605/8388606 -repetition 459
+[09/10/2023 03:21:02]       INFO: Inserting 8388605/8388606 -repetition 460
+[09/10/2023 03:21:02]       INFO: Inserting 8388605/8388606 -repetition 461
+[09/10/2023 03:21:02]       INFO: Inserting 8388605/8388606 -repetition 462
+[09/10/2023 03:21:03]       INFO: Inserting 8388605/8388606 -repetition 463
+[09/10/2023 03:21:03]       INFO: Inserting 8388605/8388606 -repetition 464
+[09/10/2023 03:21:03]       INFO: Inserting 8388605/8388606 -repetition 465
+[09/10/2023 03:21:04]       INFO: Inserting 8388605/8388606 -repetition 466
+[09/10/2023 03:21:04]       INFO: Inserting 8388605/8388606 -repetition 467
+[09/10/2023 03:21:04]       INFO: Inserting 8388605/8388606 -repetition 468
+[09/10/2023 03:21:04]       INFO: Inserting 8388605/8388606 -repetition 469
+[09/10/2023 03:21:05]       INFO: Inserting 8388605/8388606 -repetition 470
+[09/10/2023 03:21:05]       INFO: Inserting 8388605/8388606 -repetition 471
+[09/10/2023 03:21:05]       INFO: Inserting 8388605/8388606 -repetition 472
+[09/10/2023 03:21:05]       INFO: Inserting 8388605/8388606 -repetition 473
+[09/10/2023 03:21:06]       INFO: Inserting 8388605/8388606 -repetition 474
+[09/10/2023 03:21:06]       INFO: Inserting 8388605/8388606 -repetition 475
+[09/10/2023 03:21:06]       INFO: Inserting 8388605/8388606 -repetition 476
+[09/10/2023 03:21:06]       INFO: Inserting 8388605/8388606 -repetition 477
+[09/10/2023 03:21:07]       INFO: Inserting 8388605/8388606 -repetition 478
+[09/10/2023 03:21:07]       INFO: Inserting 8388605/8388606 -repetition 479
+[09/10/2023 03:21:07]       INFO: Inserting 8388605/8388606 -repetition 480
+[09/10/2023 03:21:07]       INFO: Inserting 8388605/8388606 -repetition 481
+[09/10/2023 03:21:08]       INFO: Inserting 8388605/8388606 -repetition 482
+[09/10/2023 03:21:08]       INFO: Inserting 8388605/8388606 -repetition 483
+[09/10/2023 03:21:08]       INFO: Inserting 8388605/8388606 -repetition 484
+[09/10/2023 03:21:09]       INFO: Inserting 8388605/8388606 -repetition 485
+[09/10/2023 03:21:09]       INFO: Inserting 8388605/8388606 -repetition 486
+[09/10/2023 03:21:09]       INFO: Inserting 8388605/8388606 -repetition 487
+[09/10/2023 03:21:09]       INFO: Inserting 8388605/8388606 -repetition 488
+[09/10/2023 03:21:10]       INFO: Inserting 8388605/8388606 -repetition 489
+[09/10/2023 03:21:10]       INFO: Inserting 8388605/8388606 -repetition 490
+[09/10/2023 03:21:10]       INFO: Inserting 8388605/8388606 -repetition 491
+[09/10/2023 03:21:10]       INFO: Inserting 8388605/8388606 -repetition 492
+[09/10/2023 03:21:11]       INFO: Inserting 8388605/8388606 -repetition 493
+[09/10/2023 03:21:11]       INFO: Inserting 8388605/8388606 -repetition 494
+[09/10/2023 03:21:11]       INFO: Inserting 8388605/8388606 -repetition 495
+[09/10/2023 03:21:11]       INFO: Inserting 8388605/8388606 -repetition 496
+[09/10/2023 03:21:12]       INFO: Inserting 8388605/8388606 -repetition 497
+[09/10/2023 03:21:12]       INFO: Inserting 8388605/8388606 -repetition 498
+[09/10/2023 03:21:12]       INFO: Inserting 8388605/8388606 -repetition 499
+[09/10/2023 03:21:12]       INFO: Inserting 8388605/8388606 -repetition 500
+[09/10/2023 03:21:13]       INFO: Inserting 8388605/8388606 -repetition 501
+[09/10/2023 03:21:13]       INFO: Inserting 8388605/8388606 -repetition 502
+[09/10/2023 03:21:13]       INFO: Inserting 8388605/8388606 -repetition 503
+[09/10/2023 03:21:14]       INFO: Inserting 8388605/8388606 -repetition 504
+[09/10/2023 03:21:14]       INFO: Inserting 8388605/8388606 -repetition 505
+[09/10/2023 03:21:14]       INFO: Inserting 8388605/8388606 -repetition 506
+[09/10/2023 03:21:14]       INFO: Inserting 8388605/8388606 -repetition 507
+[09/10/2023 03:21:15]       INFO: Inserting 8388605/8388606 -repetition 508
+[09/10/2023 03:21:15]       INFO: Inserting 8388605/8388606 -repetition 509
+[09/10/2023 03:21:15]       INFO: Inserting 8388605/8388606 -repetition 510
+[09/10/2023 03:21:15]       INFO: Inserting 8388605/8388606 -repetition 511
+[09/10/2023 03:21:16]       INFO: Inserting 8388605/8388606 -repetition 512
+[09/10/2023 03:21:16]       INFO: Inserting 8388605/8388606 -repetition 513
+[09/10/2023 03:21:16]       INFO: Inserting 8388605/8388606 -repetition 514
+[09/10/2023 03:21:16]       INFO: Inserting 8388605/8388606 -repetition 515
+[09/10/2023 03:21:17]       INFO: Inserting 8388605/8388606 -repetition 516
+[09/10/2023 03:21:17]       INFO: Inserting 8388605/8388606 -repetition 517
+[09/10/2023 03:21:17]       INFO: Inserting 8388605/8388606 -repetition 518
+[09/10/2023 03:21:17]       INFO: Inserting 8388605/8388606 -repetition 519
+[09/10/2023 03:21:18]       INFO: Inserting 8388605/8388606 -repetition 520
+[09/10/2023 03:21:18]       INFO: Inserting 8388605/8388606 -repetition 521
+[09/10/2023 03:21:18]       INFO: Inserting 8388605/8388606 -repetition 522
+[09/10/2023 03:21:19]       INFO: Inserting 8388605/8388606 -repetition 523
+[09/10/2023 03:21:19]       INFO: Inserting 8388605/8388606 -repetition 524
+[09/10/2023 03:21:19]       INFO: Inserting 8388605/8388606 -repetition 525
+[09/10/2023 03:21:19]       INFO: Inserting 8388605/8388606 -repetition 526
+[09/10/2023 03:21:20]       INFO: Inserting 8388605/8388606 -repetition 527
+[09/10/2023 03:21:20]       INFO: Inserting 8388605/8388606 -repetition 528
+[09/10/2023 03:21:20]       INFO: Inserting 8388605/8388606 -repetition 529
+[09/10/2023 03:21:20]       INFO: Inserting 8388605/8388606 -repetition 530
+[09/10/2023 03:21:21]       INFO: Inserting 8388605/8388606 -repetition 531
+[09/10/2023 03:21:21]       INFO: Inserting 8388605/8388606 -repetition 532
+[09/10/2023 03:21:21]       INFO: Inserting 8388605/8388606 -repetition 533
+[09/10/2023 03:21:21]       INFO: Inserting 8388605/8388606 -repetition 534
+[09/10/2023 03:21:22]       INFO: Inserting 8388605/8388606 -repetition 535
+[09/10/2023 03:21:22]       INFO: Inserting 8388605/8388606 -repetition 536
+[09/10/2023 03:21:22]       INFO: Inserting 8388605/8388606 -repetition 537
+[09/10/2023 03:21:22]       INFO: Inserting 8388605/8388606 -repetition 538
+[09/10/2023 03:21:23]       INFO: Inserting 8388605/8388606 -repetition 539
+[09/10/2023 03:21:23]       INFO: Inserting 8388605/8388606 -repetition 540
+[09/10/2023 03:21:23]       INFO: Inserting 8388605/8388606 -repetition 541
+[09/10/2023 03:21:24]       INFO: Inserting 8388605/8388606 -repetition 542
+[09/10/2023 03:21:24]       INFO: Inserting 8388605/8388606 -repetition 543
+[09/10/2023 03:21:24]       INFO: Inserting 8388605/8388606 -repetition 544
+[09/10/2023 03:21:24]       INFO: Inserting 8388605/8388606 -repetition 545
+[09/10/2023 03:21:25]       INFO: Inserting 8388605/8388606 -repetition 546
+[09/10/2023 03:21:25]       INFO: Inserting 8388605/8388606 -repetition 547
+[09/10/2023 03:21:25]       INFO: Inserting 8388605/8388606 -repetition 548
+[09/10/2023 03:21:25]       INFO: Inserting 8388605/8388606 -repetition 549
+[09/10/2023 03:21:26]       INFO: Inserting 8388605/8388606 -repetition 550
+[09/10/2023 03:21:26]       INFO: Inserting 8388605/8388606 -repetition 551
+[09/10/2023 03:21:26]       INFO: Inserting 8388605/8388606 -repetition 552
+[09/10/2023 03:21:26]       INFO: Inserting 8388605/8388606 -repetition 553
+[09/10/2023 03:21:27]       INFO: Inserting 8388605/8388606 -repetition 554
+[09/10/2023 03:21:27]       INFO: Inserting 8388605/8388606 -repetition 555
+[09/10/2023 03:21:27]       INFO: Inserting 8388605/8388606 -repetition 556
+[09/10/2023 03:21:27]       INFO: Inserting 8388605/8388606 -repetition 557
+[09/10/2023 03:21:28]       INFO: Inserting 8388605/8388606 -repetition 558
+[09/10/2023 03:21:28]       INFO: Inserting 8388605/8388606 -repetition 559
+[09/10/2023 03:21:28]       INFO: Inserting 8388605/8388606 -repetition 560
+[09/10/2023 03:21:28]       INFO: Inserting 8388605/8388606 -repetition 561
+[09/10/2023 03:21:29]       INFO: Inserting 8388605/8388606 -repetition 562
+[09/10/2023 03:21:29]       INFO: Inserting 8388605/8388606 -repetition 563
+[09/10/2023 03:21:29]       INFO: Inserting 8388605/8388606 -repetition 564
+[09/10/2023 03:21:30]       INFO: Inserting 8388605/8388606 -repetition 565
+[09/10/2023 03:21:30]       INFO: Inserting 8388605/8388606 -repetition 566
+[09/10/2023 03:21:30]       INFO: Inserting 8388605/8388606 -repetition 567
+[09/10/2023 03:21:30]       INFO: Inserting 8388605/8388606 -repetition 568
+[09/10/2023 03:21:31]       INFO: Inserting 8388605/8388606 -repetition 569
+[09/10/2023 03:21:31]       INFO: Inserting 8388605/8388606 -repetition 570
+[09/10/2023 03:21:31]       INFO: Inserting 8388605/8388606 -repetition 571
+[09/10/2023 03:21:31]       INFO: Inserting 8388605/8388606 -repetition 572
+[09/10/2023 03:21:32]       INFO: Inserting 8388605/8388606 -repetition 573
+[09/10/2023 03:21:32]       INFO: Inserting 8388605/8388606 -repetition 574
+[09/10/2023 03:21:32]       INFO: Inserting 8388605/8388606 -repetition 575
+[09/10/2023 03:21:32]       INFO: Inserting 8388605/8388606 -repetition 576
+[09/10/2023 03:21:33]       INFO: Inserting 8388605/8388606 -repetition 577
+[09/10/2023 03:21:33]       INFO: Inserting 8388605/8388606 -repetition 578
+[09/10/2023 03:21:33]       INFO: Inserting 8388605/8388606 -repetition 579
+[09/10/2023 03:21:33]       INFO: Inserting 8388605/8388606 -repetition 580
+[09/10/2023 03:21:34]       INFO: Inserting 8388605/8388606 -repetition 581
+[09/10/2023 03:21:34]       INFO: Inserting 8388605/8388606 -repetition 582
+[09/10/2023 03:21:34]       INFO: Inserting 8388605/8388606 -repetition 583
+[09/10/2023 03:21:35]       INFO: Inserting 8388605/8388606 -repetition 584
+[09/10/2023 03:21:35]       INFO: Inserting 8388605/8388606 -repetition 585
+[09/10/2023 03:21:35]       INFO: Inserting 8388605/8388606 -repetition 586
+[09/10/2023 03:21:35]       INFO: Inserting 8388605/8388606 -repetition 587
+[09/10/2023 03:21:36]       INFO: Inserting 8388605/8388606 -repetition 588
+[09/10/2023 03:21:36]       INFO: Inserting 8388605/8388606 -repetition 589
+[09/10/2023 03:21:36]       INFO: Inserting 8388605/8388606 -repetition 590
+[09/10/2023 03:21:36]       INFO: Inserting 8388605/8388606 -repetition 591
+[09/10/2023 03:21:37]       INFO: Inserting 8388605/8388606 -repetition 592
+[09/10/2023 03:21:37]       INFO: Inserting 8388605/8388606 -repetition 593
+[09/10/2023 03:21:37]       INFO: Inserting 8388605/8388606 -repetition 594
+[09/10/2023 03:21:37]       INFO: Inserting 8388605/8388606 -repetition 595
+[09/10/2023 03:21:38]       INFO: Inserting 8388605/8388606 -repetition 596
+[09/10/2023 03:21:38]       INFO: Inserting 8388605/8388606 -repetition 597
+[09/10/2023 03:21:38]       INFO: Inserting 8388605/8388606 -repetition 598
+[09/10/2023 03:21:38]       INFO: Inserting 8388605/8388606 -repetition 599
+[09/10/2023 03:21:39]       INFO: Inserting 8388605/8388606 -repetition 600
+[09/10/2023 03:21:39]       INFO: Inserting 8388605/8388606 -repetition 601
+[09/10/2023 03:21:39]       INFO: Inserting 8388605/8388606 -repetition 602
+[09/10/2023 03:21:40]       INFO: Inserting 8388605/8388606 -repetition 603
+[09/10/2023 03:21:40]       INFO: Inserting 8388605/8388606 -repetition 604
+[09/10/2023 03:21:40]       INFO: Inserting 8388605/8388606 -repetition 605
+[09/10/2023 03:21:40]       INFO: Inserting 8388605/8388606 -repetition 606
+[09/10/2023 03:21:41]       INFO: Inserting 8388605/8388606 -repetition 607
+[09/10/2023 03:21:41]       INFO: Inserting 8388605/8388606 -repetition 608
+[09/10/2023 03:21:41]       INFO: Inserting 8388605/8388606 -repetition 609
+[09/10/2023 03:21:41]       INFO: Inserting 8388605/8388606 -repetition 610
+[09/10/2023 03:21:42]       INFO: Inserting 8388605/8388606 -repetition 611
+[09/10/2023 03:21:42]       INFO: Inserting 8388605/8388606 -repetition 612
+[09/10/2023 03:21:42]       INFO: Inserting 8388605/8388606 -repetition 613
+[09/10/2023 03:21:42]       INFO: Inserting 8388605/8388606 -repetition 614
+[09/10/2023 03:21:43]       INFO: Inserting 8388605/8388606 -repetition 615
+[09/10/2023 03:21:43]       INFO: Inserting 8388605/8388606 -repetition 616
+[09/10/2023 03:21:43]       INFO: Inserting 8388605/8388606 -repetition 617
+[09/10/2023 03:21:43]       INFO: Inserting 8388605/8388606 -repetition 618
+[09/10/2023 03:21:44]       INFO: Inserting 8388605/8388606 -repetition 619
+[09/10/2023 03:21:44]       INFO: Inserting 8388605/8388606 -repetition 620
+[09/10/2023 03:21:44]       INFO: Inserting 8388605/8388606 -repetition 621
+[09/10/2023 03:21:45]       INFO: Inserting 8388605/8388606 -repetition 622
+[09/10/2023 03:21:45]       INFO: Inserting 8388605/8388606 -repetition 623
+[09/10/2023 03:21:45]       INFO: Inserting 8388605/8388606 -repetition 624
+[09/10/2023 03:21:45]       INFO: Inserting 8388605/8388606 -repetition 625
+[09/10/2023 03:21:46]       INFO: Inserting 8388605/8388606 -repetition 626
+[09/10/2023 03:21:46]       INFO: Inserting 8388605/8388606 -repetition 627
+[09/10/2023 03:21:46]       INFO: Inserting 8388605/8388606 -repetition 628
+[09/10/2023 03:21:46]       INFO: Inserting 8388605/8388606 -repetition 629
+[09/10/2023 03:21:47]       INFO: Inserting 8388605/8388606 -repetition 630
+[09/10/2023 03:21:47]       INFO: Inserting 8388605/8388606 -repetition 631
+[09/10/2023 03:21:47]       INFO: Inserting 8388605/8388606 -repetition 632
+[09/10/2023 03:21:47]       INFO: Inserting 8388605/8388606 -repetition 633
+[09/10/2023 03:21:48]       INFO: Inserting 8388605/8388606 -repetition 634
+[09/10/2023 03:21:48]       INFO: Inserting 8388605/8388606 -repetition 635
+[09/10/2023 03:21:48]       INFO: Inserting 8388605/8388606 -repetition 636
+[09/10/2023 03:21:48]       INFO: Inserting 8388605/8388606 -repetition 637
+[09/10/2023 03:21:49]       INFO: Inserting 8388605/8388606 -repetition 638
+[09/10/2023 03:21:49]       INFO: Inserting 8388605/8388606 -repetition 639
+[09/10/2023 03:21:49]       INFO: Inserting 8388605/8388606 -repetition 640
+[09/10/2023 03:21:49]       INFO: Inserting 8388605/8388606 -repetition 641
+[09/10/2023 03:21:50]       INFO: Inserting 8388605/8388606 -repetition 642
+[09/10/2023 03:21:50]       INFO: Inserting 8388605/8388606 -repetition 643
+[09/10/2023 03:21:50]       INFO: Inserting 8388605/8388606 -repetition 644
+[09/10/2023 03:21:51]       INFO: Inserting 8388605/8388606 -repetition 645
+[09/10/2023 03:21:51]       INFO: Inserting 8388605/8388606 -repetition 646
+[09/10/2023 03:21:51]       INFO: Inserting 8388605/8388606 -repetition 647
+[09/10/2023 03:21:51]       INFO: Inserting 8388605/8388606 -repetition 648
+[09/10/2023 03:21:52]       INFO: Inserting 8388605/8388606 -repetition 649
+[09/10/2023 03:21:52]       INFO: Inserting 8388605/8388606 -repetition 650
+[09/10/2023 03:21:52]       INFO: Inserting 8388605/8388606 -repetition 651
+[09/10/2023 03:21:52]       INFO: Inserting 8388605/8388606 -repetition 652
+[09/10/2023 03:21:53]       INFO: Inserting 8388605/8388606 -repetition 653
+[09/10/2023 03:21:53]       INFO: Inserting 8388605/8388606 -repetition 654
+[09/10/2023 03:21:53]       INFO: Inserting 8388605/8388606 -repetition 655
+[09/10/2023 03:21:53]       INFO: Inserting 8388605/8388606 -repetition 656
+[09/10/2023 03:21:54]       INFO: Inserting 8388605/8388606 -repetition 657
+[09/10/2023 03:21:54]       INFO: Inserting 8388605/8388606 -repetition 658
+[09/10/2023 03:21:54]       INFO: Inserting 8388605/8388606 -repetition 659
+[09/10/2023 03:21:54]       INFO: Inserting 8388605/8388606 -repetition 660
+[09/10/2023 03:21:55]       INFO: Inserting 8388605/8388606 -repetition 661
+[09/10/2023 03:21:55]       INFO: Inserting 8388605/8388606 -repetition 662
+[09/10/2023 03:21:55]       INFO: Inserting 8388605/8388606 -repetition 663
+[09/10/2023 03:21:56]       INFO: Inserting 8388605/8388606 -repetition 664
+[09/10/2023 03:21:56]       INFO: Inserting 8388605/8388606 -repetition 665
+[09/10/2023 03:21:56]       INFO: Inserting 8388605/8388606 -repetition 666
+[09/10/2023 03:21:56]       INFO: Inserting 8388605/8388606 -repetition 667
+[09/10/2023 03:21:57]       INFO: Inserting 8388605/8388606 -repetition 668
+[09/10/2023 03:21:57]       INFO: Inserting 8388605/8388606 -repetition 669
+[09/10/2023 03:21:57]       INFO: Inserting 8388605/8388606 -repetition 670
+[09/10/2023 03:21:57]       INFO: Inserting 8388605/8388606 -repetition 671
+[09/10/2023 03:21:58]       INFO: Inserting 8388605/8388606 -repetition 672
+[09/10/2023 03:21:58]       INFO: Inserting 8388605/8388606 -repetition 673
+[09/10/2023 03:21:58]       INFO: Inserting 8388605/8388606 -repetition 674
+[09/10/2023 03:21:58]       INFO: Inserting 8388605/8388606 -repetition 675
+[09/10/2023 03:21:59]       INFO: Inserting 8388605/8388606 -repetition 676
+[09/10/2023 03:21:59]       INFO: Inserting 8388605/8388606 -repetition 677
+[09/10/2023 03:21:59]       INFO: Inserting 8388605/8388606 -repetition 678
+[09/10/2023 03:21:59]       INFO: Inserting 8388605/8388606 -repetition 679
+[09/10/2023 03:22:00]       INFO: Inserting 8388605/8388606 -repetition 680
+[09/10/2023 03:22:00]       INFO: Inserting 8388605/8388606 -repetition 681
+[09/10/2023 03:22:00]       INFO: Inserting 8388605/8388606 -repetition 682
+[09/10/2023 03:22:01]       INFO: Inserting 8388605/8388606 -repetition 683
+[09/10/2023 03:22:01]       INFO: Inserting 8388605/8388606 -repetition 684
+[09/10/2023 03:22:01]       INFO: Inserting 8388605/8388606 -repetition 685
+[09/10/2023 03:22:01]       INFO: Inserting 8388605/8388606 -repetition 686
+[09/10/2023 03:22:02]       INFO: Inserting 8388605/8388606 -repetition 687
+[09/10/2023 03:22:02]       INFO: Inserting 8388605/8388606 -repetition 688
+[09/10/2023 03:22:02]       INFO: Inserting 8388605/8388606 -repetition 689
+[09/10/2023 03:22:02]       INFO: Inserting 8388605/8388606 -repetition 690
+[09/10/2023 03:22:03]       INFO: Inserting 8388605/8388606 -repetition 691
+[09/10/2023 03:22:03]       INFO: Inserting 8388605/8388606 -repetition 692
+[09/10/2023 03:22:03]       INFO: Inserting 8388605/8388606 -repetition 693
+[09/10/2023 03:22:03]       INFO: Inserting 8388605/8388606 -repetition 694
+[09/10/2023 03:22:04]       INFO: Inserting 8388605/8388606 -repetition 695
+[09/10/2023 03:22:04]       INFO: Inserting 8388605/8388606 -repetition 696
+[09/10/2023 03:22:04]       INFO: Inserting 8388605/8388606 -repetition 697
+[09/10/2023 03:22:04]       INFO: Inserting 8388605/8388606 -repetition 698
+[09/10/2023 03:22:05]       INFO: Inserting 8388605/8388606 -repetition 699
+[09/10/2023 03:22:05]       INFO: Inserting 8388605/8388606 -repetition 700
+[09/10/2023 03:22:05]       INFO: Inserting 8388605/8388606 -repetition 701
+[09/10/2023 03:22:05]       INFO: Inserting 8388605/8388606 -repetition 702
+[09/10/2023 03:22:06]       INFO: Inserting 8388605/8388606 -repetition 703
+[09/10/2023 03:22:06]       INFO: Inserting 8388605/8388606 -repetition 704
+[09/10/2023 03:22:06]       INFO: Inserting 8388605/8388606 -repetition 705
+[09/10/2023 03:22:07]       INFO: Inserting 8388605/8388606 -repetition 706
+[09/10/2023 03:22:07]       INFO: Inserting 8388605/8388606 -repetition 707
+[09/10/2023 03:22:07]       INFO: Inserting 8388605/8388606 -repetition 708
+[09/10/2023 03:22:07]       INFO: Inserting 8388605/8388606 -repetition 709
+[09/10/2023 03:22:08]       INFO: Inserting 8388605/8388606 -repetition 710
+[09/10/2023 03:22:08]       INFO: Inserting 8388605/8388606 -repetition 711
+[09/10/2023 03:22:08]       INFO: Inserting 8388605/8388606 -repetition 712
+[09/10/2023 03:22:08]       INFO: Inserting 8388605/8388606 -repetition 713
+[09/10/2023 03:22:09]       INFO: Inserting 8388605/8388606 -repetition 714
+[09/10/2023 03:22:09]       INFO: Inserting 8388605/8388606 -repetition 715
+[09/10/2023 03:22:09]       INFO: Inserting 8388605/8388606 -repetition 716
+[09/10/2023 03:22:09]       INFO: Inserting 8388605/8388606 -repetition 717
+[09/10/2023 03:22:10]       INFO: Inserting 8388605/8388606 -repetition 718
+[09/10/2023 03:22:10]       INFO: Inserting 8388605/8388606 -repetition 719
+[09/10/2023 03:22:10]       INFO: Inserting 8388605/8388606 -repetition 720
+[09/10/2023 03:22:10]       INFO: Inserting 8388605/8388606 -repetition 721
+[09/10/2023 03:22:11]       INFO: Inserting 8388605/8388606 -repetition 722
+[09/10/2023 03:22:11]       INFO: Inserting 8388605/8388606 -repetition 723
+[09/10/2023 03:22:11]       INFO: Inserting 8388605/8388606 -repetition 724
+[09/10/2023 03:22:12]       INFO: Inserting 8388605/8388606 -repetition 725
+[09/10/2023 03:22:12]       INFO: Inserting 8388605/8388606 -repetition 726
+[09/10/2023 03:22:12]       INFO: Inserting 8388605/8388606 -repetition 727
+[09/10/2023 03:22:12]       INFO: Inserting 8388605/8388606 -repetition 728
+[09/10/2023 03:22:13]       INFO: Inserting 8388605/8388606 -repetition 729
+[09/10/2023 03:22:13]       INFO: Inserting 8388605/8388606 -repetition 730
+[09/10/2023 03:22:13]       INFO: Inserting 8388605/8388606 -repetition 731
+[09/10/2023 03:22:13]       INFO: Inserting 8388605/8388606 -repetition 732
+[09/10/2023 03:22:14]       INFO: Inserting 8388605/8388606 -repetition 733
+[09/10/2023 03:22:14]       INFO: Inserting 8388605/8388606 -repetition 734
+[09/10/2023 03:22:14]       INFO: Inserting 8388605/8388606 -repetition 735
+[09/10/2023 03:22:14]       INFO: Inserting 8388605/8388606 -repetition 736
+[09/10/2023 03:22:15]       INFO: Inserting 8388605/8388606 -repetition 737
+[09/10/2023 03:22:15]       INFO: Inserting 8388605/8388606 -repetition 738
+[09/10/2023 03:22:15]       INFO: Inserting 8388605/8388606 -repetition 739
+[09/10/2023 03:22:15]       INFO: Inserting 8388605/8388606 -repetition 740
+[09/10/2023 03:22:16]       INFO: Inserting 8388605/8388606 -repetition 741
+[09/10/2023 03:22:16]       INFO: Inserting 8388605/8388606 -repetition 742
+[09/10/2023 03:22:16]       INFO: Inserting 8388605/8388606 -repetition 743
+[09/10/2023 03:22:16]       INFO: Inserting 8388605/8388606 -repetition 744
+[09/10/2023 03:22:17]       INFO: Inserting 8388605/8388606 -repetition 745
+[09/10/2023 03:22:17]       INFO: Inserting 8388605/8388606 -repetition 746
+[09/10/2023 03:22:17]       INFO: Inserting 8388605/8388606 -repetition 747
+[09/10/2023 03:22:18]       INFO: Inserting 8388605/8388606 -repetition 748
+[09/10/2023 03:22:18]       INFO: Inserting 8388605/8388606 -repetition 749
+[09/10/2023 03:22:18]       INFO: Inserting 8388605/8388606 -repetition 750
+[09/10/2023 03:22:18]       INFO: Inserting 8388605/8388606 -repetition 751
+[09/10/2023 03:22:19]       INFO: Inserting 8388605/8388606 -repetition 752
+[09/10/2023 03:22:19]       INFO: Inserting 8388605/8388606 -repetition 753
+[09/10/2023 03:22:19]       INFO: Inserting 8388605/8388606 -repetition 754
+[09/10/2023 03:22:19]       INFO: Inserting 8388605/8388606 -repetition 755
+[09/10/2023 03:22:20]       INFO: Inserting 8388605/8388606 -repetition 756
+[09/10/2023 03:22:20]       INFO: Inserting 8388605/8388606 -repetition 757
+[09/10/2023 03:22:20]       INFO: Inserting 8388605/8388606 -repetition 758
+[09/10/2023 03:22:20]       INFO: Inserting 8388605/8388606 -repetition 759
+[09/10/2023 03:22:21]       INFO: Inserting 8388605/8388606 -repetition 760
+[09/10/2023 03:22:21]       INFO: Inserting 8388605/8388606 -repetition 761
+[09/10/2023 03:22:21]       INFO: Inserting 8388605/8388606 -repetition 762
+[09/10/2023 03:22:21]       INFO: Inserting 8388605/8388606 -repetition 763
+[09/10/2023 03:22:22]       INFO: Inserting 8388605/8388606 -repetition 764
+[09/10/2023 03:22:22]       INFO: Inserting 8388605/8388606 -repetition 765
+[09/10/2023 03:22:22]       INFO: Inserting 8388605/8388606 -repetition 766
+[09/10/2023 03:22:23]       INFO: Inserting 8388605/8388606 -repetition 767
+[09/10/2023 03:22:23]       INFO: Inserting 8388605/8388606 -repetition 768
+[09/10/2023 03:22:23]       INFO: Inserting 8388605/8388606 -repetition 769
+[09/10/2023 03:22:23]       INFO: Inserting 8388605/8388606 -repetition 770
+[09/10/2023 03:22:24]       INFO: Inserting 8388605/8388606 -repetition 771
+[09/10/2023 03:22:24]       INFO: Inserting 8388605/8388606 -repetition 772
+[09/10/2023 03:22:24]       INFO: Inserting 8388605/8388606 -repetition 773
+[09/10/2023 03:22:24]       INFO: Inserting 8388605/8388606 -repetition 774
+[09/10/2023 03:22:25]       INFO: Inserting 8388605/8388606 -repetition 775
+[09/10/2023 03:22:25]       INFO: Inserting 8388605/8388606 -repetition 776
+[09/10/2023 03:22:25]       INFO: Inserting 8388605/8388606 -repetition 777
+[09/10/2023 03:22:25]       INFO: Inserting 8388605/8388606 -repetition 778
+[09/10/2023 03:22:26]       INFO: Inserting 8388605/8388606 -repetition 779
+[09/10/2023 03:22:26]       INFO: Inserting 8388605/8388606 -repetition 780
+[09/10/2023 03:22:26]       INFO: Inserting 8388605/8388606 -repetition 781
+[09/10/2023 03:22:26]       INFO: Inserting 8388605/8388606 -repetition 782
+[09/10/2023 03:22:27]       INFO: Inserting 8388605/8388606 -repetition 783
+[09/10/2023 03:22:27]       INFO: Inserting 8388605/8388606 -repetition 784
+[09/10/2023 03:22:27]       INFO: Inserting 8388605/8388606 -repetition 785
+[09/10/2023 03:22:27]       INFO: Inserting 8388605/8388606 -repetition 786
+[09/10/2023 03:22:28]       INFO: Inserting 8388605/8388606 -repetition 787
+[09/10/2023 03:22:28]       INFO: Inserting 8388605/8388606 -repetition 788
+[09/10/2023 03:22:28]       INFO: Inserting 8388605/8388606 -repetition 789
+[09/10/2023 03:22:29]       INFO: Inserting 8388605/8388606 -repetition 790
+[09/10/2023 03:22:29]       INFO: Inserting 8388605/8388606 -repetition 791
+[09/10/2023 03:22:29]       INFO: Inserting 8388605/8388606 -repetition 792
+[09/10/2023 03:22:29]       INFO: Inserting 8388605/8388606 -repetition 793
+[09/10/2023 03:22:30]       INFO: Inserting 8388605/8388606 -repetition 794
+[09/10/2023 03:22:30]       INFO: Inserting 8388605/8388606 -repetition 795
+[09/10/2023 03:22:30]       INFO: Inserting 8388605/8388606 -repetition 796
+[09/10/2023 03:22:30]       INFO: Inserting 8388605/8388606 -repetition 797
+[09/10/2023 03:22:31]       INFO: Inserting 8388605/8388606 -repetition 798
+[09/10/2023 03:22:31]       INFO: Inserting 8388605/8388606 -repetition 799
+[09/10/2023 03:22:31]       INFO: Inserting 8388605/8388606 -repetition 800
+[09/10/2023 03:22:31]       INFO: Inserting 8388605/8388606 -repetition 801
+[09/10/2023 03:22:32]       INFO: Inserting 8388605/8388606 -repetition 802
+[09/10/2023 03:22:32]       INFO: Inserting 8388605/8388606 -repetition 803
+[09/10/2023 03:22:32]       INFO: Inserting 8388605/8388606 -repetition 804
+[09/10/2023 03:22:32]       INFO: Inserting 8388605/8388606 -repetition 805
+[09/10/2023 03:22:33]       INFO: Inserting 8388605/8388606 -repetition 806
+[09/10/2023 03:22:33]       INFO: Inserting 8388605/8388606 -repetition 807
+[09/10/2023 03:22:33]       INFO: Inserting 8388605/8388606 -repetition 808
+[09/10/2023 03:22:34]       INFO: Inserting 8388605/8388606 -repetition 809
+[09/10/2023 03:22:34]       INFO: Inserting 8388605/8388606 -repetition 810
+[09/10/2023 03:22:34]       INFO: Inserting 8388605/8388606 -repetition 811
+[09/10/2023 03:22:34]       INFO: Inserting 8388605/8388606 -repetition 812
+[09/10/2023 03:22:35]       INFO: Inserting 8388605/8388606 -repetition 813
+[09/10/2023 03:22:35]       INFO: Inserting 8388605/8388606 -repetition 814
+[09/10/2023 03:22:35]       INFO: Inserting 8388605/8388606 -repetition 815
+[09/10/2023 03:22:35]       INFO: Inserting 8388605/8388606 -repetition 816
+[09/10/2023 03:22:36]       INFO: Inserting 8388605/8388606 -repetition 817
+[09/10/2023 03:22:36]       INFO: Inserting 8388605/8388606 -repetition 818
+[09/10/2023 03:22:36]       INFO: Inserting 8388605/8388606 -repetition 819
+[09/10/2023 03:22:36]       INFO: Inserting 8388605/8388606 -repetition 820
+[09/10/2023 03:22:37]       INFO: Inserting 8388605/8388606 -repetition 821
+[09/10/2023 03:22:37]       INFO: Inserting 8388605/8388606 -repetition 822
+[09/10/2023 03:22:37]       INFO: Inserting 8388605/8388606 -repetition 823
+[09/10/2023 03:22:37]       INFO: Inserting 8388605/8388606 -repetition 824
+[09/10/2023 03:22:38]       INFO: Inserting 8388605/8388606 -repetition 825
+[09/10/2023 03:22:38]       INFO: Inserting 8388605/8388606 -repetition 826
+[09/10/2023 03:22:38]       INFO: Inserting 8388605/8388606 -repetition 827
+[09/10/2023 03:22:39]       INFO: Inserting 8388605/8388606 -repetition 828
+[09/10/2023 03:22:39]       INFO: Inserting 8388605/8388606 -repetition 829
+[09/10/2023 03:22:39]       INFO: Inserting 8388605/8388606 -repetition 830
+[09/10/2023 03:22:39]       INFO: Inserting 8388605/8388606 -repetition 831
+[09/10/2023 03:22:40]       INFO: Inserting 8388605/8388606 -repetition 832
+[09/10/2023 03:22:40]       INFO: Inserting 8388605/8388606 -repetition 833
+[09/10/2023 03:22:40]       INFO: Inserting 8388605/8388606 -repetition 834
+[09/10/2023 03:22:40]       INFO: Inserting 8388605/8388606 -repetition 835
+[09/10/2023 03:22:41]       INFO: Inserting 8388605/8388606 -repetition 836
+[09/10/2023 03:22:41]       INFO: Inserting 8388605/8388606 -repetition 837
+[09/10/2023 03:22:41]       INFO: Inserting 8388605/8388606 -repetition 838
+[09/10/2023 03:22:41]       INFO: Inserting 8388605/8388606 -repetition 839
+[09/10/2023 03:22:42]       INFO: Inserting 8388605/8388606 -repetition 840
+[09/10/2023 03:22:42]       INFO: Inserting 8388605/8388606 -repetition 841
+[09/10/2023 03:22:42]       INFO: Inserting 8388605/8388606 -repetition 842
+[09/10/2023 03:22:42]       INFO: Inserting 8388605/8388606 -repetition 843
+[09/10/2023 03:22:43]       INFO: Inserting 8388605/8388606 -repetition 844
+[09/10/2023 03:22:43]       INFO: Inserting 8388605/8388606 -repetition 845
+[09/10/2023 03:22:43]       INFO: Inserting 8388605/8388606 -repetition 846
+[09/10/2023 03:22:43]       INFO: Inserting 8388605/8388606 -repetition 847
+[09/10/2023 03:22:44]       INFO: Inserting 8388605/8388606 -repetition 848
+[09/10/2023 03:22:44]       INFO: Inserting 8388605/8388606 -repetition 849
+[09/10/2023 03:22:44]       INFO: Inserting 8388605/8388606 -repetition 850
+[09/10/2023 03:22:45]       INFO: Inserting 8388605/8388606 -repetition 851
+[09/10/2023 03:22:45]       INFO: Inserting 8388605/8388606 -repetition 852
+[09/10/2023 03:22:45]       INFO: Inserting 8388605/8388606 -repetition 853
+[09/10/2023 03:22:45]       INFO: Inserting 8388605/8388606 -repetition 854
+[09/10/2023 03:22:46]       INFO: Inserting 8388605/8388606 -repetition 855
+[09/10/2023 03:22:46]       INFO: Inserting 8388605/8388606 -repetition 856
+[09/10/2023 03:22:46]       INFO: Inserting 8388605/8388606 -repetition 857
+[09/10/2023 03:22:46]       INFO: Inserting 8388605/8388606 -repetition 858
+[09/10/2023 03:22:47]       INFO: Inserting 8388605/8388606 -repetition 859
+[09/10/2023 03:22:47]       INFO: Inserting 8388605/8388606 -repetition 860
+[09/10/2023 03:22:47]       INFO: Inserting 8388605/8388606 -repetition 861
+[09/10/2023 03:22:47]       INFO: Inserting 8388605/8388606 -repetition 862
+[09/10/2023 03:22:48]       INFO: Inserting 8388605/8388606 -repetition 863
+[09/10/2023 03:22:48]       INFO: Inserting 8388605/8388606 -repetition 864
+[09/10/2023 03:22:48]       INFO: Inserting 8388605/8388606 -repetition 865
+[09/10/2023 03:22:48]       INFO: Inserting 8388605/8388606 -repetition 866
+[09/10/2023 03:22:49]       INFO: Inserting 8388605/8388606 -repetition 867
+[09/10/2023 03:22:49]       INFO: Inserting 8388605/8388606 -repetition 868
+[09/10/2023 03:22:49]       INFO: Inserting 8388605/8388606 -repetition 869
+[09/10/2023 03:22:49]       INFO: Inserting 8388605/8388606 -repetition 870
+[09/10/2023 03:22:50]       INFO: Inserting 8388605/8388606 -repetition 871
+[09/10/2023 03:22:50]       INFO: Inserting 8388605/8388606 -repetition 872
+[09/10/2023 03:22:50]       INFO: Inserting 8388605/8388606 -repetition 873
+[09/10/2023 03:22:51]       INFO: Inserting 8388605/8388606 -repetition 874
+[09/10/2023 03:22:51]       INFO: Inserting 8388605/8388606 -repetition 875
+[09/10/2023 03:22:51]       INFO: Inserting 8388605/8388606 -repetition 876
+[09/10/2023 03:22:51]       INFO: Inserting 8388605/8388606 -repetition 877
+[09/10/2023 03:22:52]       INFO: Inserting 8388605/8388606 -repetition 878
+[09/10/2023 03:22:52]       INFO: Inserting 8388605/8388606 -repetition 879
+[09/10/2023 03:22:52]       INFO: Inserting 8388605/8388606 -repetition 880
+[09/10/2023 03:22:52]       INFO: Inserting 8388605/8388606 -repetition 881
+[09/10/2023 03:22:53]       INFO: Inserting 8388605/8388606 -repetition 882
+[09/10/2023 03:22:53]       INFO: Inserting 8388605/8388606 -repetition 883
+[09/10/2023 03:22:53]       INFO: Inserting 8388605/8388606 -repetition 884
+[09/10/2023 03:22:53]       INFO: Inserting 8388605/8388606 -repetition 885
+[09/10/2023 03:22:54]       INFO: Inserting 8388605/8388606 -repetition 886
+[09/10/2023 03:22:54]       INFO: Inserting 8388605/8388606 -repetition 887
+[09/10/2023 03:22:54]       INFO: Inserting 8388605/8388606 -repetition 888
+[09/10/2023 03:22:54]       INFO: Inserting 8388605/8388606 -repetition 889
+[09/10/2023 03:22:55]       INFO: Inserting 8388605/8388606 -repetition 890
+[09/10/2023 03:22:55]       INFO: Inserting 8388605/8388606 -repetition 891
+[09/10/2023 03:22:55]       INFO: Inserting 8388605/8388606 -repetition 892
+[09/10/2023 03:22:56]       INFO: Inserting 8388605/8388606 -repetition 893
+[09/10/2023 03:22:56]       INFO: Inserting 8388605/8388606 -repetition 894
+[09/10/2023 03:22:56]       INFO: Inserting 8388605/8388606 -repetition 895
+[09/10/2023 03:22:56]       INFO: Inserting 8388605/8388606 -repetition 896
+[09/10/2023 03:22:57]       INFO: Inserting 8388605/8388606 -repetition 897
+[09/10/2023 03:22:57]       INFO: Inserting 8388605/8388606 -repetition 898
+[09/10/2023 03:22:57]       INFO: Inserting 8388605/8388606 -repetition 899
+[09/10/2023 03:22:57]       INFO: Inserting 8388605/8388606 -repetition 900
+[09/10/2023 03:22:58]       INFO: Inserting 8388605/8388606 -repetition 901
+[09/10/2023 03:22:58]       INFO: Inserting 8388605/8388606 -repetition 902
+[09/10/2023 03:22:58]       INFO: Inserting 8388605/8388606 -repetition 903
+[09/10/2023 03:22:58]       INFO: Inserting 8388605/8388606 -repetition 904
+[09/10/2023 03:22:59]       INFO: Inserting 8388605/8388606 -repetition 905
+[09/10/2023 03:22:59]       INFO: Inserting 8388605/8388606 -repetition 906
+[09/10/2023 03:22:59]       INFO: Inserting 8388605/8388606 -repetition 907
+[09/10/2023 03:22:59]       INFO: Inserting 8388605/8388606 -repetition 908
+[09/10/2023 03:23:00]       INFO: Inserting 8388605/8388606 -repetition 909
+[09/10/2023 03:23:00]       INFO: Inserting 8388605/8388606 -repetition 910
+[09/10/2023 03:23:00]       INFO: Inserting 8388605/8388606 -repetition 911
+[09/10/2023 03:23:00]       INFO: Inserting 8388605/8388606 -repetition 912
+[09/10/2023 03:23:01]       INFO: Inserting 8388605/8388606 -repetition 913
+[09/10/2023 03:23:01]       INFO: Inserting 8388605/8388606 -repetition 914
+[09/10/2023 03:23:01]       INFO: Inserting 8388605/8388606 -repetition 915
+[09/10/2023 03:23:02]       INFO: Inserting 8388605/8388606 -repetition 916
+[09/10/2023 03:23:02]       INFO: Inserting 8388605/8388606 -repetition 917
+[09/10/2023 03:23:02]       INFO: Inserting 8388605/8388606 -repetition 918
+[09/10/2023 03:23:02]       INFO: Inserting 8388605/8388606 -repetition 919
+[09/10/2023 03:23:03]       INFO: Inserting 8388605/8388606 -repetition 920
+[09/10/2023 03:23:03]       INFO: Inserting 8388605/8388606 -repetition 921
+[09/10/2023 03:23:03]       INFO: Inserting 8388605/8388606 -repetition 922
+[09/10/2023 03:23:03]       INFO: Inserting 8388605/8388606 -repetition 923
+[09/10/2023 03:23:04]       INFO: Inserting 8388605/8388606 -repetition 924
+[09/10/2023 03:23:04]       INFO: Inserting 8388605/8388606 -repetition 925
+[09/10/2023 03:23:04]       INFO: Inserting 8388605/8388606 -repetition 926
+[09/10/2023 03:23:04]       INFO: Inserting 8388605/8388606 -repetition 927
+[09/10/2023 03:23:05]       INFO: Inserting 8388605/8388606 -repetition 928
+[09/10/2023 03:23:05]       INFO: Inserting 8388605/8388606 -repetition 929
+[09/10/2023 03:23:05]       INFO: Inserting 8388605/8388606 -repetition 930
+[09/10/2023 03:23:05]       INFO: Inserting 8388605/8388606 -repetition 931
+[09/10/2023 03:23:06]       INFO: Inserting 8388605/8388606 -repetition 932
+[09/10/2023 03:23:06]       INFO: Inserting 8388605/8388606 -repetition 933
+[09/10/2023 03:23:06]       INFO: Inserting 8388605/8388606 -repetition 934
+[09/10/2023 03:23:06]       INFO: Inserting 8388605/8388606 -repetition 935
+[09/10/2023 03:23:07]       INFO: Inserting 8388605/8388606 -repetition 936
+[09/10/2023 03:23:07]       INFO: Inserting 8388605/8388606 -repetition 937
+[09/10/2023 03:23:07]       INFO: Inserting 8388605/8388606 -repetition 938
+[09/10/2023 03:23:08]       INFO: Inserting 8388605/8388606 -repetition 939
+[09/10/2023 03:23:08]       INFO: Inserting 8388605/8388606 -repetition 940
+[09/10/2023 03:23:08]       INFO: Inserting 8388605/8388606 -repetition 941
+[09/10/2023 03:23:08]       INFO: Inserting 8388605/8388606 -repetition 942
+[09/10/2023 03:23:09]       INFO: Inserting 8388605/8388606 -repetition 943
+[09/10/2023 03:23:09]       INFO: Inserting 8388605/8388606 -repetition 944
+[09/10/2023 03:23:09]       INFO: Inserting 8388605/8388606 -repetition 945
+[09/10/2023 03:23:09]       INFO: Inserting 8388605/8388606 -repetition 946
+[09/10/2023 03:23:10]       INFO: Inserting 8388605/8388606 -repetition 947
+[09/10/2023 03:23:10]       INFO: Inserting 8388605/8388606 -repetition 948
+[09/10/2023 03:23:10]       INFO: Inserting 8388605/8388606 -repetition 949
+[09/10/2023 03:23:10]       INFO: Inserting 8388605/8388606 -repetition 950
+[09/10/2023 03:23:11]       INFO: Inserting 8388605/8388606 -repetition 951
+[09/10/2023 03:23:11]       INFO: Inserting 8388605/8388606 -repetition 952
+[09/10/2023 03:23:11]       INFO: Inserting 8388605/8388606 -repetition 953
+[09/10/2023 03:23:11]       INFO: Inserting 8388605/8388606 -repetition 954
+[09/10/2023 03:23:12]       INFO: Inserting 8388605/8388606 -repetition 955
+[09/10/2023 03:23:12]       INFO: Inserting 8388605/8388606 -repetition 956
+[09/10/2023 03:23:12]       INFO: Inserting 8388605/8388606 -repetition 957
+[09/10/2023 03:23:13]       INFO: Inserting 8388605/8388606 -repetition 958
+[09/10/2023 03:23:13]       INFO: Inserting 8388605/8388606 -repetition 959
+[09/10/2023 03:23:13]       INFO: Inserting 8388605/8388606 -repetition 960
+[09/10/2023 03:23:13]       INFO: Inserting 8388605/8388606 -repetition 961
+[09/10/2023 03:23:14]       INFO: Inserting 8388605/8388606 -repetition 962
+[09/10/2023 03:23:14]       INFO: Inserting 8388605/8388606 -repetition 963
+[09/10/2023 03:23:14]       INFO: Inserting 8388605/8388606 -repetition 964
+[09/10/2023 03:23:14]       INFO: Inserting 8388605/8388606 -repetition 965
+[09/10/2023 03:23:15]       INFO: Inserting 8388605/8388606 -repetition 966
+[09/10/2023 03:23:15]       INFO: Inserting 8388605/8388606 -repetition 967
+[09/10/2023 03:23:15]       INFO: Inserting 8388605/8388606 -repetition 968
+[09/10/2023 03:23:15]       INFO: Inserting 8388605/8388606 -repetition 969
+[09/10/2023 03:23:16]       INFO: Inserting 8388605/8388606 -repetition 970
+[09/10/2023 03:23:16]       INFO: Inserting 8388605/8388606 -repetition 971
+[09/10/2023 03:23:16]       INFO: Inserting 8388605/8388606 -repetition 972
+[09/10/2023 03:23:16]       INFO: Inserting 8388605/8388606 -repetition 973
+[09/10/2023 03:23:17]       INFO: Inserting 8388605/8388606 -repetition 974
+[09/10/2023 03:23:17]       INFO: Inserting 8388605/8388606 -repetition 975
+[09/10/2023 03:23:17]       INFO: Inserting 8388605/8388606 -repetition 976
+[09/10/2023 03:23:17]       INFO: Inserting 8388605/8388606 -repetition 977
+[09/10/2023 03:23:18]       INFO: Inserting 8388605/8388606 -repetition 978
+[09/10/2023 03:23:18]       INFO: Inserting 8388605/8388606 -repetition 979
+[09/10/2023 03:23:18]       INFO: Inserting 8388605/8388606 -repetition 980
+[09/10/2023 03:23:19]       INFO: Inserting 8388605/8388606 -repetition 981
+[09/10/2023 03:23:19]       INFO: Inserting 8388605/8388606 -repetition 982
+[09/10/2023 03:23:19]       INFO: Inserting 8388605/8388606 -repetition 983
+[09/10/2023 03:23:19]       INFO: Inserting 8388605/8388606 -repetition 984
+[09/10/2023 03:23:20]       INFO: Inserting 8388605/8388606 -repetition 985
+[09/10/2023 03:23:20]       INFO: Inserting 8388605/8388606 -repetition 986
+[09/10/2023 03:23:20]       INFO: Inserting 8388605/8388606 -repetition 987
+[09/10/2023 03:23:20]       INFO: Inserting 8388605/8388606 -repetition 988
+[09/10/2023 03:23:21]       INFO: Inserting 8388605/8388606 -repetition 989
+[09/10/2023 03:23:21]       INFO: Inserting 8388605/8388606 -repetition 990
+[09/10/2023 03:23:21]       INFO: Inserting 8388605/8388606 -repetition 991
+[09/10/2023 03:23:21]       INFO: Inserting 8388605/8388606 -repetition 992
+[09/10/2023 03:23:22]       INFO: Inserting 8388605/8388606 -repetition 993
+[09/10/2023 03:23:22]       INFO: Inserting 8388605/8388606 -repetition 994
+[09/10/2023 03:23:22]       INFO: Inserting 8388605/8388606 -repetition 995
+[09/10/2023 03:23:22]       INFO: Inserting 8388605/8388606 -repetition 996
+[09/10/2023 03:23:23]       INFO: Inserting 8388605/8388606 -repetition 997
+[09/10/2023 03:23:23]       INFO: Inserting 8388605/8388606 -repetition 998
+[09/10/2023 03:23:23]       INFO: Inserting 8388605/8388606 -repetition 999
+[09/10/2023 03:23:24]       INFO: Put 8388606 datapoints: { duration   53 ms, mean    6 ns}
+[09/10/2023 03:23:24]       INFO: Finished inserting Datapoints
+[09/10/2023 03:23:24]       INFO: Noise Parameters Column 0 - min 10000, max 11000, range 1000
+[09/10/2023 03:23:24]       INFO: this_DP_domain = 1000
+[09/10/2023 03:23:24]       INFO: this_dp_buckets = 512
+[09/10/2023 03:23:24]       INFO: this_dp_levels = 9
+[09/10/2023 03:23:24]       INFO: this_dp_mu = 208
+[09/10/2023 03:23:24]       INFO: Noise Parameters Column 1 - min 10000, max 11000, range 1000
+[09/10/2023 03:23:24]       INFO: this_DP_domain = 1000
+[09/10/2023 03:23:24]       INFO: this_dp_buckets = 512
+[09/10/2023 03:23:24]       INFO: this_dp_levels = 9
+[09/10/2023 03:23:24]       INFO: this_dp_mu = 208
+[09/10/2023 03:23:24]       INFO: Noise Parameters Column 2 - min 10000, max 11000, range 1000
+[09/10/2023 03:23:24]       INFO: this_DP_domain = 1000
+[09/10/2023 03:23:24]       INFO: this_dp_buckets = 512
+[09/10/2023 03:23:24]       INFO: this_dp_levels = 9
+[09/10/2023 03:23:24]       INFO: this_dp_mu = 208
+[09/10/2023 03:23:24]       INFO: Noise Parameters Column 3 - min 10000, max 11000, range 1000
+[09/10/2023 03:23:24]       INFO: this_DP_domain = 1000
+[09/10/2023 03:23:24]       INFO: this_dp_buckets = 512
+[09/10/2023 03:23:24]       INFO: this_dp_levels = 9
+[09/10/2023 03:23:24]       INFO: this_dp_mu = 208
+[09/10/2023 03:23:24]       INFO: Noise Parameters Column 4 - min 10000, max 11000, range 1000
+[09/10/2023 03:23:24]       INFO: this_DP_domain = 1000
+[09/10/2023 03:23:24]       INFO: this_dp_buckets = 512
+[09/10/2023 03:23:24]       INFO: this_dp_levels = 9
+[09/10/2023 03:23:24]       INFO: this_dp_mu = 208
+[09/10/2023 03:23:24]       INFO: Generating DP noise tree...
+[09/10/2023 03:23:24]       INFO: For column 0: DP tree has 1022 elements
+[09/10/2023 03:23:24]       INFO: For column 1: DP tree has 1022 elements
+[09/10/2023 03:23:24]       INFO: For column 2: DP tree has 1022 elements
+[09/10/2023 03:23:24]       INFO: For column 3: DP tree has 1022 elements
+[09/10/2023 03:23:24]       INFO: For column 4: DP tree has 1022 elements
+[09/10/2023 03:23:24]       INFO: Server  transitioned from old state 3 via transition edge 201 to new state 4
+[09/10/2023 03:23:24]       INFO: Running 70 QUERIES...
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 0 toBucket 5 n_from 10000 n_to 10012
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10000, to:10010, pointQuery:0, whereIndex:0, whereFrom:10000, whereTo:10010, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10000,10012]
+[09/10/2023 03:23:24]       INFO: Query   1 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4632 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   26 μs, ORAMs: 4522 μs, after:  771 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 5 toBucket 10 n_from 10010 n_to 10022
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10011, to:10021, pointQuery:0, whereIndex:0, whereFrom:10011, whereTo:10021, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10010,10022]
+[09/10/2023 03:23:24]       INFO: Query   2 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (5922 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 5757 μs, after: 2420 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 11 toBucket 16 n_from 10022 n_to 10034
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10022, to:10032, pointQuery:0, whereIndex:0, whereFrom:10022, whereTo:10032, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10022,10034]
+[09/10/2023 03:23:24]       INFO: Query   3 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (7981 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 7731 μs, after: 3880 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 16 toBucket 21 n_from 10032 n_to 10044
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10033, to:10043, pointQuery:0, whereIndex:0, whereFrom:10033, whereTo:10043, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10032,10044]
+[09/10/2023 03:23:24]       INFO: Query   4 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9351 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9026 μs, after: 5600 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 22 toBucket 27 n_from 10044 n_to 10056
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10044, to:10054, pointQuery:0, whereIndex:0, whereFrom:10044, whereTo:10054, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10044,10056]
+[09/10/2023 03:23:24]       INFO: Query   5 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8200 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 27 toBucket 32 n_from 10054 n_to 10066
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10055, to:10065, pointQuery:0, whereIndex:0, whereFrom:10055, whereTo:10065, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10054,10066]
+[09/10/2023 03:23:24]       INFO: Query   6 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 33 toBucket 38 n_from 10066 n_to 10078
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10066, to:10076, pointQuery:0, whereIndex:0, whereFrom:10066, whereTo:10076, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10066,10078]
+[09/10/2023 03:23:24]       INFO: Query   7 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   13 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 38 toBucket 43 n_from 10076 n_to 10088
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10077, to:10087, pointQuery:0, whereIndex:0, whereFrom:10077, whereTo:10087, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10076,10088]
+[09/10/2023 03:23:24]       INFO: Query   8 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4677 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4582 μs, after:  790 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 44 toBucket 49 n_from 10088 n_to 10100
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10088, to:10098, pointQuery:0, whereIndex:0, whereFrom:10088, whereTo:10098, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10088,10100]
+[09/10/2023 03:23:24]       INFO: Query   9 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6591 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 6420 μs, after: 2250 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 49 toBucket 54 n_from 10098 n_to 10110
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10099, to:10109, pointQuery:0, whereIndex:0, whereFrom:10099, whereTo:10109, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10098,10110]
+[09/10/2023 03:23:24]       INFO: Query  10 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (7992 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 7747 μs, after: 4320 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 55 toBucket 60 n_from 10110 n_to 10122
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10110, to:10120, pointQuery:0, whereIndex:0, whereFrom:10110, whereTo:10120, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10110,10122]
+[09/10/2023 03:23:24]       INFO: Query  11 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9623 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9282 μs, after: 5460 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 60 toBucket 65 n_from 10120 n_to 10132
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10121, to:10131, pointQuery:0, whereIndex:0, whereFrom:10121, whereTo:10131, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10120,10132]
+[09/10/2023 03:23:24]       INFO: Query  12 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8581 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 66 toBucket 71 n_from 10132 n_to 10144
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10132, to:10142, pointQuery:0, whereIndex:0, whereFrom:10132, whereTo:10142, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10132,10144]
+[09/10/2023 03:23:24]       INFO: Query  13 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   11 ms, after: 9950 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 71 toBucket 76 n_from 10142 n_to 10154
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10143, to:10153, pointQuery:0, whereIndex:0, whereFrom:10143, whereTo:10153, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10142,10154]
+[09/10/2023 03:23:24]       INFO: Query  14 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   13 ms, after:   11 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 77 toBucket 82 n_from 10154 n_to 10166
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10154, to:10164, pointQuery:0, whereIndex:0, whereFrom:10154, whereTo:10164, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10154,10166]
+[09/10/2023 03:23:24]       INFO: Query  15 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4716 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4620 μs, after: 1120 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 82 toBucket 87 n_from 10164 n_to 10176
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10165, to:10175, pointQuery:0, whereIndex:0, whereFrom:10165, whereTo:10175, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10164,10176]
+[09/10/2023 03:23:24]       INFO: Query  16 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6761 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 6591 μs, after: 2231 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 88 toBucket 93 n_from 10176 n_to 10188
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10176, to:10186, pointQuery:0, whereIndex:0, whereFrom:10176, whereTo:10186, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10176,10188]
+[09/10/2023 03:23:24]       INFO: Query  17 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8029 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 7770 μs, after: 3900 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 93 toBucket 98 n_from 10186 n_to 10198
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10187, to:10197, pointQuery:0, whereIndex:0, whereFrom:10187, whereTo:10197, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10186,10198]
+[09/10/2023 03:23:24]       INFO: Query  18 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9413 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9088 μs, after: 5391 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 99 toBucket 104 n_from 10198 n_to 10210
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10198, to:10208, pointQuery:0, whereIndex:0, whereFrom:10198, whereTo:10208, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10198,10210]
+[09/10/2023 03:23:24]       INFO: Query  19 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   10 ms, after: 8501 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 104 toBucket 109 n_from 10208 n_to 10220
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10209, to:10219, pointQuery:0, whereIndex:0, whereFrom:10209, whereTo:10219, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10208,10220]
+[09/10/2023 03:23:24]       INFO: Query  20 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 110 toBucket 115 n_from 10220 n_to 10232
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10220, to:10230, pointQuery:0, whereIndex:0, whereFrom:10220, whereTo:10230, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10220,10232]
+[09/10/2023 03:23:24]       INFO: Query  21 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   13 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 115 toBucket 120 n_from 10230 n_to 10242
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10231, to:10241, pointQuery:0, whereIndex:0, whereFrom:10231, whereTo:10241, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10230,10242]
+[09/10/2023 03:23:24]       INFO: Query  22 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4701 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4606 μs, after:  750 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 121 toBucket 126 n_from 10242 n_to 10254
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10242, to:10252, pointQuery:0, whereIndex:0, whereFrom:10242, whereTo:10252, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10242,10254]
+[09/10/2023 03:23:24]       INFO: Query  23 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6590 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 6419 μs, after: 2421 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 126 toBucket 131 n_from 10252 n_to 10264
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10253, to:10263, pointQuery:0, whereIndex:0, whereFrom:10253, whereTo:10263, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10252,10264]
+[09/10/2023 03:23:24]       INFO: Query  24 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8039 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 7791 μs, after: 3850 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 132 toBucket 137 n_from 10264 n_to 10276
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10264, to:10274, pointQuery:0, whereIndex:0, whereFrom:10264, whereTo:10274, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10264,10276]
+[09/10/2023 03:23:24]       INFO: Query  25 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9451 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9125 μs, after: 5341 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 137 toBucket 142 n_from 10274 n_to 10286
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10275, to:10285, pointQuery:0, whereIndex:0, whereFrom:10275, whereTo:10285, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10274,10286]
+[09/10/2023 03:23:24]       INFO: Query  26 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8581 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 143 toBucket 148 n_from 10286 n_to 10298
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10286, to:10296, pointQuery:0, whereIndex:0, whereFrom:10286, whereTo:10296, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10286,10298]
+[09/10/2023 03:23:24]       INFO: Query  27 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 148 toBucket 153 n_from 10296 n_to 10308
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10297, to:10307, pointQuery:0, whereIndex:0, whereFrom:10297, whereTo:10307, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10296,10308]
+[09/10/2023 03:23:24]       INFO: Query  28 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   14 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 154 toBucket 159 n_from 10308 n_to 10320
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10308, to:10318, pointQuery:0, whereIndex:0, whereFrom:10308, whereTo:10318, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10308,10320]
+[09/10/2023 03:23:24]       INFO: Query  29 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4690 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4587 μs, after:  800 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 159 toBucket 164 n_from 10318 n_to 10330
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10319, to:10329, pointQuery:0, whereIndex:0, whereFrom:10319, whereTo:10329, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10318,10330]
+[09/10/2023 03:23:24]       INFO: Query  30 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6594 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 6419 μs, after: 2320 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 165 toBucket 170 n_from 10330 n_to 10342
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10330, to:10340, pointQuery:0, whereIndex:0, whereFrom:10330, whereTo:10340, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10330,10342]
+[09/10/2023 03:23:24]       INFO: Query  31 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8007 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 7760 μs, after: 3780 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 170 toBucket 175 n_from 10340 n_to 10352
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10341, to:10351, pointQuery:0, whereIndex:0, whereFrom:10341, whereTo:10351, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10340,10352]
+[09/10/2023 03:23:24]       INFO: Query  32 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9456 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9132 μs, after: 5560 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 176 toBucket 181 n_from 10352 n_to 10364
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10352, to:10362, pointQuery:0, whereIndex:0, whereFrom:10352, whereTo:10362, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10352,10364]
+[09/10/2023 03:23:24]       INFO: Query  33 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8750 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 181 toBucket 186 n_from 10362 n_to 10374
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10363, to:10373, pointQuery:0, whereIndex:0, whereFrom:10363, whereTo:10373, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10362,10374]
+[09/10/2023 03:23:24]       INFO: Query  34 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 187 toBucket 192 n_from 10374 n_to 10386
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10374, to:10384, pointQuery:0, whereIndex:0, whereFrom:10374, whereTo:10384, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10374,10386]
+[09/10/2023 03:23:24]       INFO: Query  35 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   13 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 192 toBucket 197 n_from 10384 n_to 10396
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10385, to:10395, pointQuery:0, whereIndex:0, whereFrom:10385, whereTo:10395, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10384,10396]
+[09/10/2023 03:23:24]       INFO: Query  36 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4687 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 4593 μs, after:  851 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 198 toBucket 203 n_from 10396 n_to 10408
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10396, to:10406, pointQuery:0, whereIndex:0, whereFrom:10396, whereTo:10406, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10396,10408]
+[09/10/2023 03:23:24]       INFO: Query  37 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6599 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 6429 μs, after: 2170 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 203 toBucket 208 n_from 10406 n_to 10418
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10407, to:10417, pointQuery:0, whereIndex:0, whereFrom:10407, whereTo:10417, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10406,10418]
+[09/10/2023 03:23:24]       INFO: Query  38 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8275 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 8027 μs, after: 3891 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 209 toBucket 214 n_from 10418 n_to 10430
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10418, to:10428, pointQuery:0, whereIndex:0, whereFrom:10418, whereTo:10428, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10418,10430]
+[09/10/2023 03:23:24]       INFO: Query  39 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9469 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9147 μs, after: 5361 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 214 toBucket 219 n_from 10428 n_to 10440
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10429, to:10439, pointQuery:0, whereIndex:0, whereFrom:10429, whereTo:10439, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10428,10440]
+[09/10/2023 03:23:24]       INFO: Query  40 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8430 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 220 toBucket 225 n_from 10440 n_to 10452
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10440, to:10450, pointQuery:0, whereIndex:0, whereFrom:10440, whereTo:10450, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10440,10452]
+[09/10/2023 03:23:24]       INFO: Query  41 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 225 toBucket 230 n_from 10450 n_to 10462
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10451, to:10461, pointQuery:0, whereIndex:0, whereFrom:10451, whereTo:10461, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10450,10462]
+[09/10/2023 03:23:24]       INFO: Query  42 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   14 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 231 toBucket 236 n_from 10462 n_to 10474
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10462, to:10472, pointQuery:0, whereIndex:0, whereFrom:10462, whereTo:10472, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10462,10474]
+[09/10/2023 03:23:24]       INFO: Query  43 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4731 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4635 μs, after:  800 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 236 toBucket 241 n_from 10472 n_to 10484
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10473, to:10483, pointQuery:0, whereIndex:0, whereFrom:10473, whereTo:10483, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10472,10484]
+[09/10/2023 03:23:24]       INFO: Query  44 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6589 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before: 9930 ns, ORAMs: 6419 μs, after: 2201 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 242 toBucket 247 n_from 10484 n_to 10496
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10484, to:10494, pointQuery:0, whereIndex:0, whereFrom:10484, whereTo:10494, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10484,10496]
+[09/10/2023 03:23:24]       INFO: Query  45 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8170 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 7923 μs, after: 3900 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 247 toBucket 252 n_from 10494 n_to 10506
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10495, to:10505, pointQuery:0, whereIndex:0, whereFrom:10495, whereTo:10505, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10494,10506]
+[09/10/2023 03:23:24]       INFO: Query  46 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9441 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9115 μs, after: 5110 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 253 toBucket 258 n_from 10506 n_to 10518
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10506, to:10516, pointQuery:0, whereIndex:0, whereFrom:10506, whereTo:10516, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10506,10518]
+[09/10/2023 03:23:24]       INFO: Query  47 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8760 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 258 toBucket 263 n_from 10516 n_to 10528
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10517, to:10527, pointQuery:0, whereIndex:0, whereFrom:10517, whereTo:10527, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10516,10528]
+[09/10/2023 03:23:24]       INFO: Query  48 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   12 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 264 toBucket 269 n_from 10528 n_to 10540
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10528, to:10538, pointQuery:0, whereIndex:0, whereFrom:10528, whereTo:10538, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10528,10540]
+[09/10/2023 03:23:24]       INFO: Query  49 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   13 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 269 toBucket 274 n_from 10538 n_to 10550
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10539, to:10549, pointQuery:0, whereIndex:0, whereFrom:10539, whereTo:10549, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10538,10550]
+[09/10/2023 03:23:24]       INFO: Query  50 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4747 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4653 μs, after:  780 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 275 toBucket 280 n_from 10550 n_to 10562
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10550, to:10560, pointQuery:0, whereIndex:0, whereFrom:10550, whereTo:10560, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10550,10562]
+[09/10/2023 03:23:24]       INFO: Query  51 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6649 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 6478 μs, after: 2270 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 280 toBucket 285 n_from 10560 n_to 10572
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10561, to:10571, pointQuery:0, whereIndex:0, whereFrom:10561, whereTo:10571, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10560,10572]
+[09/10/2023 03:23:24]       INFO: Query  52 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8084 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 7836 μs, after: 3750 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 286 toBucket 291 n_from 10572 n_to 10584
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10572, to:10582, pointQuery:0, whereIndex:0, whereFrom:10572, whereTo:10582, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10572,10584]
+[09/10/2023 03:23:24]       INFO: Query  53 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9474 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9149 μs, after: 5361 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 291 toBucket 296 n_from 10582 n_to 10594
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10583, to:10593, pointQuery:0, whereIndex:0, whereFrom:10583, whereTo:10593, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10582,10594]
+[09/10/2023 03:23:24]       INFO: Query  54 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8531 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 297 toBucket 302 n_from 10594 n_to 10606
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10594, to:10604, pointQuery:0, whereIndex:0, whereFrom:10594, whereTo:10604, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10594,10606]
+[09/10/2023 03:23:24]       INFO: Query  55 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 302 toBucket 307 n_from 10604 n_to 10616
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10605, to:10615, pointQuery:0, whereIndex:0, whereFrom:10605, whereTo:10615, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10604,10616]
+[09/10/2023 03:23:24]       INFO: Query  56 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   13 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 308 toBucket 313 n_from 10616 n_to 10628
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10616, to:10626, pointQuery:0, whereIndex:0, whereFrom:10616, whereTo:10626, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10616,10628]
+[09/10/2023 03:23:24]       INFO: Query  57 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4723 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4629 μs, after:  911 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 313 toBucket 318 n_from 10626 n_to 10638
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10627, to:10637, pointQuery:0, whereIndex:0, whereFrom:10627, whereTo:10637, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10626,10638]
+[09/10/2023 03:23:24]       INFO: Query  58 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6593 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before: 9991 ns, ORAMs: 6422 μs, after: 2440 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 319 toBucket 324 n_from 10638 n_to 10650
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10638, to:10648, pointQuery:0, whereIndex:0, whereFrom:10638, whereTo:10648, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10638,10650]
+[09/10/2023 03:23:24]       INFO: Query  59 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8050 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 7803 μs, after: 3831 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 324 toBucket 329 n_from 10648 n_to 10660
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10649, to:10659, pointQuery:0, whereIndex:0, whereFrom:10649, whereTo:10659, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10648,10660]
+[09/10/2023 03:23:24]       INFO: Query  60 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9477 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9154 μs, after: 5270 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 330 toBucket 335 n_from 10660 n_to 10672
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10660, to:10670, pointQuery:0, whereIndex:0, whereFrom:10660, whereTo:10670, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10660,10672]
+[09/10/2023 03:23:24]       INFO: Query  61 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  11 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8310 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 335 toBucket 340 n_from 10670 n_to 10682
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10671, to:10681, pointQuery:0, whereIndex:0, whereFrom:10671, whereTo:10681, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10670,10682]
+[09/10/2023 03:23:24]       INFO: Query  62 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 341 toBucket 346 n_from 10682 n_to 10694
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10682, to:10692, pointQuery:0, whereIndex:0, whereFrom:10682, whereTo:10692, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10682,10694]
+[09/10/2023 03:23:24]       INFO: Query  63 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   13 ms, after:   12 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 346 toBucket 351 n_from 10692 n_to 10704
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10693, to:10703, pointQuery:0, whereIndex:0, whereFrom:10693, whereTo:10703, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10692,10704]
+[09/10/2023 03:23:24]       INFO: Query  64 /  70 : real records      0 ( +     0 padding +     1 noise,      1 total) (4715 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   12 μs, ORAMs: 4620 μs, after:  770 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 352 toBucket 357 n_from 10704 n_to 10716
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10704, to:10714, pointQuery:0, whereIndex:0, whereFrom:10704, whereTo:10714, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [10704,10716]
+[09/10/2023 03:23:24]       INFO: Query  65 /  70 : real records      0 ( +     0 padding +    10 noise,     10 total) (6821 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 6649 μs, after: 2190 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 357 toBucket 362 n_from 10714 n_to 10726
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10715, to:10725, pointQuery:0, whereIndex:0, whereFrom:10715, whereTo:10725, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [10714,10726]
+[09/10/2023 03:23:24]       INFO: Query  66 /  70 : real records      0 ( +     0 padding +    20 noise,     20 total) (8226 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   10 μs, ORAMs: 7979 μs, after: 3831 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 363 toBucket 368 n_from 10726 n_to 10738
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10726, to:10736, pointQuery:0, whereIndex:0, whereFrom:10726, whereTo:10736, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [10726,10738]
+[09/10/2023 03:23:24]       INFO: Query  67 /  70 : real records      0 ( +     0 padding +    30 noise,     30 total) (9504 μs, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs: 9178 μs, after: 5670 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 368 toBucket 373 n_from 10736 n_to 10748
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10737, to:10747, pointQuery:0, whereIndex:0, whereFrom:10737, whereTo:10747, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10736,10748]
+[09/10/2023 03:23:24]       INFO: Query  68 /  70 : real records      0 ( +     0 padding +    40 noise,     40 total) (  10 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   10 ms, after: 8470 ns}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 374 toBucket 379 n_from 10748 n_to 10760
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10748, to:10758, pointQuery:0, whereIndex:0, whereFrom:10748, whereTo:10758, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10748,10760]
+[09/10/2023 03:23:24]       INFO: Query  69 /  70 : real records      0 ( +     0 padding +    50 noise,     50 total) (  12 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   11 ms, after:   10 μs}
+[09/10/2023 03:23:24]       INFO: padToBuckets result: fromBucket 379 toBucket 384 n_from 10758 n_to 10770
+[09/10/2023 03:23:24]       INFO: Query: Query[, attributeIndex:0 from:10759, to:10769, pointQuery:0, whereIndex:0, whereFrom:10759, whereTo:10769, agg:0, epsilon:0.0142857, extra:0]
+[09/10/2023 03:23:24]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [10758,10770]
+[09/10/2023 03:23:24]       INFO: Query  70 /  70 : real records      0 ( +     0 padding +    60 noise,     60 total) (  14 ms, or    0 ns / record)
+[09/10/2023 03:23:24]       INFO: Runtime Measurment: {before:   11 μs, ORAMs:   14 ms, after:   11 μs}
+[09/10/2023 03:23:24]       INFO: Server  transitioned from old state 4 via transition edge 401 to new state 5
+[09/10/2023 03:23:24]       INFO: For 70 QUERIES: total: 665 ms, average: 9509 μs / query,  query, 0 ns/ fetched item; (0+0+30=30) records / query
+[09/10/2023 03:23:24]       INFO: Log written to ./results/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/4--2023-10-09-02-37-07--499543313307477.json

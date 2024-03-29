@@ -1,0 +1,59 @@
+         [15/09/2023 15:40:40]       INFO: Generating indices...
+[15/09/2023 15:40:40]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[15/09/2023 15:40:40]       INFO: Constructing synthetic data set and queries...
+[15/09/2023 15:40:40]       INFO: Column 1 - mean  10920.4, std 6.48156 
+[15/09/2023 15:40:40]       INFO: Column 2 - mean  10701.6, std 137.416 
+[15/09/2023 15:40:40]       INFO: Column 3 - mean  10491.4, std 108.831 
+[15/09/2023 15:40:40]       INFO: Column 4 - mean  10396, std 105.092 
+[15/09/2023 15:40:40]       INFO: n_sel = 1677722
+[15/09/2023 15:42:01]       INFO: Column 0 - min 10000, max 11000
+[15/09/2023 15:42:01]       INFO: Column 1 - min 10000, max 11000
+[15/09/2023 15:42:01]       INFO: Column 2 - min 10000, max 11000
+[15/09/2023 15:42:01]       INFO: Column 3 - min 10000, max 11000
+[15/09/2023 15:42:01]       INFO: Column 4 - min 10000, max 11000
+[15/09/2023 15:42:03]       INFO: NUM_ATTRIBUTES = 5
+[15/09/2023 15:45:34]       INFO: ORAM_CAPACITY = 33554430
+[15/09/2023 15:45:34]       INFO: FILE_LOGGING = 1
+[15/09/2023 15:45:34]       INFO: DATASOURCE = 0
+[15/09/2023 15:45:34]       INFO: OUT_DIR: ./results/size:2^25
+[15/09/2023 15:45:34]       INFO: FILES_DIR: /tmp/temp-storage/storage-files-thread2-seed:2
+[15/09/2023 15:45:34]       INFO: NUM_DATAPOINTS = 33554430
+[15/09/2023 15:45:34]       INFO: NUM_QUERIES = 10
+[15/09/2023 15:45:34]       INFO: DELETION = 0
+[15/09/2023 15:45:34]       INFO: NUM_ATTRIBUTES = 5
+[15/09/2023 15:45:34]       INFO: COLUMN_FORMAT: INT,INT,INT,INT,INT
+[15/09/2023 15:45:34]       INFO: DATA_RESOLUTION: 1,1,1,1,1
+[15/09/2023 15:45:34]       INFO: MIN_VALUE: 10000,10000,10000,10000,10000
+[15/09/2023 15:45:34]       INFO: MAX_VALUE: 11000,11000,11000,11000,11000
+[15/09/2023 15:45:34]       INFO: RANGEQUERY_RANGE = 10
+[15/09/2023 15:45:34]       INFO: DATASET = data/covid-data.csv
+[15/09/2023 15:45:34]       INFO: NUM_DATAPOINTS = 33554430
+[15/09/2023 15:45:34]       INFO: RETRIEVE_EXACTLY = 1
+[15/09/2023 15:45:34]       INFO: QUERY_RESPONSE_EPSILON = 1
+[15/09/2023 15:45:34]       INFO: QUERY_INDEX = 0
+[15/09/2023 15:45:34]       INFO: WHERE_INDEX = 0
+[15/09/2023 15:45:34]       INFO: QUERY_FUNCTION = 0
+[15/09/2023 15:45:34]       INFO: POINT_QUERIES = 0
+[15/09/2023 15:45:34]       INFO: NUM_QUERIES = 10
+[15/09/2023 15:45:34]       INFO: MAX_SENSITIVITY = 0.05
+[15/09/2023 15:45:34]       INFO: SEED = 2
+[15/09/2023 15:45:34]       INFO: ORAM_CAPACITY = 33554430
+[15/09/2023 15:45:34]       INFO: ORAM_Z = 3
+[15/09/2023 15:45:34]       INFO: USE_ORAM = 1
+[15/09/2023 15:45:34]       INFO: BATCH_SIZE = 1
+[15/09/2023 15:45:34]       INFO: DP_K = 2
+[15/09/2023 15:45:34]       INFO: DP_BETA = 20
+[15/09/2023 15:45:34]       INFO: DP_EPSILON = 0.693
+[15/09/2023 15:45:34]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[15/09/2023 15:45:34]       INFO: Insert data in Bulk-> nonObliv Sorting, then constructing tree on sorted list(s).
+[15/09/2023 15:45:34]       INFO: INPUT_DATA.size() = 33554430
+[15/09/2023 15:45:34]       INFO: INSERT_BULK = 1
+[15/09/2023 15:45:34]       INFO: AVLTree.maxCapacity =33554431 
+[15/09/2023 15:45:34]       INFO: capacity = 33554430
+[15/09/2023 15:45:34]       INFO: ORAM_Z = 3
+[15/09/2023 15:45:34]       INFO: this->ORAM_LOG_CAPACITY = 24
+[15/09/2023 15:45:34]       INFO: BATCH_SIZE = 1
+[15/09/2023 15:45:34]       INFO: ORAM_BLOCK_SIZE = 196
+[15/09/2023 15:45:34]       INFO: oramParameter = 50331651
+[15/09/2023 15:45:34]       INFO: ORAM Stash Size is: 288
+[15/09/2023 15:45:34]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists

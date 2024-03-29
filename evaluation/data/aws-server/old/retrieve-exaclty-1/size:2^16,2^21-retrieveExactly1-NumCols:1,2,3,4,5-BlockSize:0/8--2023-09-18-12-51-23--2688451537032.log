@@ -1,0 +1,14 @@
+         [18/09/2023 12:51:23]       INFO: Generating indices...
+[18/09/2023 12:51:23]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[18/09/2023 12:51:23]       INFO: Constructing synthetic data set and queries...
+[18/09/2023 12:51:23]       INFO: Column 1 - mean  10491.8, std 242.135 
+[18/09/2023 12:51:23]       INFO: Column 2 - mean  10484, std 217.299 
+[18/09/2023 12:51:23]       INFO: Column 3 - mean  10648.5, std 132.714 
+[18/09/2023 12:51:23]       INFO: Column 4 - mean  10440.4, std 58.1821 
+[18/09/2023 12:51:23]       INFO: n_sel = 104858
+[18/09/2023 12:51:30]       INFO: Column 0 - min 10000, max 11000
+[18/09/2023 12:51:30]       INFO: Column 1 - min 10000, max 11000
+[18/09/2023 12:51:30]       INFO: Column 2 - min 10000, max 11000
+[18/09/2023 12:51:30]       INFO: Column 3 - min 10000, max 11000
+[18/09/2023 12:51:30]       INFO: Column 4 - min 10000, max 11000
+[18/09/2023 12:51:30]       INFO: NUM_ATTRIBUTES = 5

@@ -1,0 +1,166 @@
+         [17/10/2023 12:33:29]       INFO: Generating indices...
+[17/10/2023 12:33:29]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[17/10/2023 12:33:29]       INFO: Constructing synthetic data set and queries...
+[17/10/2023 12:33:29]       INFO: n_sel = 656
+[17/10/2023 12:33:29]       INFO: Column 0 - min 10000, max 75536
+[17/10/2023 12:33:29]       INFO: NUM_ATTRIBUTES = 1
+[17/10/2023 12:33:30]       INFO: FILE_LOGGING = 1
+[17/10/2023 12:33:30]       INFO: DATASOURCE = 0
+[17/10/2023 12:33:30]       INFO: OUT_DIR: ./results/size:2^16-domainsizes:2^10,20
+[17/10/2023 12:33:30]       INFO: FILES_DIR: /home/lreichert/tmp/storage-files-thread5-seed:5
+[17/10/2023 12:33:30]       INFO: NUM_DATAPOINTS = 65534
+[17/10/2023 12:33:30]       INFO: NUM_QUERIES = 10
+[17/10/2023 12:33:30]       INFO: DELETION = 0
+[17/10/2023 12:33:30]       INFO: NUM_ATTRIBUTES = 1
+[17/10/2023 12:33:30]       INFO: COLUMN_FORMAT: INT
+[17/10/2023 12:33:30]       INFO: DATA_RESOLUTION: 1
+[17/10/2023 12:33:30]       INFO: MIN_VALUE: 10000
+[17/10/2023 12:33:30]       INFO: MAX_VALUE: 75536
+[17/10/2023 12:33:30]       INFO: RANGEQUERY_RANGE = 10
+[17/10/2023 12:33:30]       INFO: DATASET = data/covid-data.csv
+[17/10/2023 12:33:30]       INFO: NUM_DATAPOINTS = 65534
+[17/10/2023 12:33:30]       INFO: RETRIEVE_EXACTLY: 
+[17/10/2023 12:33:30]       INFO: QUERY_RESPONSE_EPSILON = 1
+[17/10/2023 12:33:30]       INFO: QUERY_INDEX = 0
+[17/10/2023 12:33:30]       INFO: WHERE_INDEX = 0
+[17/10/2023 12:33:30]       INFO: QUERY_FUNCTION = 0
+[17/10/2023 12:33:30]       INFO: POINT_QUERIES = 0
+[17/10/2023 12:33:30]       INFO: NUM_QUERIES = 10
+[17/10/2023 12:33:30]       INFO: MAX_SENSITIVITY = 0.01
+[17/10/2023 12:33:30]       INFO: SEED = 5
+[17/10/2023 12:33:30]       INFO: USE_GAMMA = 1
+[17/10/2023 12:33:30]       INFO: ORAM_LOG_CAPACITY = 16
+[17/10/2023 12:33:30]       INFO: ORAM_Z = 3
+[17/10/2023 12:33:30]       INFO: STASH_FACTOR = 10
+[17/10/2023 12:33:30]       INFO: USE_ORAM = 1
+[17/10/2023 12:33:30]       INFO: BATCH_SIZE = 1
+[17/10/2023 12:33:30]       INFO: DP_K = 2
+[17/10/2023 12:33:30]       INFO: DP_BETA = 20
+[17/10/2023 12:33:30]       INFO: DP_EPSILON = 0.693
+[17/10/2023 12:33:30]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[17/10/2023 12:33:30]       INFO: Insert data in Bulk-> nonObliv Sorting, then constructing tree on sorted list(s).
+[17/10/2023 12:33:30]       INFO: INPUT_DATA.size() = 65534
+[17/10/2023 12:33:30]       INFO: INSERT_BULK = 1
+[17/10/2023 12:33:30]       INFO: this->maxPerTree = 65535
+[17/10/2023 12:33:30]       INFO: this->numOSMs = 1
+[17/10/2023 12:33:30]       INFO: Generating sanitizers for  1/1. (USE GAMMA 1)
+[17/10/2023 12:33:30]       INFO: Noise Parameters Column 0 - min 10000, max 75536, range 65536
+[17/10/2023 12:33:30]       INFO: this_DP_domain = 65536
+[17/10/2023 12:33:30]       INFO: this_dp_buckets = 65536
+[17/10/2023 12:33:30]       INFO: this_dp_levels = 100
+[17/10/2023 12:33:30]       INFO: this_dp_alpha = 384
+[17/10/2023 12:33:30]       INFO: Generating DP noise tree...
+[17/10/2023 12:33:30]       INFO: For column 0: DP tree has 131154 elements
+[17/10/2023 12:33:30]       INFO: Creating OSM data split 1/1.
+[17/10/2023 12:33:30]       INFO: start 0, end 65533, num 65534
+[17/10/2023 12:33:30]       INFO: Creating AVLTree for OSM  1/1 with 65533 datapoints
+[17/10/2023 12:33:30]       INFO: Creating Histograms for OSM  1.
+[17/10/2023 12:33:30]       INFO: AVLTree.maxCapacity =65536 
+[17/10/2023 12:33:30]       INFO: ORAM_Z = 3
+[17/10/2023 12:33:30]       INFO: STASH_FACTOR = 10
+[17/10/2023 12:33:30]       INFO: this->ORAM_LOG_CAPACITY = 16
+[17/10/2023 12:33:30]       INFO: BATCH_SIZE = 1
+[17/10/2023 12:33:30]       INFO: ORAM_BLOCK_SIZE = 52
+[17/10/2023 12:33:30]       INFO: oramParameter = 196611
+[17/10/2023 12:33:30]       INFO: ORAM Stash Size is: 480
+[17/10/2023 12:33:30]       INFO: Creating Tree Structure in Non Obliv manner from sorted lists
+[17/10/2023 12:33:34]       INFO: starting to build Tree
+[17/10/2023 12:33:34]       INFO: building Tree from sorted list for Colum 0
+[17/10/2023 12:33:47]       INFO: Finished building tree from sortethisNodesd list for Colum 0
+[17/10/2023 12:33:47]       INFO: data size 65533
+[17/10/2023 12:33:47]       INFO: Attempting to lock 1 GB of RAM. 
+[17/10/2023 12:33:47]       INFO: Creating ORAM
+[17/10/2023 12:33:48]       INFO: Loading Data into ORAM (65533 datapoints) 
+[17/10/2023 12:33:49]       INFO: Finished loading data into ORAM
+[17/10/2023 12:33:49]      ERROR: SQL error: database is locked
+
+[17/10/2023 12:33:49]       INFO: Removed RAM lock
+[17/10/2023 12:33:49]       INFO: Removed Lock for 1 GB of RAM.
+[17/10/2023 12:33:49]       INFO: BLOCK_SIZE=52
+[17/10/2023 12:33:49]       INFO: Put 65534 datapoints: { duration    0 ns, mean    0 ns}
+[17/10/2023 12:33:49]       INFO: Finished inserting Datapoints
+[17/10/2023 12:33:49]       INFO: Server  transitioned from old state 3 via transition edge 201 to new state 4
+[17/10/2023 12:33:49]       INFO: Running 10 QUERIES...
+[17/10/2023 12:33:49]       INFO: Noise nodes 3
+[17/10/2023 12:33:49]       INFO: num in osm 0: 656
+[17/10/2023 12:33:49]       INFO: estimate 1259  for dosm 0
+[17/10/2023 12:33:50]       INFO: got 1915 datapoints from osm 0 
+[17/10/2023 12:33:50]       INFO: Query: Query[, attributeIndex:0 from:10000, to:10010, pointQuery:0, whereIndex:0, whereFrom:10000, whereTo:10010, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:50]       INFO: Retrieval: number of datapoints   1915 noise 1259 , interval [10000,10010]
+[17/10/2023 12:33:50]       INFO: Query   1 /  10 : real records    656 ( +     0 padding +  1259 noise,   1915 total) ( 640 ms, or  976 μs / record)
+[17/10/2023 12:33:50]       INFO: Runtime Measurment: {before:  160 ms, ORAMs:  477 ms, after: 2856 μs}
+[17/10/2023 12:33:50]       INFO: Noise nodes 4
+[17/10/2023 12:33:50]       INFO: num in osm 0: 656
+[17/10/2023 12:33:50]       INFO: estimate 1616  for dosm 0
+[17/10/2023 12:33:50]       INFO: got 2272 datapoints from osm 0 
+[17/10/2023 12:33:50]       INFO: Query: Query[, attributeIndex:0 from:10011, to:10021, pointQuery:0, whereIndex:0, whereFrom:10011, whereTo:10021, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:50]       INFO: Retrieval: number of datapoints   2272 noise 1616 , interval [10011,10021]
+[17/10/2023 12:33:50]       INFO: Query   2 /  10 : real records    656 ( +     0 padding +  1616 noise,   2272 total) ( 629 ms, or  958 μs / record)
+[17/10/2023 12:33:50]       INFO: Runtime Measurment: {before:   47 ms, ORAMs:  578 ms, after: 3331 μs}
+[17/10/2023 12:33:50]       INFO: Noise nodes 3
+[17/10/2023 12:33:50]       INFO: num in osm 0: 656
+[17/10/2023 12:33:50]       INFO: estimate 1259  for dosm 0
+[17/10/2023 12:33:51]       INFO: got 1915 datapoints from osm 0 
+[17/10/2023 12:33:51]       INFO: Query: Query[, attributeIndex:0 from:10022, to:10032, pointQuery:0, whereIndex:0, whereFrom:10022, whereTo:10032, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:51]       INFO: Retrieval: number of datapoints   1915 noise 1259 , interval [10022,10032]
+[17/10/2023 12:33:51]       INFO: Query   3 /  10 : real records    656 ( +     0 padding +  1259 noise,   1915 total) ( 533 ms, or  812 μs / record)
+[17/10/2023 12:33:51]       INFO: Runtime Measurment: {before:   46 ms, ORAMs:  483 ms, after: 3097 μs}
+[17/10/2023 12:33:51]       INFO: Noise nodes 4
+[17/10/2023 12:33:51]       INFO: num in osm 0: 656
+[17/10/2023 12:33:51]       INFO: estimate 1616  for dosm 0
+[17/10/2023 12:33:51]       INFO: got 2272 datapoints from osm 0 
+[17/10/2023 12:33:51]       INFO: Query: Query[, attributeIndex:0 from:10033, to:10043, pointQuery:0, whereIndex:0, whereFrom:10033, whereTo:10043, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:51]       INFO: Retrieval: number of datapoints   2272 noise 1616 , interval [10033,10043]
+[17/10/2023 12:33:51]       INFO: Query   4 /  10 : real records    656 ( +     0 padding +  1616 noise,   2272 total) ( 624 ms, or  952 μs / record)
+[17/10/2023 12:33:51]       INFO: Runtime Measurment: {before:   47 ms, ORAMs:  574 ms, after: 3510 μs}
+[17/10/2023 12:33:51]       INFO: Noise nodes 4
+[17/10/2023 12:33:51]       INFO: num in osm 0: 656
+[17/10/2023 12:33:51]       INFO: estimate 1616  for dosm 0
+[17/10/2023 12:33:52]       INFO: got 2272 datapoints from osm 0 
+[17/10/2023 12:33:52]       INFO: Query: Query[, attributeIndex:0 from:10044, to:10054, pointQuery:0, whereIndex:0, whereFrom:10044, whereTo:10054, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:52]       INFO: Retrieval: number of datapoints   2272 noise 1616 , interval [10044,10054]
+[17/10/2023 12:33:52]       INFO: Query   5 /  10 : real records    656 ( +     0 padding +  1616 noise,   2272 total) ( 646 ms, or  985 μs / record)
+[17/10/2023 12:33:52]       INFO: Runtime Measurment: {before:   64 ms, ORAMs:  578 ms, after: 3296 μs}
+[17/10/2023 12:33:52]       INFO: Noise nodes 3
+[17/10/2023 12:33:52]       INFO: num in osm 0: 656
+[17/10/2023 12:33:52]       INFO: estimate 1259  for dosm 0
+[17/10/2023 12:33:53]       INFO: got 1915 datapoints from osm 0 
+[17/10/2023 12:33:53]       INFO: Query: Query[, attributeIndex:0 from:10055, to:10065, pointQuery:0, whereIndex:0, whereFrom:10055, whereTo:10065, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:53]       INFO: Retrieval: number of datapoints   1915 noise 1259 , interval [10055,10065]
+[17/10/2023 12:33:53]       INFO: Query   6 /  10 : real records    656 ( +     0 padding +  1259 noise,   1915 total) ( 552 ms, or  842 μs / record)
+[17/10/2023 12:33:53]       INFO: Runtime Measurment: {before:   65 ms, ORAMs:  484 ms, after: 3081 μs}
+[17/10/2023 12:33:53]       INFO: Noise nodes 4
+[17/10/2023 12:33:53]       INFO: num in osm 0: 656
+[17/10/2023 12:33:53]       INFO: estimate 1616  for dosm 0
+[17/10/2023 12:33:53]       INFO: got 2272 datapoints from osm 0 
+[17/10/2023 12:33:53]       INFO: Query: Query[, attributeIndex:0 from:10066, to:10076, pointQuery:0, whereIndex:0, whereFrom:10066, whereTo:10076, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:53]       INFO: Retrieval: number of datapoints   2272 noise 1616 , interval [10066,10076]
+[17/10/2023 12:33:53]       INFO: Query   7 /  10 : real records    656 ( +     0 padding +  1616 noise,   2272 total) ( 626 ms, or  955 μs / record)
+[17/10/2023 12:33:53]       INFO: Runtime Measurment: {before:   48 ms, ORAMs:  574 ms, after: 3179 μs}
+[17/10/2023 12:33:53]       INFO: Noise nodes 3
+[17/10/2023 12:33:53]       INFO: num in osm 0: 656
+[17/10/2023 12:33:53]       INFO: estimate 1259  for dosm 0
+[17/10/2023 12:33:54]       INFO: got 1915 datapoints from osm 0 
+[17/10/2023 12:33:54]       INFO: Query: Query[, attributeIndex:0 from:10077, to:10087, pointQuery:0, whereIndex:0, whereFrom:10077, whereTo:10087, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:54]       INFO: Retrieval: number of datapoints   1915 noise 1259 , interval [10077,10087]
+[17/10/2023 12:33:54]       INFO: Query   8 /  10 : real records    656 ( +     0 padding +  1259 noise,   1915 total) ( 540 ms, or  823 μs / record)
+[17/10/2023 12:33:54]       INFO: Runtime Measurment: {before:   44 ms, ORAMs:  490 ms, after: 4631 μs}
+[17/10/2023 12:33:54]       INFO: Noise nodes 3
+[17/10/2023 12:33:54]       INFO: num in osm 0: 656
+[17/10/2023 12:33:54]       INFO: estimate 1259  for dosm 0
+[17/10/2023 12:33:54]       INFO: got 1915 datapoints from osm 0 
+[17/10/2023 12:33:54]       INFO: Query: Query[, attributeIndex:0 from:10088, to:10098, pointQuery:0, whereIndex:0, whereFrom:10088, whereTo:10098, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:54]       INFO: Retrieval: number of datapoints   1915 noise 1259 , interval [10088,10098]
+[17/10/2023 12:33:54]       INFO: Query   9 /  10 : real records    656 ( +     0 padding +  1259 noise,   1915 total) ( 538 ms, or  821 μs / record)
+[17/10/2023 12:33:54]       INFO: Runtime Measurment: {before:   56 ms, ORAMs:  481 ms, after: 1429 μs}
+[17/10/2023 12:33:54]       INFO: Noise nodes 4
+[17/10/2023 12:33:54]       INFO: num in osm 0: 656
+[17/10/2023 12:33:54]       INFO: estimate 1616  for dosm 0
+[17/10/2023 12:33:55]       INFO: got 2272 datapoints from osm 0 
+[17/10/2023 12:33:55]       INFO: Query: Query[, attributeIndex:0 from:10099, to:10109, pointQuery:0, whereIndex:0, whereFrom:10099, whereTo:10109, agg:0, epsilon:0.1, extra:0]
+[17/10/2023 12:33:55]       INFO: Retrieval: number of datapoints   2272 noise 1616 , interval [10099,10109]
+[17/10/2023 12:33:55]       INFO: Query  10 /  10 : real records    656 ( +     0 padding +  1616 noise,   2272 total) ( 635 ms, or  968 μs / record)
+[17/10/2023 12:33:55]       INFO: Runtime Measurment: {before:   48 ms, ORAMs:  585 ms, after: 1724 μs}
+[17/10/2023 12:33:55]       INFO: Server  transitioned from old state 4 via transition edge 401 to new state 5
+[17/10/2023 12:33:55]       INFO: For 10 QUERIES: total: 5967 ms, average: 596 ms / query,  query, 1 ns/ fetched item; (530766981+62965737+3013878=656) records / query
+[17/10/2023 12:33:55]       INFO: Log written to ./results/size:2^16-domainsizes:2^10,20/5--2023-10-17-12-33-29--1556387088727225.json
