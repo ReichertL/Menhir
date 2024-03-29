@@ -50,7 +50,7 @@ sudo make install-libs
     sudo make install
 ```
 * Install openssl libraries: `sudo apt-get install libssl-dev`
-
+* Install sqlite3 libraries: `sudo apt-get install sqlite3 libsqlite3-dev`
 
 
 * Next, compile the executable.
