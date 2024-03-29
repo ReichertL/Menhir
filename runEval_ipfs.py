@@ -13,7 +13,7 @@ from itertools import chain
 use_oram=True
 stashFactor=100
 useGamma=True
-power=enumerate(range(16,21))
+power=range(16,21)W
 numDatapoints=[2**p-2**(p-16) for p in power] # each osm can store 2**16-1 datapoints by default
 
 numQueries=1000 

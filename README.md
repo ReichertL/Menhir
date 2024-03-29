@@ -22,7 +22,10 @@ To setup server:
 
 As reference, for our measurements we used 'Amazon Machine Image (AMI):  al2023-ami-2023.2.20230920.1-kernel-6.1-x86_64'.
 
-## Oblivious Database (ODB)
+## Installation Instructions for the Menhir Oblivious Database (ODB)
+The following section describes how to set up Menhir on a Ubuntu 22.04 machine.
+For instructions on what changes when using Amazon Linux (which uses yum as package manager), please refer to the **Dockerfile**.
+The Dockerfile can be executed with `sudo docker build -t "menhir:Dockerfile" .`.
 
 ### Compile Path-ORAM
 * Install boost: `sudo apt-get install libboost-all-dev`

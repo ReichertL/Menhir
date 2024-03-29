@@ -10,7 +10,7 @@ import psutil
 import time
 
 use_oram=True
-power=enumerate(range(16,21))
+power=range(16,17)
 numDatapoints=[2**p-2**(p-16) for p in power] # each osm can store 2**16-1 datapoints by default
 #numDatapoints= np.logspace(2, 20,num=100,endpoint=True, base=2, dtype=int)
 useGamma=False
