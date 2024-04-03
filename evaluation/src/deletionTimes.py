@@ -16,6 +16,7 @@ def numDatapointsToDeletionTime(datasets,outdir,colors, markers,linestyles):
     for d in datasets: 
         if bool(d["DELETION"])==True:
             numAttributes=int(d["NUM_ATTRIBUTES"])
+            print(numAttributes)
             n=int(d["NUM_DATAPOINTS"])               
             deletetionList=d["DeletionTimes"].split(",")
             for index,val in enumerate(deletetionList):
@@ -23,9 +24,11 @@ def numDatapointsToDeletionTime(datasets,outdir,colors, markers,linestyles):
                     #drop first measurments as it sometimes takes longer than all others due to caching effects
                     continue
                 dt=int(val)/1000#1000000 data is in microseconds and we convert to microseconds
-                n=int(d["NUM_DATAPOINTS"])               
+                print(numAttributes)
                 all_data.append([n, numAttributes, dt])
     df=pd.DataFrame(all_data, columns=["n",'nA','deletionTime'])
+    df=df[df['nA']==2]
+    print(df)
     df=df[df['n']>1000]
 
     nAList=df['nA'].unique()

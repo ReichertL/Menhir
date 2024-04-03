@@ -5,6 +5,7 @@ This is an implementation of Menhir, an oblivious database (ODB) for Trusted Exe
 The database is based on an oblivious AVL Tree construction implemented on top of PathORAM.
 The AVL Tree relies on an ORAM which itself is not oblivious. 
 
+Please cite the paper when using our code in your research.
 
 ## Server Platform: How to Setup an AMD SEV-SNP
 How to Setup an AMD SEV-SNP Server on AWS (Status: Spring 2024). 
@@ -99,8 +100,23 @@ Examples:
 `./bin/main -d FROM_REAL  --dataset 'datasets/data-ipfs-2.csv' --datapoints 65534 --seed 0 -c i,i,i,i,i,i,i,i -r '1,1,1,1,1,1,1,1' --minVals 4,0,0,0,0,0,0,1695071408 --maxVals 6,906,65535,3,2,1139,4928637,1695067808  --agg MAX_COUNT --numQueries 20 --queryIndex 7 --whereIndex 7 --valueSize 0  --verbosity INFO --outdir ./results/test --fileLogging True`
 
 
-## To generate the figures from the paper:  
-Check `evaluation/commands` for the python3 call to regenerate the plots of interest. 
+## Evaluation and Datasets
+The datasets used for evaluation can be found in the folder `datasets`. 
+For information on the IPFS dataset can be found on this website: [link](https://monitoring.ipfs.trudi.group/).
+When using this dataset, please also cite: 
+```
+@inproceedings{balduf2022monitoring,
+  title={Monitoring data requests in decentralized data storage systems: A case study of IPFS},
+  author={Balduf, Leonhard and Henningsen, Sebastian and Florian, Martin and Rust, Sebastian and Scheuermann, Bj{\"o}rn},
+  booktitle={2022 IEEE 42nd International Conference on Distributed Computing Systems (ICDCS)},
+  pages={658--668},
+  year={2022},
+  organization={IEEE}
+}
+```
+The covid dataset was taken from kaggle: [link](https://www.kaggle.com/datasets/meirnizri/covid19-dataset).
+
+To regenerate the plots of interest, check `evaluation/commands` for the corresponding python3 call. 
 The calls to `plot.py` must be made from the `evaluation` sub-directory.
 The following python3 packages must be installed: numpy, pandas, seaborn, statsmodels, matplotlib.
 
