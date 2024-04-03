@@ -103,6 +103,7 @@ Examples:
 ## Evaluation and Datasets
 The datasets used for evaluation can be found in the folder `datasets`. 
 For information on the IPFS dataset can be found on this website: [link](https://monitoring.ipfs.trudi.group/).
+Information such as IP address, peer address and content ID were replaced with pseudonyms.
 When using this dataset, please also cite: 
 ```
 @inproceedings{balduf2022monitoring,
@@ -115,8 +116,10 @@ When using this dataset, please also cite:
 }
 ```
 The covid dataset was taken from kaggle: [link](https://www.kaggle.com/datasets/meirnizri/covid19-dataset).
+The original file was altered. Missing Values were originally written as 97,98,99 are now mapped as -1,-2,-2.
+For 9999-99-99 in DATE_DIED, the value -3 was used. Dates in DATE_DIED are given as days since the 1.1.2020.
 
-To regenerate the plots of interest, check `evaluation/commands` for the corresponding python3 call. 
+To regenerate plots from the paper, check `evaluation/commands` for the corresponding python3 call. 
 The calls to `plot.py` must be made from the `evaluation` sub-directory.
 The following python3 packages must be installed: numpy, pandas, seaborn, statsmodels, matplotlib.
 
