@@ -16,24 +16,21 @@ def numDatapointsToDeletionTime(datasets,outdir,colors, markers,linestyles):
     for d in datasets: 
         if bool(d["DELETION"])==True:
             numAttributes=int(d["NUM_ATTRIBUTES"])
-            print(numAttributes)
             n=int(d["NUM_DATAPOINTS"])               
             deletetionList=d["DeletionTimes"].split(",")
             for index,val in enumerate(deletetionList):
                 if index==0:
                     #drop first measurments as it sometimes takes longer than all others due to caching effects
                     continue
-                dt=int(val)/1000#1000000 data is in microseconds and we convert to microseconds
-                print(numAttributes)
+                dt=int(val)/1000#1000000 data is in microseconds and we convert to milliseconds
                 all_data.append([n, numAttributes, dt])
     df=pd.DataFrame(all_data, columns=["n",'nA','deletionTime'])
-    df=df[df['nA']==2]
-    print(df)
     df=df[df['n']>1000]
 
     nAList=df['nA'].unique()
 
     for numAttributes in sorted(nAList,reverse=True):
+        print("------numAttributes: "+str(numAttributes)+"-----------")
         df_sel=df[df['nA']==numAttributes]
 
         def fci(x):
@@ -57,6 +54,9 @@ def numDatapointsToDeletionTime(datasets,outdir,colors, markers,linestyles):
         else:
             thislabel+="columns"       
         
+        print("x:"+str(x))
+        print("y:"+str(y))
+        print("yerr:"+str(yerr))
         plt.errorbar(x,y,yerr=yerr, linestyle=linestyles[i%len(linestyles)], marker=markers[i%len(markers)],markersize=5, label=thislabel,color=colors[i%len(colors)])
         i=i+1
         
@@ -67,7 +67,7 @@ def numDatapointsToDeletionTime(datasets,outdir,colors, markers,linestyles):
     plt.xticks(ticks=tickslist, labels=tickslables)
     plt.xlabel("i-th Data Point")
     plt.ylabel("Deletion Duration in ms")
-    #plt.legend(loc="upper right", bbox_to_anchor=(1, 0.9))
+    plt.legend(loc="upper right", bbox_to_anchor=(1, 0.9))
     plt.tight_layout()
     plt.xscale("log",base=2)       
 
@@ -79,6 +79,6 @@ def numDatapointsToDeletionTime(datasets,outdir,colors, markers,linestyles):
     df_comp=df_comp[['nA','deletionTime']]
     df_mcomp= df_comp.groupby('nA').median()
     factor=df_mcomp.iloc[0][0]
-    print(df_mcomp['deletionTime']/factor)
+    print("factor:"+str(df_mcomp['deletionTime']/factor))
     
 

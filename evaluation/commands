@@ -15,10 +15,15 @@ python plot.py -p \
 
 # deletion
 python plot.py -p \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:2-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^21,24-NumCols:2-BlockSize:0/ \
     data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:5-BlockSize:0/ \
     data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
+    -outdir plots -deletion
+
+
+python plot.py -p \
+    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:5-BlockSize:0/ \
+    data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
+    data/aws-server/insertDelete/insertionDeletion-size:2^24-cols:1-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0 \
     -outdir plots -deletion
 
 
@@ -69,22 +74,22 @@ python plot.py -f \
 
 #selectivity for dataset IPFS and COVID
 python plot.py -f \
-    data/aws-server/ipfsData-size:2^16,17,18,19,20-query:7-where:7-stashfactor:100-RangeQuery-selectivity:0.1/1--2023-10-16-13-42-14--181509215938359.json\
-    data/aws-server/covidData-size:2^20-query:4-where:4/*.json \
+    data/aws-server/usecases/ipfsData-size:2^16,17,18,19,20-query:7-where:7-stashfactor:100-RangeQuery-selectivity:0.1/1--2023-10-16-13-42-14--181509215938359.json\
+    data/aws-server/usecases/covidData-size:2^20-query:7-where:7/*.json \
     -outdir plots/ -selectivity
 
 
 # many colums usecase 
 
 python plot.py -p   \
-    data/aws-server/ManyColumns-selectivity:0.1-size:2^16-NumCols:10,50-BlockSize:0/ \
+    data/usecases/aws-server/ManyColumns-selectivity:0.1-size:2^16-NumCols:10,50-BlockSize:0/ \
     -outdir plots -selectivity
 
 
 # big file usecase
 
 python plot.py -p \
-    data/aws-server/withVAlue-retrieveExactly-size:2^16-NumCols:1-BlockSize:100,200,400,800/ \
+    data/aws-server/usecases/withVAlue-retrieveExactly-size:2^16-NumCols:1-BlockSize:100,200,400,800/ \
     -outdir plots -valueSize
 
 
