@@ -32,7 +32,7 @@ whereIndex=4
 
 from itertools import chain
 #domainSizes=[1000]#[1000,2000,4000,8000,16000,32000,64000,128000,256000] # domainsizes of less than 1000 so range(100,1000,100) 
-selectivities=[0.1]#[0.04,0.05,0.06,0.07,0.08,0.09] #0.5
+selectivities=[0.11]#[0.04,0.05,0.06,0.07,0.08,0.09] #0.5
 rangequery_ranges=[10]#[4,8,16,32,64,128]
 #retrieveExactly=[1]#[10,20,30,40,50,60]
 outdir="./results/covidData-size:2^20-query:4-where:4"
