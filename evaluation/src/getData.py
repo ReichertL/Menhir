@@ -48,7 +48,12 @@ def getData(files, dirpath):
         #print(d["LOG_FILENAME"])
         row=list()
         for name,t in zip(colnames,types):
-            row.append(t(d[name]))
+            try: 
+                row.append(t(d[name]))
+            except:
+                print(name)
+                print(d["LOG_FILENAME"])
+                exit(0)
         for name,t in zip(colsaggregates, types2):
             row.append(t(d["aggregates"][name]))
         row.append(i)

@@ -16,16 +16,17 @@ def numDatapointsToInsertionTime(datasets,outdir,colors, markers,linestyles):
         numAttributes=int(d["NUM_ATTRIBUTES"])
         insertionList=d["InsetionTimes"].split(",")
         for i, insertVal in enumerate(insertionList):
-            if i==0:
+            #if i==0:
                 #drop first measurments as it sometimes takes longer than all others due to caching effects
-                continue
+                #continue
             insertT=int(insertVal)/1000 #insertion measurments are collected in microseconds
             n=int(d["NUM_DATAPOINTS"])               
-            all_data.append([n, numAttributes, insertT])
+            all_data.append([n, numAttributes, insertT])       
     df=pd.DataFrame(all_data, columns=["n",'nA','insertionTime'])
     df=df[df['n']>1000]
 
     nAList=df['nA'].unique()
+    print(nAList)
     i=0
     for numAttributes in sorted(nAList,reverse=True):
         df_sel=df[df['nA']==numAttributes]
@@ -79,6 +80,7 @@ def numDatapointsToInsertionTime(datasets,outdir,colors, markers,linestyles):
     df_comp=df_comp[['nA','insertionTime']]
     df_mcomp= df_comp.groupby('nA').median()
     factor=df_mcomp.iloc[0][0]
+    print("Factor compared to 1 column ")
     print(df_mcomp['insertionTime']/factor)
     
     if not legend:
@@ -143,7 +145,7 @@ def numDatapointsToInsertionTime_old(datasets,outdir,colors, markers,linestyles)
     selection=selection.tolist()
     selection=list(set(selection))
     selection=sorted(selection)
-    print(selection)
+    #print(selection)
     comparison=list()
     #data_for_later=list()
 
@@ -165,8 +167,8 @@ def numDatapointsToInsertionTime_old(datasets,outdir,colors, markers,linestyles)
                 all_data.append(l)
         df=pd.DataFrame(data)/1000000
         df_mean=df.mean(axis=0)
-        print(df)
-        print(df_mean)
+        #print(df)
+        #print(df_mean)
 
         def fci(x):
             a,b=sms.DescrStatsW(x).tconfint_mean()
@@ -175,12 +177,12 @@ def numDatapointsToInsertionTime_old(datasets,outdir,colors, markers,linestyles)
             return (a_rel,b_rel)
         
         df_ci=df.apply(fci, axis=0)
-        print(df_ci)
+        #print(df_ci)
         ci_tuples=list(df_ci.itertuples(index=False, name=None))
         x=selection
         thislabel=str(numAttributes)+" columns(s)"
         legendLabels.append(thislabel)
-        print(str(i)+" "+thislabel)
+        #print(str(i)+" "+thislabel)
         
         plt.errorbar(x,df_mean,yerr=ci_tuples, linestyle=linestyles[i%len(linestyles)], marker=markers[i%len(markers)],markersize=5, color=colors[i%len(colors)])
         i=i+1
@@ -200,5 +202,5 @@ def numDatapointsToInsertionTime_old(datasets,outdir,colors, markers,linestyles)
     df_comp=pd.DataFrame.from_records(comparison, columns=['numAttributes','insertionLast'])
     df_mcomp= df_comp.groupby('numAttributes').median()
     factor=df_mcomp.iloc[0][0]
-    print(df_mcomp['insertionLast']/factor)
+    #print(df_mcomp['insertionLast']/factor)
     
