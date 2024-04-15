@@ -16,9 +16,9 @@ def numDatapointsToInsertionTime(datasets,outdir,colors, markers,linestyles):
         numAttributes=int(d["NUM_ATTRIBUTES"])
         insertionList=d["InsetionTimes"].split(",")
         for i, insertVal in enumerate(insertionList):
-            #if i==0:
+            if i==0:
                 #drop first measurments as it sometimes takes longer than all others due to caching effects
-                #continue
+                continue
             insertT=int(insertVal)/1000 #insertion measurments are collected in microseconds
             n=int(d["NUM_DATAPOINTS"])               
             all_data.append([n, numAttributes, insertT])       
