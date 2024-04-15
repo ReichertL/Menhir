@@ -30,7 +30,7 @@ python plot.py -p \
 
 python plot.py -p \
     data/aws-server/insertDelete/* \
-    -outdir plots/ -retrieved
+    -outdir plots/ -retrievedSelected
 
 #retrieve mutliple parallelized (Table 3)
 

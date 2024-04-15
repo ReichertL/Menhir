@@ -10,7 +10,7 @@ from src.util import *
 
 
 
-def retrievedNumDatapointsToTimePerQuery(datasets,outdir,colors, markers,linestyles):
+def retrievedNumDatapointsToTimePerQuery(onlySelected,datasets,outdir,colors, markers,linestyles):
 
 
     #pQ=True
@@ -57,7 +57,13 @@ def retrievedNumDatapointsToTimePerQuery(datasets,outdir,colors, markers,linesty
     test_totalSize_log=list()
     test_runtime_2_16=list()
 
-    for logCap in sorted(log_capacitys,reverse=True):#[16,24]:
+    logCaps=list()
+    if onlySelected:
+        logCaps=[16,24]
+    else: 
+        logCaps= sorted(log_capacitys,reverse=True)
+
+    for logCap in logCaps:
         for numA in [1]:#sorted(numAttributes,reverse=False):
             df_this=df[df['numAttributes']==numA]
             df_this=df_this[df_this['log_capacity']==logCap]
