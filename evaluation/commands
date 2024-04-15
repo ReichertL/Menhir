@@ -1,23 +1,10 @@
 These commands were used to produce the plots:
 
-# insertion plot
+# insertion plot (Figure 3.a)
 
 python plot.py -p \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:2-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^21,24-NumCols:2-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:5-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
+    data/aws-server/sanity/insertDelete/*/ \
     -outdir plots -i
-
-
-python plot.py -p \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:2-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^21,24-NumCols:2-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:5-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
-    -outdir plots -i
-
-
 
 
     python plot.py -p \
@@ -25,41 +12,34 @@ python plot.py -p \
     -outdir plots -i
 
 
-
-
 # deletion
-python plot.py -p \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:5-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
+
+    python plot.py -p \
+    data/aws-server/insertDelete/* \
     -outdir plots -deletion
 
 
-python plot.py -p \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:5-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
-    data/aws-server/insertDelete/insertionDeletion-size:2^24-cols:1-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0 \
-    data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
-    -outdir plots -deletion
-
-
-# time for retrieving 1 datapoint plot
+# time for retrieving 1 datapoint plot (Figure 3.b)
 
 python plot.py -p \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:2-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^21,24-NumCols:2-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1-size:2^16,20-NumCols:5-BlockSize:0/ \
-    data/aws-server/sanity/insertion-retieveExactly:1,10,60-size:2^21,24-NumCols:5-BlockSize:0/ \
+    data/aws-server/sanity/insertDelete/*/ \
     -outdir plots/ -timePerQuery
 
 
-#retrieve mutliple parallelized
+#retrieve mutliple parallelized (Figure 3c)
+
+python plot.py -p \
+    data/aws-server/insertDelete/* \
+    -outdir plots/ -retrieved
+
+#retrieve mutliple parallelized (Table 3)
 
 python plot.py -p \
     data/aws-server/parallelisation/parallelised-size:2^16,17,18,19-cols:1,5-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0-UseGammaTrue \
     -outdir plots/ -retrieved
 
 
-#prarallelisation overhead
+#prarallelisation overhead (Table 4)
 
 python plot.py -p \
     data/aws-server/parallelisation/parallelised-size:2^16,17,18,19-cols:1,5-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0-UseGammaTrue \
@@ -86,21 +66,21 @@ python plot.py -f \
 
 
 
-#selectivity for dataset IPFS and COVID
+#selectivity for dataset IPFS and COVID (Figure 4.a)
 python plot.py -f \
     data/aws-server/usecases/ipfsData-size:2^16,17,18,19,20-query:7-where:7-stashfactor:100-RangeQuery-selectivity:0.1/1--2023-10-16-13-42-14--181509215938359.json\
     data/aws-server/usecases/covidData-size:2^20-query:7-where:7/*.json \
     -outdir plots/ -selectivity
 
 
-# many colums usecase 
+# many colums usecase (4.b)
 
 python plot.py -p   \
     data/aws-server/usecases/ManyColumns-selectivity:0.1-size:2^16-NumCols:10,50-BlockSize:0/ \
     -outdir plots -selectivity
 
 
-# big file usecase
+# big file usecase (Figure 4.c)
 
 python plot.py -p \
     data/aws-server/usecases/withVAlue-retrieveExactly-size:2^16-NumCols:1-BlockSize:100,200,400,800/ \
@@ -108,13 +88,13 @@ python plot.py -p \
 
 
 
-#range query range to noise plot
+#range query range to noise plot (Figure 5.a)
 python plot.py -p   \
     data/komVM/rangeQueryrange-size:2^16-domainsizes:2^15,rangesizes:2^1,10/ \
        -outdir plots/ -noiseRQ
 
 
-# domainsize to noise plot
+# domainsize to noise plot (Figure 5.b)
 python plot.py -p   \
     data/komVM/size:2^16-domainsizes:2^10,20/ \
     data/komVM/size:2^16-domainsizes:2^10,20-pQ/ \
