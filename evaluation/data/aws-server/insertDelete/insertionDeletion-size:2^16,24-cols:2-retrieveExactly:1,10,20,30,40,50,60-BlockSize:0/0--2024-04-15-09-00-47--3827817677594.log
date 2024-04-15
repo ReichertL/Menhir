@@ -1,0 +1,2361 @@
+         [15/04/2024 09:00:47]       INFO: Generating indices...
+[15/04/2024 09:00:47]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[15/04/2024 09:00:47]       INFO: Constructing synthetic data set and queries...
+[15/04/2024 09:00:47]       INFO: Column 1 - mean  15980.5, std 1787.97 
+[15/04/2024 09:00:48]       INFO: Column 0 - min 10000, max 20000
+[15/04/2024 09:00:48]       INFO: Column 1 - min 10000, max 20000
+[15/04/2024 09:00:48]       INFO: Generated Queries aim to provide certain levels of query senstivity. (MANAGE_SENSITIVITY is true.)
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0004 (212 datapoints). Num Generated Queries 1/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (477 datapoints). Num Generated Queries 2/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0005 (264 datapoints). Num Generated Queries 3/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0008 (422 datapoints). Num Generated Queries 4/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0003 (159 datapoints). Num Generated Queries 5/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0004 (211 datapoints). Num Generated Queries 6/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0006 (318 datapoints). Num Generated Queries 7/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Iteration 25
+[15/04/2024 09:00:49]       INFO: Iteration 26
+[15/04/2024 09:00:49]       INFO: Iteration 27
+[15/04/2024 09:00:49]       INFO: Iteration 28
+[15/04/2024 09:00:49]       INFO: Iteration 29
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (473 datapoints). Num Generated Queries 8/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Iteration 25
+[15/04/2024 09:00:49]       INFO: Iteration 26
+[15/04/2024 09:00:49]       INFO: Iteration 27
+[15/04/2024 09:00:49]       INFO: Iteration 28
+[15/04/2024 09:00:49]       INFO: Iteration 29
+[15/04/2024 09:00:49]       INFO: Iteration 30
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0004 (210 datapoints). Num Generated Queries 9/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (473 datapoints). Num Generated Queries 10/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0002 (105 datapoints). Num Generated Queries 11/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0005 (264 datapoints). Num Generated Queries 12/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0007 (368 datapoints). Num Generated Queries 13/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (481 datapoints). Num Generated Queries 14/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0008 (425 datapoints). Num Generated Queries 15/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Iteration 25
+[15/04/2024 09:00:49]       INFO: Iteration 26
+[15/04/2024 09:00:49]       INFO: Iteration 27
+[15/04/2024 09:00:49]       INFO: Iteration 28
+[15/04/2024 09:00:49]       INFO: Iteration 29
+[15/04/2024 09:00:49]       INFO: Iteration 30
+[15/04/2024 09:00:49]       INFO: Iteration 31
+[15/04/2024 09:00:49]       INFO: Iteration 32
+[15/04/2024 09:00:49]       INFO: Iteration 33
+[15/04/2024 09:00:49]       INFO: Iteration 34
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0007 (374 datapoints). Num Generated Queries 16/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (477 datapoints). Num Generated Queries 17/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (477 datapoints). Num Generated Queries 18/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0004 (211 datapoints). Num Generated Queries 19/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0008 (424 datapoints). Num Generated Queries 20/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Iteration 25
+[15/04/2024 09:00:49]       INFO: Iteration 26
+[15/04/2024 09:00:49]       INFO: Iteration 27
+[15/04/2024 09:00:49]       INFO: Iteration 28
+[15/04/2024 09:00:49]       INFO: Iteration 29
+[15/04/2024 09:00:49]       INFO: Iteration 30
+[15/04/2024 09:00:49]       INFO: Iteration 31
+[15/04/2024 09:00:49]       INFO: Iteration 32
+[15/04/2024 09:00:49]       INFO: Iteration 33
+[15/04/2024 09:00:49]       INFO: Iteration 34
+[15/04/2024 09:00:49]       INFO: Iteration 35
+[15/04/2024 09:00:49]       INFO: Iteration 36
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (475 datapoints). Num Generated Queries 21/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0003 (159 datapoints). Num Generated Queries 22/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0003 (158 datapoints). Num Generated Queries 23/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0008 (427 datapoints). Num Generated Queries 24/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Iteration 25
+[15/04/2024 09:00:49]       INFO: Iteration 26
+[15/04/2024 09:00:49]       INFO: Iteration 27
+[15/04/2024 09:00:49]       INFO: Iteration 28
+[15/04/2024 09:00:49]       INFO: Iteration 29
+[15/04/2024 09:00:49]       INFO: Iteration 30
+[15/04/2024 09:00:49]       INFO: Iteration 31
+[15/04/2024 09:00:49]       INFO: Iteration 32
+[15/04/2024 09:00:49]       INFO: Iteration 33
+[15/04/2024 09:00:49]       INFO: Iteration 34
+[15/04/2024 09:00:49]       INFO: Iteration 35
+[15/04/2024 09:00:49]       INFO: Iteration 36
+[15/04/2024 09:00:49]       INFO: Iteration 37
+[15/04/2024 09:00:49]       INFO: Iteration 38
+[15/04/2024 09:00:49]       INFO: Iteration 39
+[15/04/2024 09:00:49]       INFO: Iteration 40
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0004 (210 datapoints). Num Generated Queries 25/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (481 datapoints). Num Generated Queries 26/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0003 (158 datapoints). Num Generated Queries 27/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Iteration 25
+[15/04/2024 09:00:49]       INFO: Iteration 26
+[15/04/2024 09:00:49]       INFO: Iteration 27
+[15/04/2024 09:00:49]       INFO: Iteration 28
+[15/04/2024 09:00:49]       INFO: Iteration 29
+[15/04/2024 09:00:49]       INFO: Iteration 30
+[15/04/2024 09:00:49]       INFO: Iteration 31
+[15/04/2024 09:00:49]       INFO: Iteration 32
+[15/04/2024 09:00:49]       INFO: Iteration 33
+[15/04/2024 09:00:49]       INFO: Iteration 34
+[15/04/2024 09:00:49]       INFO: Iteration 35
+[15/04/2024 09:00:49]       INFO: Iteration 36
+[15/04/2024 09:00:49]       INFO: Iteration 37
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0005 (266 datapoints). Num Generated Queries 28/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0008 (422 datapoints). Num Generated Queries 29/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (481 datapoints). Num Generated Queries 30/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0003 (159 datapoints). Num Generated Queries 31/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0006 (317 datapoints). Num Generated Queries 32/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0008 (425 datapoints). Num Generated Queries 33/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0007 (368 datapoints). Num Generated Queries 34/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Iteration 25
+[15/04/2024 09:00:49]       INFO: Iteration 26
+[15/04/2024 09:00:49]       INFO: Iteration 27
+[15/04/2024 09:00:49]       INFO: Iteration 28
+[15/04/2024 09:00:49]       INFO: Iteration 29
+[15/04/2024 09:00:49]       INFO: Iteration 30
+[15/04/2024 09:00:49]       INFO: Iteration 31
+[15/04/2024 09:00:49]       INFO: Iteration 32
+[15/04/2024 09:00:49]       INFO: Iteration 33
+[15/04/2024 09:00:49]       INFO: Iteration 34
+[15/04/2024 09:00:49]       INFO: Iteration 35
+[15/04/2024 09:00:49]       INFO: Iteration 36
+[15/04/2024 09:00:49]       INFO: Iteration 37
+[15/04/2024 09:00:49]       INFO: Iteration 38
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0001 (53 datapoints). Num Generated Queries 35/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0007 (374 datapoints). Num Generated Queries 36/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0009 (478 datapoints). Num Generated Queries 37/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0006 (321 datapoints). Num Generated Queries 38/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Iteration 14
+[15/04/2024 09:00:49]       INFO: Iteration 15
+[15/04/2024 09:00:49]       INFO: Iteration 16
+[15/04/2024 09:00:49]       INFO: Iteration 17
+[15/04/2024 09:00:49]       INFO: Iteration 18
+[15/04/2024 09:00:49]       INFO: Iteration 19
+[15/04/2024 09:00:49]       INFO: Iteration 20
+[15/04/2024 09:00:49]       INFO: Iteration 21
+[15/04/2024 09:00:49]       INFO: Iteration 22
+[15/04/2024 09:00:49]       INFO: Iteration 23
+[15/04/2024 09:00:49]       INFO: Iteration 24
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0004 (210 datapoints). Num Generated Queries 39/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0007 (374 datapoints). Num Generated Queries 40/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0002 (107 datapoints). Num Generated Queries 41/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:49]       INFO: Iteration 6
+[15/04/2024 09:00:49]       INFO: Iteration 7
+[15/04/2024 09:00:49]       INFO: Iteration 8
+[15/04/2024 09:00:49]       INFO: Iteration 9
+[15/04/2024 09:00:49]       INFO: Iteration 10
+[15/04/2024 09:00:49]       INFO: Iteration 11
+[15/04/2024 09:00:49]       INFO: Iteration 12
+[15/04/2024 09:00:49]       INFO: Iteration 13
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0007 (371 datapoints). Num Generated Queries 42/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Adding Query with selectivity 0.0004 (226 datapoints). Num Generated Queries 43/100
+[15/04/2024 09:00:49]       INFO: Iteration 0
+[15/04/2024 09:00:49]       INFO: Iteration 1
+[15/04/2024 09:00:49]       INFO: Iteration 2
+[15/04/2024 09:00:49]       INFO: Iteration 3
+[15/04/2024 09:00:49]       INFO: Iteration 4
+[15/04/2024 09:00:49]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0004 (210 datapoints). Num Generated Queries 44/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (317 datapoints). Num Generated Queries 45/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (425 datapoints). Num Generated Queries 46/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0009 (480 datapoints). Num Generated Queries 47/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Iteration 21
+[15/04/2024 09:00:50]       INFO: Iteration 22
+[15/04/2024 09:00:50]       INFO: Iteration 23
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (320 datapoints). Num Generated Queries 48/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0002 (105 datapoints). Num Generated Queries 49/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0002 (106 datapoints). Num Generated Queries 50/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (368 datapoints). Num Generated Queries 51/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (425 datapoints). Num Generated Queries 52/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (320 datapoints). Num Generated Queries 53/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (368 datapoints). Num Generated Queries 54/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0009 (481 datapoints). Num Generated Queries 55/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0002 (106 datapoints). Num Generated Queries 56/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Iteration 21
+[15/04/2024 09:00:50]       INFO: Iteration 22
+[15/04/2024 09:00:50]       INFO: Iteration 23
+[15/04/2024 09:00:50]       INFO: Iteration 24
+[15/04/2024 09:00:50]       INFO: Iteration 25
+[15/04/2024 09:00:50]       INFO: Iteration 26
+[15/04/2024 09:00:50]       INFO: Iteration 27
+[15/04/2024 09:00:50]       INFO: Iteration 28
+[15/04/2024 09:00:50]       INFO: Iteration 29
+[15/04/2024 09:00:50]       INFO: Iteration 30
+[15/04/2024 09:00:50]       INFO: Iteration 31
+[15/04/2024 09:00:50]       INFO: Iteration 32
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (426 datapoints). Num Generated Queries 57/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0002 (107 datapoints). Num Generated Queries 58/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (369 datapoints). Num Generated Queries 59/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0009 (475 datapoints). Num Generated Queries 60/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0001 (53 datapoints). Num Generated Queries 61/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (317 datapoints). Num Generated Queries 62/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0005 (266 datapoints). Num Generated Queries 63/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (319 datapoints). Num Generated Queries 64/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (421 datapoints). Num Generated Queries 65/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (371 datapoints). Num Generated Queries 66/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (369 datapoints). Num Generated Queries 67/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0009 (480 datapoints). Num Generated Queries 68/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (428 datapoints). Num Generated Queries 69/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0002 (105 datapoints). Num Generated Queries 70/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Iteration 21
+[15/04/2024 09:00:50]       INFO: Iteration 22
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (370 datapoints). Num Generated Queries 71/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0002 (106 datapoints). Num Generated Queries 72/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (373 datapoints). Num Generated Queries 73/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (425 datapoints). Num Generated Queries 74/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (371 datapoints). Num Generated Queries 75/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (317 datapoints). Num Generated Queries 76/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Iteration 21
+[15/04/2024 09:00:50]       INFO: Iteration 22
+[15/04/2024 09:00:50]       INFO: Iteration 23
+[15/04/2024 09:00:50]       INFO: Iteration 24
+[15/04/2024 09:00:50]       INFO: Iteration 25
+[15/04/2024 09:00:50]       INFO: Iteration 26
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (316 datapoints). Num Generated Queries 77/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0009 (479 datapoints). Num Generated Queries 78/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0009 (474 datapoints). Num Generated Queries 79/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0001 (53 datapoints). Num Generated Queries 80/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0003 (160 datapoints). Num Generated Queries 81/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Iteration 21
+[15/04/2024 09:00:50]       INFO: Iteration 22
+[15/04/2024 09:00:50]       INFO: Iteration 23
+[15/04/2024 09:00:50]       INFO: Iteration 24
+[15/04/2024 09:00:50]       INFO: Iteration 25
+[15/04/2024 09:00:50]       INFO: Iteration 26
+[15/04/2024 09:00:50]       INFO: Iteration 27
+[15/04/2024 09:00:50]       INFO: Iteration 28
+[15/04/2024 09:00:50]       INFO: Iteration 29
+[15/04/2024 09:00:50]       INFO: Iteration 30
+[15/04/2024 09:00:50]       INFO: Iteration 31
+[15/04/2024 09:00:50]       INFO: Iteration 32
+[15/04/2024 09:00:50]       INFO: Iteration 33
+[15/04/2024 09:00:50]       INFO: Iteration 34
+[15/04/2024 09:00:50]       INFO: Iteration 35
+[15/04/2024 09:00:50]       INFO: Iteration 36
+[15/04/2024 09:00:50]       INFO: Iteration 37
+[15/04/2024 09:00:50]       INFO: Iteration 38
+[15/04/2024 09:00:50]       INFO: Iteration 39
+[15/04/2024 09:00:50]       INFO: Iteration 40
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (422 datapoints). Num Generated Queries 82/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (420 datapoints). Num Generated Queries 83/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0004 (210 datapoints). Num Generated Queries 84/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (373 datapoints). Num Generated Queries 85/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0004 (212 datapoints). Num Generated Queries 86/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (424 datapoints). Num Generated Queries 87/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0007 (369 datapoints). Num Generated Queries 88/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (425 datapoints). Num Generated Queries 89/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Iteration 21
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0003 (158 datapoints). Num Generated Queries 90/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0005 (266 datapoints). Num Generated Queries 91/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0004 (226 datapoints). Num Generated Queries 92/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0002 (106 datapoints). Num Generated Queries 93/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:50]       INFO: Iteration 15
+[15/04/2024 09:00:50]       INFO: Iteration 16
+[15/04/2024 09:00:50]       INFO: Iteration 17
+[15/04/2024 09:00:50]       INFO: Iteration 18
+[15/04/2024 09:00:50]       INFO: Iteration 19
+[15/04/2024 09:00:50]       INFO: Iteration 20
+[15/04/2024 09:00:50]       INFO: Iteration 21
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0006 (320 datapoints). Num Generated Queries 94/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Adding Query with selectivity 0.0008 (427 datapoints). Num Generated Queries 95/100
+[15/04/2024 09:00:50]       INFO: Iteration 0
+[15/04/2024 09:00:50]       INFO: Iteration 1
+[15/04/2024 09:00:50]       INFO: Iteration 2
+[15/04/2024 09:00:50]       INFO: Iteration 3
+[15/04/2024 09:00:50]       INFO: Iteration 4
+[15/04/2024 09:00:50]       INFO: Iteration 5
+[15/04/2024 09:00:50]       INFO: Iteration 6
+[15/04/2024 09:00:50]       INFO: Iteration 7
+[15/04/2024 09:00:50]       INFO: Iteration 8
+[15/04/2024 09:00:50]       INFO: Iteration 9
+[15/04/2024 09:00:50]       INFO: Iteration 10
+[15/04/2024 09:00:50]       INFO: Iteration 11
+[15/04/2024 09:00:50]       INFO: Iteration 12
+[15/04/2024 09:00:50]       INFO: Iteration 13
+[15/04/2024 09:00:50]       INFO: Iteration 14
+[15/04/2024 09:00:51]       INFO: Adding Query with selectivity 0.0005 (267 datapoints). Num Generated Queries 96/100
+[15/04/2024 09:00:51]       INFO: Iteration 0
+[15/04/2024 09:00:51]       INFO: Adding Query with selectivity 0.0006 (317 datapoints). Num Generated Queries 97/100
+[15/04/2024 09:00:51]       INFO: Iteration 0
+[15/04/2024 09:00:51]       INFO: Iteration 1
+[15/04/2024 09:00:51]       INFO: Iteration 2
+[15/04/2024 09:00:51]       INFO: Iteration 3
+[15/04/2024 09:00:51]       INFO: Iteration 4
+[15/04/2024 09:00:51]       INFO: Iteration 5
+[15/04/2024 09:00:51]       INFO: Iteration 6
+[15/04/2024 09:00:51]       INFO: Iteration 7
+[15/04/2024 09:00:51]       INFO: Iteration 8
+[15/04/2024 09:00:51]       INFO: Iteration 9
+[15/04/2024 09:00:51]       INFO: Iteration 10
+[15/04/2024 09:00:51]       INFO: Iteration 11
+[15/04/2024 09:00:51]       INFO: Adding Query with selectivity 0.0009 (478 datapoints). Num Generated Queries 98/100
+[15/04/2024 09:00:51]       INFO: Iteration 0
+[15/04/2024 09:00:51]       INFO: Iteration 1
+[15/04/2024 09:00:51]       INFO: Iteration 2
+[15/04/2024 09:00:51]       INFO: Iteration 3
+[15/04/2024 09:00:51]       INFO: Iteration 4
+[15/04/2024 09:00:51]       INFO: Iteration 5
+[15/04/2024 09:00:51]       INFO: Iteration 6
+[15/04/2024 09:00:51]       INFO: Iteration 7
+[15/04/2024 09:00:51]       INFO: Iteration 8
+[15/04/2024 09:00:51]       INFO: Adding Query with selectivity 0.0009 (479 datapoints). Num Generated Queries 99/100
+[15/04/2024 09:00:51]       INFO: Iteration 0
+[15/04/2024 09:00:51]       INFO: Iteration 1
+[15/04/2024 09:00:51]       INFO: Iteration 2
+[15/04/2024 09:00:51]       INFO: Adding Query with selectivity 0.0003 (160 datapoints). Num Generated Queries 100/100
+[15/04/2024 09:00:51]       INFO: NUM_ATTRIBUTES = 2
+[15/04/2024 09:00:51]       INFO: FILE_LOGGING = 1
+[15/04/2024 09:00:51]       INFO: DATASOURCE = 0
+[15/04/2024 09:00:51]       INFO: OUT_DIR: ./results/insertionDeletion-size:2^16,23-cols:2-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0
+[15/04/2024 09:00:51]       INFO: FILES_DIR: /home/ec2-user/tmp/storage-files-thread0-seed:0
+[15/04/2024 09:00:51]       INFO: NUM_DATAPOINTS = 524286
+[15/04/2024 09:00:51]       INFO: NUM_QUERIES = 100
+[15/04/2024 09:00:51]       INFO: DELETION = 0
+[15/04/2024 09:00:51]       INFO: NUM_ATTRIBUTES = 2
+[15/04/2024 09:00:51]       INFO: COLUMN_FORMAT: INT,INT
+[15/04/2024 09:00:51]       INFO: DATA_RESOLUTION: 1,1
+[15/04/2024 09:00:51]       INFO: MIN_VALUE: 10000,10000
+[15/04/2024 09:00:51]       INFO: MAX_VALUE: 20000,20000
+[15/04/2024 09:00:51]       INFO: RANGEQUERY_RANGE = 10
+[15/04/2024 09:00:51]       INFO: DATASET = data/covid-data.csv
+[15/04/2024 09:00:51]       INFO: NUM_DATAPOINTS = 524286
+[15/04/2024 09:00:51]       INFO: RETRIEVE_EXACTLY: 1,10,20,30,40,50,60
+[15/04/2024 09:00:51]       INFO: QUERY_RESPONSE_EPSILON = 1
+[15/04/2024 09:00:51]       INFO: QUERY_INDEX = 0
+[15/04/2024 09:00:51]       INFO: WHERE_INDEX = 0
+[15/04/2024 09:00:51]       INFO: QUERY_FUNCTION = 0
+[15/04/2024 09:00:51]       INFO: POINT_QUERIES = 0
+[15/04/2024 09:00:51]       INFO: NUM_QUERIES = 100
+[15/04/2024 09:00:51]       INFO: MAX_SENSITIVITY = 0.001
+[15/04/2024 09:00:51]       INFO: SEED = 0
+[15/04/2024 09:00:51]       INFO: USE_GAMMA = 0
+[15/04/2024 09:00:51]       INFO: ORAM_LOG_CAPACITY = 19
+[15/04/2024 09:00:51]       INFO: ORAM_Z = 3
+[15/04/2024 09:00:51]       INFO: STASH_FACTOR = 4
+[15/04/2024 09:00:51]       INFO: USE_ORAM = 1
+[15/04/2024 09:00:51]       INFO: BATCH_SIZE = 1
+[15/04/2024 09:00:51]       INFO: DP_K = 2
+[15/04/2024 09:00:51]       INFO: DP_BETA = 20
+[15/04/2024 09:00:51]       INFO: DP_EPSILON = 0.693
+[15/04/2024 09:00:51]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[15/04/2024 09:00:51]       INFO: Insert data as bulk. Last data point inserted manually (for runtime measurements).
+[15/04/2024 09:00:51]       INFO: INSERT_BULK = 0
+[15/04/2024 09:00:51]       INFO: this->maxPerTree = 524287
+[15/04/2024 09:00:51]       INFO: this->numOSMs = 1
+[15/04/2024 09:00:51]       INFO: Generating sanitizers for  1/2. (USE GAMMA 0)
+[15/04/2024 09:00:51]       INFO: Noise Parameters Column 0 - min 10000, max 20000, range 10000
+[15/04/2024 09:00:51]       INFO: this_DP_domain = 10000
+[15/04/2024 09:00:51]       INFO: this_dp_buckets = 8192
+[15/04/2024 09:00:51]       INFO: this_dp_levels = 100
+[15/04/2024 09:00:51]       INFO: this_dp_alpha = 306
+[15/04/2024 09:00:51]       INFO: Noise Parameters Column 1 - min 10000, max 20000, range 10000
+[15/04/2024 09:00:51]       INFO: this_DP_domain = 10000
+[15/04/2024 09:00:51]       INFO: this_dp_buckets = 8192
+[15/04/2024 09:00:51]       INFO: this_dp_levels = 100
+[15/04/2024 09:00:51]       INFO: this_dp_alpha = 306
+[15/04/2024 09:00:51]       INFO: Generating DP noise tree...
+[15/04/2024 09:00:52]       INFO: For column 0: DP tree has 16469 elements
+[15/04/2024 09:00:52]       INFO: For column 1: DP tree has 16469 elements
+[15/04/2024 09:00:52]       INFO: Generating sanitizers for  2/2. (USE GAMMA 0)
+[15/04/2024 09:00:52]       INFO: Noise Parameters Column 0 - min 10000, max 20000, range 10000
+[15/04/2024 09:00:52]       INFO: this_DP_domain = 10000
+[15/04/2024 09:00:52]       INFO: this_dp_buckets = 8192
+[15/04/2024 09:00:52]       INFO: this_dp_levels = 100
+[15/04/2024 09:00:52]       INFO: this_dp_alpha = 306
+[15/04/2024 09:00:52]       INFO: Noise Parameters Column 1 - min 10000, max 20000, range 10000
+[15/04/2024 09:00:52]       INFO: this_DP_domain = 10000
+[15/04/2024 09:00:52]       INFO: this_dp_buckets = 8192
+[15/04/2024 09:00:52]       INFO: this_dp_levels = 100
+[15/04/2024 09:00:52]       INFO: this_dp_alpha = 306
+[15/04/2024 09:00:52]       INFO: Generating DP noise tree...
+[15/04/2024 09:00:52]       INFO: For column 0: DP tree has 16469 elements
+[15/04/2024 09:00:52]       INFO: For column 1: DP tree has 16469 elements
+[15/04/2024 09:00:52]       INFO: Creating OSM data split 1/1.
+[15/04/2024 09:00:52]       INFO: start 1, end 524285, num 524285
+[15/04/2024 09:00:52]       INFO: Creating AVLTree for OSM  1/1 with 524284 datapoints
+[15/04/2024 09:00:52]       INFO: Creating Histograms for OSM  1.
+[15/04/2024 09:00:52]       INFO: AVLTree.maxCapacity =524288 
+[15/04/2024 09:00:52]       INFO: ORAM_Z = 3
+[15/04/2024 09:00:52]       INFO: STASH_FACTOR = 4
+[15/04/2024 09:00:52]       INFO: this->ORAM_LOG_CAPACITY = 19
+[15/04/2024 09:00:52]       INFO: BATCH_SIZE = 1
+[15/04/2024 09:00:52]       INFO: ORAM_BLOCK_SIZE = 88
+[15/04/2024 09:00:52]       INFO: oramParameter = 1572867
+[15/04/2024 09:00:52]       INFO: ORAM Stash Size is: 228
+[15/04/2024 09:00:52]       INFO: Creating Tree Structure in non-oblivious manner from sorted lists.
+[15/04/2024 09:01:22]       INFO: starting to build Tree
+[15/04/2024 09:01:22]       INFO: building Tree from sorted list for Colum 0
+[15/04/2024 09:01:22]       INFO: building Tree from sorted list for Colum 0
+[15/04/2024 09:01:22]       INFO: building Tree from sorted list for Colum 1
+[15/04/2024 09:02:33]       INFO: Finished building tree from sorted list for Colum 0
+[15/04/2024 09:02:34]       INFO: Finished building tree from sorted list for Colum 1
+[15/04/2024 09:02:36]       INFO: data size 524284
+[15/04/2024 09:02:37]       INFO: Attempting to lock 1 GB of RAM. 
+[15/04/2024 09:02:37]       INFO: Creating ORAM
+[15/04/2024 09:02:42]       INFO: Loading Data into ORAM (524284 datapoints) 
+[15/04/2024 09:02:43]       INFO: Finished loading data into ORAM
+[15/04/2024 09:02:43]       INFO: Removed RAM lock
+[15/04/2024 09:02:43]       INFO: Removed Lock for 1 GB of RAM.
+[15/04/2024 09:02:44]       INFO: BLOCK_SIZE=88
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 0
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 1
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 2
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 3
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 4
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 5
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 6
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 7
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 8
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 9
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 10
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 11
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 12
+[15/04/2024 09:02:44]       INFO: Inserting 524285/524286 -repetition 13
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 14
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 15
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 16
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 17
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 18
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 19
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 20
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 21
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 22
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 23
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 24
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 25
+[15/04/2024 09:02:45]       INFO: Inserting 524285/524286 -repetition 26
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 27
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 28
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 29
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 30
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 31
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 32
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 33
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 34
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 35
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 36
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 37
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 38
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 39
+[15/04/2024 09:02:46]       INFO: Inserting 524285/524286 -repetition 40
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 41
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 42
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 43
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 44
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 45
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 46
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 47
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 48
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 49
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 50
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 51
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 52
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 53
+[15/04/2024 09:02:47]       INFO: Inserting 524285/524286 -repetition 54
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 55
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 56
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 57
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 58
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 59
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 60
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 61
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 62
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 63
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 64
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 65
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 66
+[15/04/2024 09:02:48]       INFO: Inserting 524285/524286 -repetition 67
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 68
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 69
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 70
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 71
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 72
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 73
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 74
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 75
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 76
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 77
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 78
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 79
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 80
+[15/04/2024 09:02:49]       INFO: Inserting 524285/524286 -repetition 81
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 82
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 83
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 84
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 85
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 86
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 87
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 88
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 89
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 90
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 91
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 92
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 93
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 94
+[15/04/2024 09:02:50]       INFO: Inserting 524285/524286 -repetition 95
+[15/04/2024 09:02:51]       INFO: Inserting 524285/524286 -repetition 96
+[15/04/2024 09:02:51]       INFO: Inserting 524285/524286 -repetition 97
+[15/04/2024 09:02:51]       INFO: Inserting 524285/524286 -repetition 98
+[15/04/2024 09:02:51]       INFO: Inserting 524285/524286 -repetition 99
+[15/04/2024 09:02:51]       INFO: Put 524286 datapoints: { duration 1520 μs, mean    2 ns}
+[15/04/2024 09:02:51]       INFO: Finished inserting Datapoints
+[15/04/2024 09:02:51]       INFO: Server  transitioned from old state 3 via transition edge 201 to new state 4
+[15/04/2024 09:02:51]       INFO: Running 100 QUERIES...
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:17123, to:17126, pointQuery:0, whereIndex:0, whereFrom:17123, whereTo:17126, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [17123,17126]
+[15/04/2024 09:02:51]       INFO: Query   1 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (8918 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4290 μs, ORAMs: 4609 μs, after:   18 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:15596, to:15599, pointQuery:0, whereIndex:0, whereFrom:15596, whereTo:15599, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [15596,15599]
+[15/04/2024 09:02:51]       INFO: Query   2 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9586 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4305 μs, ORAMs: 5255 μs, after:   25 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 7
+[15/04/2024 09:02:51]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:12177, to:12217, pointQuery:0, whereIndex:0, whereFrom:12177, whereTo:12217, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [12177,12217]
+[15/04/2024 09:02:51]       INFO: Query   4 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4254 μs, ORAMs: 7495 μs, after:   42 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:11612, to:11645, pointQuery:0, whereIndex:0, whereFrom:11612, whereTo:11645, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [11612,11645]
+[15/04/2024 09:02:51]       INFO: Query   5 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3624 μs, ORAMs:   10 ms, after:   51 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:13719, to:13722, pointQuery:0, whereIndex:0, whereFrom:13719, whereTo:13722, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [13719,13722]
+[15/04/2024 09:02:51]       INFO: Query   6 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3437 μs, ORAMs:   12 ms, after:   64 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 2
+[15/04/2024 09:02:51]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:15057, to:15059, pointQuery:0, whereIndex:0, whereFrom:15057, whereTo:15059, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [15057,15059]
+[15/04/2024 09:02:51]       INFO: Query   7 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3350 μs, ORAMs:   12 ms, after:   67 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:15761, to:15764, pointQuery:0, whereIndex:0, whereFrom:15761, whereTo:15764, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [15761,15764]
+[15/04/2024 09:02:51]       INFO: Query   8 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (8754 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4220 μs, ORAMs: 4518 μs, after:   15 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:18029, to:18037, pointQuery:0, whereIndex:0, whereFrom:18029, whereTo:18037, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [18029,18037]
+[15/04/2024 09:02:51]       INFO: Query   9 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9559 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4339 μs, ORAMs: 5193 μs, after:   25 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:15761, to:15764, pointQuery:0, whereIndex:0, whereFrom:15761, whereTo:15764, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [15761,15764]
+[15/04/2024 09:02:51]       INFO: Query  10 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4536 μs, ORAMs: 6379 μs, after:   27 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 2
+[15/04/2024 09:02:51]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:16549, to:16550, pointQuery:0, whereIndex:0, whereFrom:16549, whereTo:16550, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [16549,16550]
+[15/04/2024 09:02:51]       INFO: Query  11 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3476 μs, ORAMs: 8415 μs, after:   41 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:13919, to:13922, pointQuery:0, whereIndex:0, whereFrom:13919, whereTo:13922, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [13919,13922]
+[15/04/2024 09:02:51]       INFO: Query  12 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3500 μs, ORAMs:   10 ms, after:   40 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 2
+[15/04/2024 09:02:51]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:13016, to:13027, pointQuery:0, whereIndex:0, whereFrom:13016, whereTo:13027, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [13016,13027]
+[15/04/2024 09:02:51]       INFO: Query  13 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4232 μs, ORAMs:   10 ms, after:   47 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:14377, to:14381, pointQuery:0, whereIndex:0, whereFrom:14377, whereTo:14381, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [14377,14381]
+[15/04/2024 09:02:51]       INFO: Query  14 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3494 μs, ORAMs:   12 ms, after:   53 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:12857, to:12870, pointQuery:0, whereIndex:0, whereFrom:12857, whereTo:12870, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [12857,12870]
+[15/04/2024 09:02:51]       INFO: Query  16 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9615 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3641 μs, ORAMs: 5952 μs, after:   21 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 2
+[15/04/2024 09:02:51]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:14455, to:14459, pointQuery:0, whereIndex:0, whereFrom:14455, whereTo:14459, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [14455,14459]
+[15/04/2024 09:02:51]       INFO: Query  17 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3604 μs, ORAMs: 7324 μs, after:   34 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:17216, to:17219, pointQuery:0, whereIndex:0, whereFrom:17216, whereTo:17219, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [17216,17219]
+[15/04/2024 09:02:51]       INFO: Query  19 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3484 μs, ORAMs: 9813 μs, after:   41 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:15844, to:15847, pointQuery:0, whereIndex:0, whereFrom:15844, whereTo:15847, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [15844,15847]
+[15/04/2024 09:02:51]       INFO: Query  20 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4199 μs, ORAMs:   11 ms, after:   58 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:14049, to:14054, pointQuery:0, whereIndex:0, whereFrom:14049, whereTo:14054, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [14049,14054]
+[15/04/2024 09:02:51]       INFO: Query  21 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3430 μs, ORAMs:   12 ms, after:   53 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:12377, to:12388, pointQuery:0, whereIndex:0, whereFrom:12377, whereTo:12388, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [12377,12388]
+[15/04/2024 09:02:51]       INFO: Query  23 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9791 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3324 μs, ORAMs: 6440 μs, after:   26 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:12670, to:12689, pointQuery:0, whereIndex:0, whereFrom:12670, whereTo:12689, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [12670,12689]
+[15/04/2024 09:02:51]       INFO: Query  24 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3405 μs, ORAMs: 7266 μs, after:   27 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:12473, to:12487, pointQuery:0, whereIndex:0, whereFrom:12473, whereTo:12487, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [12473,12487]
+[15/04/2024 09:02:51]       INFO: Query  25 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3442 μs, ORAMs: 8389 μs, after:   42 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:14486, to:14490, pointQuery:0, whereIndex:0, whereFrom:14486, whereTo:14490, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [14486,14490]
+[15/04/2024 09:02:51]       INFO: Query  26 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4450 μs, ORAMs:   10 ms, after:   51 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 5
+[15/04/2024 09:02:51]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:10999, to:11103, pointQuery:0, whereIndex:0, whereFrom:10999, whereTo:11103, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [10999,11103]
+[15/04/2024 09:02:51]       INFO: Query  27 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3407 μs, ORAMs:   10 ms, after:   56 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 2
+[15/04/2024 09:02:51]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:16245, to:16247, pointQuery:0, whereIndex:0, whereFrom:16245, whereTo:16247, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [16245,16247]
+[15/04/2024 09:02:51]       INFO: Query  28 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4164 μs, ORAMs:   12 ms, after:   53 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 8
+[15/04/2024 09:02:51]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:10972, to:11226, pointQuery:0, whereIndex:0, whereFrom:10972, whereTo:11226, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [10972,11226]
+[15/04/2024 09:02:51]       INFO: Query  29 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (8629 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4244 μs, ORAMs: 4368 μs, after:   16 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:14145, to:14150, pointQuery:0, whereIndex:0, whereFrom:14145, whereTo:14150, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [14145,14150]
+[15/04/2024 09:02:51]       INFO: Query  30 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9355 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3271 μs, ORAMs: 6057 μs, after:   25 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:17266, to:17273, pointQuery:0, whereIndex:0, whereFrom:17266, whereTo:17273, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [17266,17273]
+[15/04/2024 09:02:51]       INFO: Query  33 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3241 μs, ORAMs: 9934 μs, after:   52 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:16276, to:16279, pointQuery:0, whereIndex:0, whereFrom:16276, whereTo:16279, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [16276,16279]
+[15/04/2024 09:02:51]       INFO: Query  34 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4078 μs, ORAMs:   11 ms, after:   47 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:17578, to:17579, pointQuery:0, whereIndex:0, whereFrom:17578, whereTo:17579, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [17578,17579]
+[15/04/2024 09:02:51]       INFO: Query  35 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3425 μs, ORAMs:   12 ms, after:   67 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:17107, to:17114, pointQuery:0, whereIndex:0, whereFrom:17107, whereTo:17114, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [17107,17114]
+[15/04/2024 09:02:51]       INFO: Query  37 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9517 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3313 μs, ORAMs: 6177 μs, after:   26 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:12672, to:12687, pointQuery:0, whereIndex:0, whereFrom:12672, whereTo:12687, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [12672,12687]
+[15/04/2024 09:02:51]       INFO: Query  38 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3401 μs, ORAMs: 7375 μs, after:   27 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 8
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 8
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 8
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 8
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 8
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:16698, to:16699, pointQuery:0, whereIndex:0, whereFrom:16698, whereTo:16699, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [16698,16699]
+[15/04/2024 09:02:51]       INFO: Query  41 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3250 μs, ORAMs:   10 ms, after:   61 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 4
+[15/04/2024 09:02:51]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:17570, to:17578, pointQuery:0, whereIndex:0, whereFrom:17570, whereTo:17578, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [17570,17578]
+[15/04/2024 09:02:51]       INFO: Query  42 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 3253 μs, ORAMs:   11 ms, after:   66 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 1
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:51]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:51]       INFO: Noise nodes 3
+[15/04/2024 09:02:51]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:51]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:51]       INFO: Query: Query[, attributeIndex:0 from:16967, to:16970, pointQuery:0, whereIndex:0, whereFrom:16967, whereTo:16970, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:51]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [16967,16970]
+[15/04/2024 09:02:51]       INFO: Query  44 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9498 μs, or    0 ns / record)
+[15/04/2024 09:02:51]       INFO: Runtime Measurment: {before: 4214 μs, ORAMs: 5263 μs, after:   21 μs}
+[15/04/2024 09:02:51]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12260, to:12286, pointQuery:0, whereIndex:0, whereFrom:12260, whereTo:12286, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [12260,12286]
+[15/04/2024 09:02:52]       INFO: Query  45 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3980 μs, ORAMs: 6413 μs, after:   33 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16826, to:16831, pointQuery:0, whereIndex:0, whereFrom:16826, whereTo:16831, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [16826,16831]
+[15/04/2024 09:02:52]       INFO: Query  46 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  12 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4213 μs, ORAMs: 8693 μs, after:   33 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12188, to:12234, pointQuery:0, whereIndex:0, whereFrom:12188, whereTo:12234, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [12188,12234]
+[15/04/2024 09:02:52]       INFO: Query  47 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3479 μs, ORAMs:   10 ms, after:   51 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:15417, to:15419, pointQuery:0, whereIndex:0, whereFrom:15417, whereTo:15419, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [15417,15419]
+[15/04/2024 09:02:52]       INFO: Query  48 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4165 μs, ORAMs:   10 ms, after:   47 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 7
+[15/04/2024 09:02:52]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:11425, to:11461, pointQuery:0, whereIndex:0, whereFrom:11425, whereTo:11461, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [11425,11461]
+[15/04/2024 09:02:52]       INFO: Query  49 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3463 μs, ORAMs:   11 ms, after:   53 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:14225, to:14226, pointQuery:0, whereIndex:0, whereFrom:14225, whereTo:14226, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [14225,14226]
+[15/04/2024 09:02:52]       INFO: Query  50 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (7928 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3467 μs, ORAMs: 4445 μs, after:   16 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 7
+[15/04/2024 09:02:52]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12449, to:12474, pointQuery:0, whereIndex:0, whereFrom:12449, whereTo:12474, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [12449,12474]
+[15/04/2024 09:02:52]       INFO: Query  51 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9828 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4305 μs, ORAMs: 5496 μs, after:   25 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:14811, to:14814, pointQuery:0, whereIndex:0, whereFrom:14811, whereTo:14814, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [14811,14814]
+[15/04/2024 09:02:52]       INFO: Query  52 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3335 μs, ORAMs: 7477 μs, after:   27 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:13441, to:13447, pointQuery:0, whereIndex:0, whereFrom:13441, whereTo:13447, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [13441,13447]
+[15/04/2024 09:02:52]       INFO: Query  53 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3259 μs, ORAMs: 8586 μs, after:   42 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:10920, to:11160, pointQuery:0, whereIndex:0, whereFrom:10920, whereTo:11160, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [10920,11160]
+[15/04/2024 09:02:52]       INFO: Query  54 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3291 μs, ORAMs: 9781 μs, after:   51 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16619, to:16624, pointQuery:0, whereIndex:0, whereFrom:16619, whereTo:16624, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [16619,16624]
+[15/04/2024 09:02:52]       INFO: Query  55 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4165 μs, ORAMs:   10 ms, after:   58 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:15030, to:15033, pointQuery:0, whereIndex:0, whereFrom:15030, whereTo:15033, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [15030,15033]
+[15/04/2024 09:02:52]       INFO: Query  57 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (8795 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3417 μs, ORAMs: 5361 μs, after:   16 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16307, to:16308, pointQuery:0, whereIndex:0, whereFrom:16307, whereTo:16308, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [16307,16308]
+[15/04/2024 09:02:52]       INFO: Query  58 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3589 μs, ORAMs:   12 ms, after:   21 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16797, to:16801, pointQuery:0, whereIndex:0, whereFrom:16797, whereTo:16801, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [16797,16801]
+[15/04/2024 09:02:52]       INFO: Query  59 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3588 μs, ORAMs: 7452 μs, after:   34 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:17327, to:17335, pointQuery:0, whereIndex:0, whereFrom:17327, whereTo:17335, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [17327,17335]
+[15/04/2024 09:02:52]       INFO: Query  60 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3464 μs, ORAMs: 9750 μs, after:   41 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:18025, to:18027, pointQuery:0, whereIndex:0, whereFrom:18025, whereTo:18027, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [18025,18027]
+[15/04/2024 09:02:52]       INFO: Query  61 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4162 μs, ORAMs: 9948 μs, after:   42 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12651, to:12666, pointQuery:0, whereIndex:0, whereFrom:12651, whereTo:12666, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [12651,12666]
+[15/04/2024 09:02:52]       INFO: Query  62 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3393 μs, ORAMs:   11 ms, after:   48 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:14875, to:14877, pointQuery:0, whereIndex:0, whereFrom:14875, whereTo:14877, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [14875,14877]
+[15/04/2024 09:02:52]       INFO: Query  63 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3428 μs, ORAMs:   12 ms, after:   65 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 7
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 7
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 7
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 7
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 7
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:18107, to:18124, pointQuery:0, whereIndex:0, whereFrom:18107, whereTo:18124, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [18107,18124]
+[15/04/2024 09:02:52]       INFO: Query  66 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4367 μs, ORAMs: 7391 μs, after:   29 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:13855, to:13860, pointQuery:0, whereIndex:0, whereFrom:13855, whereTo:13860, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [13855,13860]
+[15/04/2024 09:02:52]       INFO: Query  67 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  12 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3553 μs, ORAMs: 8598 μs, after:   43 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:17139, to:17146, pointQuery:0, whereIndex:0, whereFrom:17139, whereTo:17146, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [17139,17146]
+[15/04/2024 09:02:52]       INFO: Query  68 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3395 μs, ORAMs: 9781 μs, after:   41 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 1
+[15/04/2024 09:02:52]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:15904, to:15907, pointQuery:0, whereIndex:0, whereFrom:15904, whereTo:15907, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [15904,15907]
+[15/04/2024 09:02:52]       INFO: Query  69 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3500 μs, ORAMs:   11 ms, after:   47 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:13030, to:13040, pointQuery:0, whereIndex:0, whereFrom:13030, whereTo:13040, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [13030,13040]
+[15/04/2024 09:02:52]       INFO: Query  71 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (8355 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3259 μs, ORAMs: 5079 μs, after:   16 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:14159, to:14160, pointQuery:0, whereIndex:0, whereFrom:14159, whereTo:14160, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [14159,14160]
+[15/04/2024 09:02:52]       INFO: Query  72 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9675 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3429 μs, ORAMs: 6225 μs, after:   20 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12367, to:12394, pointQuery:0, whereIndex:0, whereFrom:12367, whereTo:12394, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [12367,12394]
+[15/04/2024 09:02:52]       INFO: Query  73 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3250 μs, ORAMs: 7676 μs, after:   33 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:17266, to:17273, pointQuery:0, whereIndex:0, whereFrom:17266, whereTo:17273, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [17266,17273]
+[15/04/2024 09:02:52]       INFO: Query  74 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4046 μs, ORAMs: 7570 μs, after:   41 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16239, to:16242, pointQuery:0, whereIndex:0, whereFrom:16239, whereTo:16242, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [16239,16242]
+[15/04/2024 09:02:52]       INFO: Query  75 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3271 μs, ORAMs: 9821 μs, after:   51 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:15388, to:15390, pointQuery:0, whereIndex:0, whereFrom:15388, whereTo:15390, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [15388,15390]
+[15/04/2024 09:02:52]       INFO: Query  77 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3267 μs, ORAMs:   12 ms, after:   52 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16794, to:16799, pointQuery:0, whereIndex:0, whereFrom:16794, whereTo:16799, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [16794,16799]
+[15/04/2024 09:02:52]       INFO: Query  79 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9755 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3335 μs, ORAMs: 6399 μs, after:   20 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12923, to:12925, pointQuery:0, whereIndex:0, whereFrom:12923, whereTo:12925, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [12923,12925]
+[15/04/2024 09:02:52]       INFO: Query  80 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3279 μs, ORAMs: 7577 μs, after:   28 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:13797, to:13799, pointQuery:0, whereIndex:0, whereFrom:13797, whereTo:13799, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [13797,13799]
+[15/04/2024 09:02:52]       INFO: Query  81 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3467 μs, ORAMs: 8376 μs, after:   42 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 1
+[15/04/2024 09:02:52]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:14932, to:14935, pointQuery:0, whereIndex:0, whereFrom:14932, whereTo:14935, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [14932,14935]
+[15/04/2024 09:02:52]       INFO: Query  82 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  13 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4115 μs, ORAMs: 9549 μs, after:   54 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12738, to:12755, pointQuery:0, whereIndex:0, whereFrom:12738, whereTo:12755, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [12738,12755]
+[15/04/2024 09:02:52]       INFO: Query  83 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3274 μs, ORAMs:   10 ms, after:   58 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:17105, to:17108, pointQuery:0, whereIndex:0, whereFrom:17105, whereTo:17108, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [17105,17108]
+[15/04/2024 09:02:52]       INFO: Query  84 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4028 μs, ORAMs:   12 ms, after:   53 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12192, to:12228, pointQuery:0, whereIndex:0, whereFrom:12192, whereTo:12228, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [12192,12228]
+[15/04/2024 09:02:52]       INFO: Query  85 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (8746 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3444 μs, ORAMs: 5289 μs, after:   13 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:18056, to:18065, pointQuery:0, whereIndex:0, whereFrom:18056, whereTo:18065, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [18056,18065]
+[15/04/2024 09:02:52]       INFO: Query  86 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9945 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3510 μs, ORAMs: 6408 μs, after:   25 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:17404, to:17412, pointQuery:0, whereIndex:0, whereFrom:17404, whereTo:17412, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [17404,17412]
+[15/04/2024 09:02:52]       INFO: Query  87 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3456 μs, ORAMs: 7321 μs, after:   34 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:13788, to:13793, pointQuery:0, whereIndex:0, whereFrom:13788, whereTo:13793, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [13788,13793]
+[15/04/2024 09:02:52]       INFO: Query  88 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4233 μs, ORAMs: 7458 μs, after:   33 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 6
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:13405, to:13408, pointQuery:0, whereIndex:0, whereFrom:13405, whereTo:13408, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [13405,13408]
+[15/04/2024 09:02:52]       INFO: Query  90 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  15 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4215 μs, ORAMs:   11 ms, after:   61 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16321, to:16323, pointQuery:0, whereIndex:0, whereFrom:16321, whereTo:16323, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [16321,16323]
+[15/04/2024 09:02:52]       INFO: Query  91 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3401 μs, ORAMs:   13 ms, after:   54 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 1
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 1
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 1
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 1
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 1
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: The query could not be answered as it was estimated that no elements with in this range apply. This could be because to little data has been collected.
+[15/04/2024 09:02:52]      ERROR: Caught error for when running query. This query will be skipped. No data is added to the output.
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:11741, to:11764, pointQuery:0, whereIndex:0, whereFrom:11741, whereTo:11764, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [11741,11764]
+[15/04/2024 09:02:52]       INFO: Query  93 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (  10 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3425 μs, ORAMs: 6610 μs, after:   21 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 20  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 20 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:13988, to:13992, pointQuery:0, whereIndex:0, whereFrom:13988, whereTo:13992, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     20 noise 20 , interval [13988,13992]
+[15/04/2024 09:02:52]       INFO: Query  94 / 100 : real records      0 ( +     0 padding +    20 noise,     20 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3429 μs, ORAMs: 7907 μs, after:   27 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 4
+[15/04/2024 09:02:52]       INFO: estimate 30  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 30 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:17862, to:17876, pointQuery:0, whereIndex:0, whereFrom:17862, whereTo:17876, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     30 noise 30 , interval [17862,17876]
+[15/04/2024 09:02:52]       INFO: Query  95 / 100 : real records      0 ( +     0 padding +    30 noise,     30 total) (  11 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3475 μs, ORAMs: 8435 μs, after:   37 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 5
+[15/04/2024 09:02:52]       INFO: estimate 40  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 40 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12705, to:12716, pointQuery:0, whereIndex:0, whereFrom:12705, whereTo:12716, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     40 noise 40 , interval [12705,12716]
+[15/04/2024 09:02:52]       INFO: Query  96 / 100 : real records      0 ( +     0 padding +    40 noise,     40 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4345 μs, ORAMs:   10 ms, after:   41 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 50  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 50 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:15505, to:15507, pointQuery:0, whereIndex:0, whereFrom:15505, whereTo:15507, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     50 noise 50 , interval [15505,15507]
+[15/04/2024 09:02:52]       INFO: Query  97 / 100 : real records      0 ( +     0 padding +    50 noise,     50 total) (  14 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3429 μs, ORAMs:   11 ms, after:   59 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 60  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 60 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:15534, to:15537, pointQuery:0, whereIndex:0, whereFrom:15534, whereTo:15537, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     60 noise 60 , interval [15534,15537]
+[15/04/2024 09:02:52]       INFO: Query  98 / 100 : real records      0 ( +     0 padding +    60 noise,     60 total) (  16 ms, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4197 μs, ORAMs:   12 ms, after:   53 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 2
+[15/04/2024 09:02:52]       INFO: estimate 1  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 1 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:16616, to:16621, pointQuery:0, whereIndex:0, whereFrom:16616, whereTo:16621, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints      1 noise 1 , interval [16616,16621]
+[15/04/2024 09:02:52]       INFO: Query  99 / 100 : real records      0 ( +     0 padding +     1 noise,      1 total) (8368 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 4212 μs, ORAMs: 4141 μs, after:   13 μs}
+[15/04/2024 09:02:52]       INFO: Noise nodes 3
+[15/04/2024 09:02:52]       INFO: estimate 10  for dosm 0
+[15/04/2024 09:02:52]       INFO: got 10 datapoints from osm 0 
+[15/04/2024 09:02:52]       INFO: Query: Query[, attributeIndex:0 from:12559, to:12569, pointQuery:0, whereIndex:0, whereFrom:12559, whereTo:12569, agg:0, epsilon:0.01, extra:0]
+[15/04/2024 09:02:52]       INFO: Retrieval: number of datapoints     10 noise 10 , interval [12559,12569]
+[15/04/2024 09:02:52]       INFO: Query 100 / 100 : real records      0 ( +     0 padding +    10 noise,     10 total) (9425 μs, or    0 ns / record)
+[15/04/2024 09:02:52]       INFO: Runtime Measurment: {before: 3277 μs, ORAMs: 6126 μs, after:   20 μs}
+[15/04/2024 09:02:52]       INFO: Server  transitioned from old state 4 via transition edge 401 to new state 5
+[15/04/2024 09:02:52]       INFO: For 100 QUERIES: total: 1025 ms, average: 12 ms / query,  query, 1 ns/ fetched item; (8777457+3687564+39639=0) records / query
+[15/04/2024 09:02:52]       INFO: Log written to ./results/insertionDeletion-size:2^16,23-cols:2-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0/0--2024-04-15-09-00-47--3827817677594.json
