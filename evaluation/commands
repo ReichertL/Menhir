@@ -2,34 +2,26 @@ These commands were used to produce the plots:
 
 # insertion plot (Figure 3.a)
 
-python plot.py -p \
-    data/aws-server/sanity/insertDelete/*/ \
-    -outdir plots -i
-
-
     python plot.py -p \
-    data/aws-server/insertDelete/* \
+    data/aws-server/insertDelete2024/*/ \
     -outdir plots -i
-
 
 # deletion
 
-    python plot.py -p \
-    data/aws-server/insertDelete/* \
-    -outdir plots -deletion
-
+python plot.py -p \
+    data/aws-server/insertDelete2024/*/ \
+    -outdir plots/ -deletion
 
 # time for retrieving 1 datapoint plot (Figure 3.b)
 
 python plot.py -p \
-    data/aws-server/sanity/insertDelete/*/ \
+    data/aws-server/insertDelete2024/*/ \
     -outdir plots/ -timePerQuery
 
-
-#retrieve mutliple parallelized (Figure 3c)
+#retrieve mutliple (Figure 3c)
 
 python plot.py -p \
-    data/aws-server/insertDelete/* \
+    data/aws-server/insertDelete2024/*/ \
     -outdir plots/ -retrievedSelected
 
 #retrieve mutliple parallelized (Table 3)
