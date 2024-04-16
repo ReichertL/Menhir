@@ -25,10 +25,9 @@ def retrievedNumDatapointsToTimePerQuery(onlySelected,datasets,outdir,colors, ma
         if thisFormat not in dbFormats:
             dbFormats.append(thisFormat)
 
-    i=0
     df=pd.DataFrame()
     for thisFormat in dbFormats:
-        numAttributes=0;
+        numAttributes=0
         data=list()
         for d in datasets: 
             if d["COLUMN_FORMAT"]==thisFormat :
@@ -39,7 +38,10 @@ def retrievedNumDatapointsToTimePerQuery(onlySelected,datasets,outdir,colors, ma
                     tnew["log_capacity"]=ceil(log(int((d["NUM_DATAPOINTS"])))/log(2))
                     tnew["numAttributes"]=int(d["NUM_ATTRIBUTES"])
                     tnew["total"]=int(t["total"])
-                    tnew["numOsms"]=int(d["NUM_OSMs"])
+                    try:
+                        tnew["numOsms"]=int(d["NUM_OSMs"])
+                    except:
+                        tnew["numOsms"]=1
                     tnew["retrieveExactly"]=int(t["total"])
                     tnew["overhead"]=int(t["overhead"])/1000000 #to get s
                     if(tnew["retrieveExactly"]>1):
@@ -59,17 +61,20 @@ def retrievedNumDatapointsToTimePerQuery(onlySelected,datasets,outdir,colors, ma
 
     logCaps=list()
     if onlySelected:
-        logCaps=[16,24]
+        logCaps=[24,16]
     else: 
-        logCaps= sorted(log_capacitys,reverse=True)
+        logCaps= log_capacitys
 
-    for logCap in logCaps:
-        for numA in [1]:#sorted(numAttributes,reverse=False):
+    selectedAttributes=[5,1] #sorted(numAttributes)
+    i=len(selectedAttributes)*len(logCaps)-1
+    for logCap in sorted(logCaps,reverse=True):
+        for numA in selectedAttributes:
             df_this=df[df['numAttributes']==numA]
             df_this=df_this[df_this['log_capacity']==logCap]
             df_mean=df_this.groupby(["retrieveExactly"]).mean().reset_index()
             df_median=df_this.groupby(["retrieveExactly"]).median().reset_index()
             df_count=df_this.groupby(["retrieveExactly"]).count().reset_index()
+            df_min=df_this.groupby(["retrieveExactly"]).min().reset_index()
 
             def fci(x):
                 a,b=sms.DescrStatsW(x).tconfint_mean()
@@ -88,7 +93,14 @@ def retrievedNumDatapointsToTimePerQuery(onlySelected,datasets,outdir,colors, ma
             else:
                 thislabel+=str(numA)+" columns"
 
+            plt.plot(df_min["retrieveExactly"],df_min["overhead"], linestyle=linestyles[i%len(linestyles)], marker=markers[i%len(markers)],color='#BBBBBB')#colors[i%len(colors)])
+
             plt.errorbar(df_mean["retrieveExactly"],df_mean["overhead"],yerr=ci_tuples, capsize=5, linestyle=linestyles[i%len(linestyles)], marker=markers[i%len(markers)], label=thislabel,color=colors[i%len(colors)])
+                              
+            print(thislabel)
+            print(df_mean[["retrieveExactly","overhead"]])
+
+
             
             try: 
                 print(thislabel)
@@ -105,7 +117,8 @@ def retrievedNumDatapointsToTimePerQuery(onlySelected,datasets,outdir,colors, ma
             except:
                 pass
 
-            i=i+1
+            i=i-1
+            print("-----------")
 
 
     #    
@@ -121,18 +134,21 @@ def retrievedNumDatapointsToTimePerQuery(onlySelected,datasets,outdir,colors, ma
     plt.savefig(outdir+name+".svg")
 
 
-
-    plt.figure()
-    res=np.polyfit(test_totalSize_log,test_runtime_2_16, 1)
-    xlist=[2**i for i in range(16,25)]
-    ylist=[res[0]*x+res[1] for x in xlist]
-    plt.plot(xlist,ylist)
-    plt.xscale("log",base=2)   
-    name="/Interpolation-runtimeForRetrieving2^16-differentNumDatapoints"
-    plt.xlabel("Total Number of Datapoints")
-    plt.ylabel("Runtime for 2^16 in s")
-    plt.tight_layout()         
-    plt.savefig(outdir+name+".png")
+    try: 
+        plt.figure()
+        res=np.polyfit(test_totalSize_log,test_runtime_2_16, 1)
+        xlist=[2**i for i in range(16,25)]
+        ylist=[res[0]*x+res[1] for x in xlist]
+        plt.plot(xlist,ylist)
+        plt.xscale("log",base=2)   
+        name="/Interpolation-runtimeForRetrieving2^16-differentNumDatapoints"
+        plt.xlabel("Total Number of Datapoints")
+        plt.ylabel("Runtime for 2^16 in s")
+        plt.tight_layout()         
+        plt.savefig(outdir+name+".png")
+    except:
+        print("Error during interpolation")
+        pass
 
 
 def retrievedNumDatapointsToTimePerQueryToValueSize(datasets,outdir,colors, markers,linestyles):

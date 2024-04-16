@@ -113,7 +113,8 @@ def numDatapointToTimePerQuery(datasets,outdir,colors, markers,linestyles):
 
     numAttributes=df['numAttributes'].unique().tolist()
     
-    for numA in sorted(numAttributes,reverse=False):
+    i=len(numAttributes)-1
+    for numA in sorted(numAttributes,reverse=True):
 
         df_this=df[df['numAttributes']==numA]
 
@@ -156,7 +157,7 @@ def numDatapointToTimePerQuery(datasets,outdir,colors, markers,linestyles):
         #plt.plot(datapoints,y, linestyle=linestyles[i%len(linestyles)], marker=markers[i%len(markers)],  color="#808080")
 
         print(res)
-        i=i+1
+        i=i-1
 
 
     #datapoints=df['numDatapoints'].unique().tolist()

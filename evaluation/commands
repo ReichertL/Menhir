@@ -18,13 +18,13 @@ python plot.py -p \
     data/aws-server/insertDelete2024/*/ \
     -outdir plots/ -timePerQuery
 
-#retrieve mutliple (Figure 3c)
+#retrieve mutliple (Figure 3c,Table 3)
 
 python plot.py -p \
     data/aws-server/insertDelete2024/*/ \
     -outdir plots/ -retrievedSelected
 
-#retrieve mutliple parallelized (Table 3)
+#retrieve mutliple parallelized 
 
 python plot.py -p \
     data/aws-server/parallelisation/parallelised-size:2^16,17,18,19-cols:1,5-retrieveExactly:1,10,20,30,40,50,60-BlockSize:0-UseGammaTrue \

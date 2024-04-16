@@ -127,7 +127,12 @@ For 9999-99-99 in DATE_DIED, the value -3 was used. Dates in DATE_DIED are given
 
 
 
-### 3.2 Profiling
+### 3.2 Profiling and Benchmarks
+
+* For Benchmarking the ORAM:
+```
+make run-benchmarks
+```
 
 * For an analysis of the memory overhead 
 ```

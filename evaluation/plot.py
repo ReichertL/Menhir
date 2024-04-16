@@ -41,6 +41,7 @@ def main():
     parser.add_argument('-noiseRQ', action="store_true",  default=False)           # positional argument
     parser.add_argument('-domainSize', action="store_true",  default=False)           # positional argument
     parser.add_argument('-retrieved', action="store_true",  default=False)           # positional argument
+    parser.add_argument('-retrievedSelected', action="store_true",  default=False)           # positional argument
     parser.add_argument('-parallel', action="store_true",  default=False)           # positional argument
 
     #parser.add_argument('-opS',  action="store_true",  default=False)           # positional argument
@@ -90,8 +91,11 @@ def main():
         if(args.naive_files !=[]):
             numDatapointToTimePerQueryComparision(datasets, naive_datasets,outdir,colors, markers,linestyle)
 
+    if args.retrievedSelected:
+        retrievedNumDatapointsToTimePerQuery(True,datasets,outdir,colors, markers,linestyle)
+
     if args.retrieved:
-        retrievedNumDatapointsToTimePerQuery(datasets,outdir,colors, markers,linestyle)
+        retrievedNumDatapointsToTimePerQuery(False,datasets,outdir,colors, markers,linestyle)
 
     if args.parallel:
         numOSMsToORAMRuntime(datasets,outdir,colors, markers,linestyle)

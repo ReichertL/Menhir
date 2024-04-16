@@ -194,10 +194,13 @@ def domainSizeToNoise_RangeQuery_GroupedBarPlot_withBoxPlot(df,datasets, outdir,
         print(df_data)
         df_data["PQ_label"]=df_data.apply (lambda row: "point query" if row['PQ'] else "range query", axis=1)
         print(df_data)
-        sns.boxplot(x = df_data['domainSize'],
+        print(len(df_data))
+        B=sns.boxplot(x = df_data['domainSize'],
                     y = df_data['overhead'],
                     hue = df_data['PQ_label'],
                     palette = customPalette)
+        print(B)
+        [item.get_ydata() for item in B['whiskers']]
 
         ax = plt.gca()
         handles, labels = ax.get_legend_handles_labels()

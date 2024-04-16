@@ -27,7 +27,7 @@ def numDatapointsToInsertionTime(datasets,outdir,colors, markers,linestyles):
 
     nAList=df['nA'].unique()
     print(nAList)
-    i=0
+    i=len(nAList)-1
     for numAttributes in sorted(nAList,reverse=True):
         df_sel=df[df['nA']==numAttributes]
 
@@ -56,7 +56,7 @@ def numDatapointsToInsertionTime(datasets,outdir,colors, markers,linestyles):
             plt.errorbar(x,y,yerr=yerr, linestyle=linestyles[i%len(linestyles)],capsize=5, marker=markers[i%len(markers)],markersize=5, label=thislabel,color=colors[i%len(colors)])
         else:
             plt.errorbar(x,y,yerr=yerr, linestyle=linestyles[i%len(linestyles)], capsize=5,marker=markers[i%len(markers)],markersize=5,color=colors[i%len(colors)])
-        i=i+1
+        i=i-1
         
     tickslist=[2**i for i in range(16,21)]
 
