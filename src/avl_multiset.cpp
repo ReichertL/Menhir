@@ -64,10 +64,25 @@ AVLTree::AVLTree(vector<AType> cF, size_t vSize,  number ORAM_LOG_CAPACITY,numbe
     LOG(INFO,  boost::wformat(L"ORAM Stash Size is: %d") %(stashSize));
 
 
+    //creates in Memory Position, Storage and Stash adapters 
+    LOG(INFO, boost::wformat(L"Creating ORAM"));
+    
+    this->oram = make_shared<PathORAM::ORAM>(
+            this->ORAM_LOG_CAPACITY,
+            this->ORAM_BLOCK_SIZE,
+            this->ORAM_Z,
+            make_shared<InMemoryStorageAdapter>(oramParameter, this->ORAM_BLOCK_SIZE, bytes(), this->ORAM_Z),
+			make_shared<InMemoryPositionMapAdapter>(oramParameter),
+			make_shared<InMemoryStashAdapter>(stashSize),
+			true,
+			this->BATCH_SIZE);
+
+
     //prepare Data as tree
     vector<pair<number, bytes>> data;
     vector<ulong> thisRoots;
     //numDatapointsAtStart has to be at least one less than total number of 2^ORAM_LOG_CAPACITY as NULL_NODE has to fit into the ORAM
+
 
     if(numDatapointsAtStart>0){
         tie(data,thisRoots)=createTreeStructureNonObliv(inputData, numDatapointsAtStart, this->sizeValue,this->columnFormat, this->ORAM_BLOCK_SIZE);
@@ -82,7 +97,7 @@ AVLTree::AVLTree(vector<AType> cF, size_t vSize,  number ORAM_LOG_CAPACITY,numbe
 
 
     //Constructing an ORAM is very memory intensive for a short period of time. If multiple processes run in parallel, this can cause the OS to freeze. Therefore, this rudimentary locking mechanism was implemented.
-    unsigned long int sec= time(NULL)%INT_MAX;
+    /*unsigned long int sec= time(NULL)%INT_MAX;
     int lockID=(int) sec;
     int ramEstimation=(this->ORAM_BLOCK_SIZE*this->treeSize* pow(10,-9))*(4.1+4.4+3.9+0.22); //in GB
     ramEstimation=max(ramEstimation, 1);
@@ -93,20 +108,8 @@ AVLTree::AVLTree(vector<AType> cF, size_t vSize,  number ORAM_LOG_CAPACITY,numbe
         int sleepTime= 60; //in seconds
         LOG(INFO, boost::wformat(L"Waiting for %d seconds until enough RAM is freed.")%sleepTime);
         sleep(sleepTime);
-    }
+    }*/
 
-    //creates in Memory Position, Storage and Stash adapters 
-    LOG(INFO, boost::wformat(L"Creating ORAM"));
-    
-    this->oram = make_shared<PathORAM::ORAM>(
-            this->ORAM_LOG_CAPACITY,
-            this->ORAM_BLOCK_SIZE,
-            this->ORAM_Z,
-            make_shared<InMemoryStorageAdapter>(oramParameter, this->ORAM_BLOCK_SIZE, bytes(), this->ORAM_Z),
-			make_shared<InMemoryPositionMapAdapter>(oramParameter),
-			make_shared<InMemoryStashAdapter>(stashSize),
-			true,
-			this->BATCH_SIZE);
     LOG(INFO, boost::wformat(L"Loading Data into ORAM (%d datapoints) ") %data.size());
 
     if(numDatapointsAtStart>0){
@@ -119,8 +122,8 @@ AVLTree::AVLTree(vector<AType> cF, size_t vSize,  number ORAM_LOG_CAPACITY,numbe
 
     LOG(INFO, boost::wformat(L"Finished loading data into ORAM"));
 
-    freeRAM(lockID);
-    LOG(INFO, boost::wformat(L"Removed Lock for %ld GB of RAM.")%ramEstimation);
+    //freeRAM(lockID);
+    //LOG(INFO, boost::wformat(L"Removed Lock for %ld GB of RAM.")%ramEstimation);
     
 }
 
