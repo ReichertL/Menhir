@@ -1,9 +1,11 @@
-# Menhir
-This repository contains the code for the paper "Menhir: An Oblivious Database with Protection against Access  and Volume Pattern Leakage" which has been accepted to the AsiaCSS 2024.
+# Menhir: An Oblivious Database with Protection against Access and Volume Pattern Leakage
+This repository contains the code for the paper "Menhir: An Oblivious Database with Protection against Access and Volume Pattern Leakage"  by *Leonie Reichert, Gowri R Chandran, Phillipp Schoppmann, Thomas Schneider and Björn Scheuermann* which will be presented at the [CM ASIA Conference on Computer and Communications Security](https://asiaccs2024.sutd.edu.sg/)(AsiaCCS '24). 
+The paper is available [here](https://eprint.iacr.org/2024/556).
 
-This is an implementation of Menhir, an oblivious database (ODB) for Trusted Execution Environments (TEEs).
-The database is based on an oblivious AVL Tree construction implemented on top of PathORAM.
-The AVL Tree relies on an ORAM which itself is not oblivious. 
+
+This repository contains an implementation of Menhir as well as resources for the evaluation. 
+Menhir is an oblivious database (ODB) for Trusted Execution Environments (TEEs).
+It is based on an oblivious AVL Tree construction implemented on top of PathORAM.
 
 Please cite the paper when using our code in your research.
 
