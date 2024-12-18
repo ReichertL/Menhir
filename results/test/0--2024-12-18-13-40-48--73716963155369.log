@@ -1,0 +1,54 @@
+         [18/12/2024 13:40:48]    WARNING: In POINT_QUERIES mode, DP tree becomes DP list. Setting DP_LEVELS to 1.
+[18/12/2024 13:40:48]       INFO: Server  transitioned from old state 0 via transition edge 101 to new state 3
+[18/12/2024 13:40:48]       INFO: Reading data from data set and constructing synthetic queries...
+[18/12/2024 13:40:48]       INFO: Sampling Rate for Data File is 243, numLines 1.59607e+07
+[18/12/2024 13:40:48]       INFO: Column 0 - ipv 
+[18/12/2024 13:40:49]       INFO: Column 0 - min 0, max 2147483647
+[18/12/2024 13:40:49]       INFO: generatePointQueries
+[18/12/2024 13:40:49]    WARNING: Can only compute  2 distinct Point Queries due to domain size
+[18/12/2024 13:40:49]       INFO: NUM_ATTRIBUTES = 1
+[18/12/2024 13:40:49]       INFO: FILE_LOGGING = 1
+[18/12/2024 13:40:49]       INFO: DATASOURCE = 1
+[18/12/2024 13:40:49]       INFO: OUT_DIR: ./results/test
+[18/12/2024 13:40:49]       INFO: FILES_DIR: ./storage-files
+[18/12/2024 13:40:49]       INFO: NUM_DATAPOINTS = 65534
+[18/12/2024 13:40:49]       INFO: NUM_QUERIES = 2
+[18/12/2024 13:40:49]       INFO: DELETION = 0
+[18/12/2024 13:40:49]       INFO: NUM_ATTRIBUTES = 1
+[18/12/2024 13:40:49]       INFO: COLUMN_FORMAT: INT
+[18/12/2024 13:40:49]       INFO: DATA_RESOLUTION: 1
+[18/12/2024 13:40:49]       INFO: MIN_VALUE: 0
+[18/12/2024 13:40:49]       INFO: MAX_VALUE: 2147483647
+[18/12/2024 13:40:49]       INFO: RANGEQUERY_RANGE = 10
+[18/12/2024 13:40:49]       INFO: DATASET = datasets/data-ipfs-2.csv
+[18/12/2024 13:40:49]       INFO: NUM_DATAPOINTS = 65534
+[18/12/2024 13:40:49]       INFO: RETRIEVE_EXACTLY: 
+[18/12/2024 13:40:49]       INFO: QUERY_RESPONSE_EPSILON = 1
+[18/12/2024 13:40:49]       INFO: QUERY_INDEX = 0
+[18/12/2024 13:40:49]       INFO: WHERE_INDEX = 0
+[18/12/2024 13:40:49]       INFO: QUERY_FUNCTION = 6
+[18/12/2024 13:40:49]       INFO: POINT_QUERIES = 1
+[18/12/2024 13:40:49]       INFO: NUM_QUERIES = 2
+[18/12/2024 13:40:49]       INFO: MAX_SENSITIVITY = 0.05
+[18/12/2024 13:40:49]       INFO: SEED = 0
+[18/12/2024 13:40:49]       INFO: USE_GAMMA = 0
+[18/12/2024 13:40:49]       INFO: ORAM_LOG_CAPACITY = 16
+[18/12/2024 13:40:49]       INFO: ORAM_Z = 3
+[18/12/2024 13:40:49]       INFO: STASH_FACTOR = 4
+[18/12/2024 13:40:49]       INFO: USE_ORAM = 1
+[18/12/2024 13:40:49]       INFO: BATCH_SIZE = 1
+[18/12/2024 13:40:49]       INFO: DP_K = 2
+[18/12/2024 13:40:49]       INFO: DP_BETA = 20
+[18/12/2024 13:40:49]       INFO: DP_EPSILON = 0.693
+[18/12/2024 13:40:49]       INFO: Preparing DOSM: init AVL Tree with type db_t in ORAM
+[18/12/2024 13:40:49]       INFO: Insert data as bulk. Last data point inserted manually (for runtime measurements).
+[18/12/2024 13:40:49]       INFO: INSERT_BULK = 0
+[18/12/2024 13:40:49]       INFO: this->maxPerTree = 65535
+[18/12/2024 13:40:49]       INFO: this->numOSMs = 1
+[18/12/2024 13:40:49]       INFO: Generating sanitizers for  1/1. (USE GAMMA 0)
+[18/12/2024 13:40:49]       INFO: Noise Parameters Column 0 - min 0, max 2147483647, range 2.14748e+09
+[18/12/2024 13:40:49]       INFO: this_DP_domain = 2.14748e+09
+[18/12/2024 13:40:49]       INFO: this_dp_buckets = 2147483647
+[18/12/2024 13:40:49]       INFO: this_dp_levels = 1
+[18/12/2024 13:40:49]       INFO: this_dp_alpha = 51
+[18/12/2024 13:40:49]       INFO: Generating DP noise tree...

@@ -1537,6 +1537,7 @@ DBT::dbResponse  AVLTree::findIntervalHelperMenhir(db_t startKey, db_t endKey, u
                 }
                 if(CURRENT_LEVEL==TRACE) LOG(TRACE,boost::wformat(L"curNode (inInterval %d, isFirst %d) :  %s") %inInterval %isFirst %MENHIR::toWString(curNode.toStringFull(true)));
             }
+        }
 
      //For Phillipp: No need to follow next pointers as only first element is retrieved. No additional accesses to ORAM needed
       /*  }else{

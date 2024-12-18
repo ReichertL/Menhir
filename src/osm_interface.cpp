@@ -108,16 +108,16 @@ OSMInterface::OSMInterface(){
  * @param promise : For parallelization, after execution this contains a pointer to the OSM and  the histograms.
  */
 void OSMInterface::createNewTreeWithDataParallel(size_t osmIndex, vector<vector<db_t>> inputSplit, size_t thisSize,promise<tuple<void *,vector<hist_t>>> *promise){
-    LOG(INFO, boost::wformat(L"Creating Histograms for OSM  %d.") %(osmIndex+1) );
+    //LOG(INFO, boost::wformat(L"Creating Histograms for OSM  %d.") %(osmIndex+1) );
 
     vector<hist_t> osmHistos=createNewHistogram();
-    for(size_t j=0;j<thisSize;j++){
+    /*for(size_t j=0;j<thisSize;j++){
         vector<db_t> element=inputSplit[j];
         for(size_t att=0;att<NUM_ATTRIBUTES;att++){
             size_t histoIndex=(size_t) abs(DBT::toDouble(element[att])-DBT::toDouble(MIN_VALUE[att]))/DBT::toDouble(DATA_RESOLUTION[att]);
             osmHistos[att][histoIndex].second+=1ull;
         }
-    }
+    }*/
 
     void * ptr;
     if(USE_ORAM){
@@ -394,7 +394,7 @@ void OSMInterface::generateVolumeSanitizer(){
 
 	}
 
-	LOG(INFO, L"Generating DP noise tree...");
+	/*LOG(INFO, L"Generating DP noise tree...");
 
     // For each column, the dp_level (DP noise tree) of the corresponding volume sanitizer is computed and stored for later use. 
 	for(int ii=0; ii< (int) NUM_ATTRIBUTES; ii++){
@@ -428,7 +428,7 @@ void OSMInterface::generateVolumeSanitizer(){
 		// count number of nodes in DP tree
 		number dpNodes = np->noises.size();			
 		LOG(INFO, boost::wformat(L"For column %1%: DP tree has %2% elements") % ii % dpNodes);
-	}
+	}*/
 }
 
 

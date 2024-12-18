@@ -34,7 +34,7 @@ namespace MENHIR{
 	 */
 	tuple<db_t, double,Error> runQuery(Query query){
 		
-		auto[estimate,noiseToAdd, err]=getTotalNoise(query);
+		/*auto[estimate,noiseToAdd, err]=getTotalNoise(query);
 		if(err.code!=0){
 			//This clauses catches cases where the DP tree is not deep enough
 			return make_tuple(db_t(0),0.0,err);
@@ -55,8 +55,8 @@ namespace MENHIR{
 		if(RETRIEVE_EXACTLY.size()!=0){
 			//this is so overhead from the data processing does not interfere with the retrieval measurements
 			estimate=RETRIEVE_EXACTLY_NOW;
-		}
-
+		}*/
+		vector<number> noiseToAdd (INTERFACE->numOSMs, 0);
 		auto allRecords=INTERFACE->findInterval(query.whereFrom, query.whereTo, query.whereIndex, noiseToAdd);//
 		
 
@@ -90,7 +90,7 @@ namespace MENHIR{
 
 		dbResponse allRecords;
 
-		auto[estimate,noiseToAdd, err]=getTotalNoise(query);
+		/*auto[estimate,noiseToAdd, err]=getTotalNoise(query);
 		if(err.code!=0){
 			//This clauses catches cases where the DP tree is not deep enough
 			return make_tuple((number)0, allRecords,err);
@@ -112,8 +112,9 @@ namespace MENHIR{
             for(size_t i=0;i<INTERFACE->numOSMs;i++){
                 noiseToAdd.push_back(RETRIEVE_EXACTLY_NOW);
             }
-		}
-
+		}*/
+		vector<number> noiseToAdd (INTERFACE->numOSMs, 0);
+		number estimate=0;
 		allRecords=INTERFACE->findInterval(query.whereFrom, query.whereTo, query.whereIndex, noiseToAdd);
 
 		vector<db_t> values=vector<db_t>();
