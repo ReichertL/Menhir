@@ -324,7 +324,7 @@ TEST(RotationTests, RightRotateWithDuplicates){
     vector<ulong> root=vector<ulong>{55};
     tree->putTreeInORAM(nodes,root);
     number nodeHash=3;
-    tree->insert(vector<db_t>{db_t(3)},0,nodeHash);
+    tree->insert(vector<db_t>{db_t(3)},nodeHash);
 
     ASSERT_EQ(tree->size(), nodes.size()+1);
     string expected= "Node[key:5-5, LH:2, RH:2]\n"\
@@ -358,7 +358,7 @@ TEST(RotationTests, LeftRotateNoDuplicates){
     vector<ulong> root=vector<ulong>{55};
     tree->putTreeInORAM(nodes,root);
     number nodeHash=5;
-    tree->insert(vector<db_t>{db_t(8)},0,nodeHash);
+    tree->insert(vector<db_t>{db_t(8)},nodeHash);
 
     ASSERT_EQ(tree->size(), nodes.size()+1);
     string expected= "Node[key:5-5, LH:2, RH:2]\n"\
@@ -391,7 +391,7 @@ TEST(RotationTests, LeftRotateWithDuplicates){
     vector<ulong> root=vector<ulong>{55};
     tree->putTreeInORAM(nodes,root);
     number nodeHash=8;
-    tree->insert(vector<db_t>{db_t(5)},0,nodeHash);
+    tree->insert(vector<db_t>{db_t(5)},nodeHash);
 
     ASSERT_EQ(tree->size(), nodes.size()+1);
     string expected= "Node[key:5-5, LH:2, RH:2]\n"\
@@ -434,7 +434,7 @@ TEST(RotationTests, RightLeftRotateNoDuplicates){
     vector<ulong> root=vector<ulong>{25};
     tree->putTreeInORAM(nodes,root);
     number nodeHash=5;
-    tree->insert(vector<db_t>{db_t(5)},0,nodeHash);
+    tree->insert(vector<db_t>{db_t(5)},nodeHash);
 
     ASSERT_EQ(tree->size(), nodes.size()+1);
     string expected= "Node[key:2-5, LH:3, RH:3]\n"\
@@ -482,7 +482,7 @@ TEST(RotationTests, RightLeftRotateWithDuplicates){
     vector<ulong> root=vector<ulong>{20};
     tree->putTreeInORAM(nodes,root);
     number nodeHash=5;
-    tree->insert(vector<db_t>{db_t(2)},0,nodeHash);
+    tree->insert(vector<db_t>{db_t(2)},nodeHash);
 
     ASSERT_EQ(tree->size(), nodes.size()+1);
     string expected= "Node[key:2-0, LH:3, RH:3]\n"\
@@ -535,7 +535,7 @@ TEST(RotationTests, LeftRightRotateNoDuplicates){
     vector<ulong> root={205};
     tree->putTreeInORAM(nodes,root);
     number nodeHash=5;
-    tree->insert(vector<db_t>{db_t(6)},0,nodeHash);
+    tree->insert(vector<db_t>{db_t(6)},nodeHash);
 
 
     ASSERT_EQ(tree->size(), nodes.size()+1);
@@ -587,7 +587,7 @@ TEST(RotationTests, LeftRightRotateWithDuplicates){
     vector<ulong> root={nodes[0].nodeID};
     tree->putTreeInORAM(nodes,root);
     number nodeHash=6;
-    tree->insert(vector<db_t>{db_t(2)},0,nodeHash);
+    tree->insert(vector<db_t>{db_t(2)},nodeHash);
 
     ASSERT_EQ(tree->size(), nodes.size()+1);
     string expected= "Node[key:2-10, LH:3, RH:3]\n"\
@@ -906,7 +906,7 @@ TEST(DeletionTests, SingelNodeTree){
     number capacity=300;
     size_t sizeValue=0;    
 	AVLTree *tree=new DOSM::AVLTree(thisFormat,sizeValue,capacity);
-    tree->insert(vector<db_t>{db_t(5)},0,5);
+    tree->insert(vector<db_t>{db_t(5)},5);
     tree->deleteEntry(5,5,0);
     string expected= ""; 
 

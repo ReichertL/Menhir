@@ -34,6 +34,7 @@ The Dockerfile can be executed with `sudo docker build -t "menhir:Dockerfile" .`
 
 #### Step 1: Compile Path-ORAM
 * Install boost: `sudo apt-get install libboost-all-dev`
+
 ```
 cd pathoram
 make shared
