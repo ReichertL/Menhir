@@ -1493,6 +1493,8 @@ DBT::dbResponse  AVLTree::findIntervalHelperMenhir(db_t startKey, db_t endKey, u
         allDummies=true;
     }
 
+    // Use this to ensure only one element is retrieved every time
+    //estimate=1
 
     while(count>0 or firstIteration ){
         if(MENHIR::RETRIEVE_EXACTLY.size()!=0 and results.size()==estimate){
