@@ -17,7 +17,7 @@ vector<double> clipping(vector<double> data, double lower, double upper);
 
 tuple<double,Error>  dp_count(vector<db_t> data, vector<bool> ignoring, double epsilon, db_t lower, db_t upper, bool clip);
 tuple<double,Error>  dp_count(vector<double> data, vector<bool> ignoring, double epsilon, double lower, double upper, bool clip);
-
+tuple<double,Error>  count(vector<db_t> data, vector<bool> ignoring);
 
 tuple<double,Error>  dp_sum_int(vector<db_t> data, vector<bool> ignoring, double epsilon, db_t lower, db_t upper, bool clip);
 double kahan_sum(vector<double> vec, vector<bool> ignoring);

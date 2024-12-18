@@ -11,6 +11,7 @@ namespace MENHIR{
             case AggregateFunc::COUNT: return "COUNT";
             case AggregateFunc::MAX_COUNT:return "MAX_COUNT";
             case AggregateFunc::MIN_COUNT: return "MIN_COUNT";
+            case AggregateFunc::COUNT_NO_DP: return "COUNT_NO_DP";
             // omit default case to trigger compiler warning for missing cases
         };
         return "";
@@ -25,6 +26,7 @@ namespace MENHIR{
             case AggregateFunc::COUNT: return 3;
             case AggregateFunc::MAX_COUNT:return 4;
             case AggregateFunc::MIN_COUNT: return 5;
+            case AggregateFunc::COUNT_NO_DP: return 6;
             // omit default case to trigger compiler warning for missing cases
         };
         return 6;
@@ -37,7 +39,8 @@ namespace MENHIR{
         }else if(aggregateFuncString =="VARIANCE"){ selected=AggregateFunc::VARIANCE;
         }else if(aggregateFuncString =="COUNT"){ selected=AggregateFunc::COUNT;
         }else if(aggregateFuncString =="MAX_COUNT"){ selected=AggregateFunc::MAX_COUNT;
-        }else if(aggregateFuncString =="MIN_COUNT"){ selected=AggregateFunc::MIN_COUNT;}
+        }else if(aggregateFuncString =="MIN_COUNT"){ selected=AggregateFunc::MIN_COUNT;
+        }else if(aggregateFuncString =="COUNT_NO_DP"){ selected=AggregateFunc::COUNT_NO_DP;}
 		return selected;
     }
 }

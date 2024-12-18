@@ -168,6 +168,9 @@ namespace MENHIR{
 		}else if(query.agg == AggregateFunc::COUNT){
 			//Clipping is not always necessary here			
 			tie(result_d, err)=dp_count(values,ignoring, query.epsilon,db_t(0),db_t(0),false);
+		}else if(query.agg == AggregateFunc::COUNT_NO_DP){
+			//Clipping is not always necessary here			
+			tie(result_d, err)=count(values,ignoring);
 
 		}else if(query.agg == AggregateFunc:: MAX_COUNT){
 			//returns an element!

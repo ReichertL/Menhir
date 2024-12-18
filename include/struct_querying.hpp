@@ -19,6 +19,7 @@ namespace MENHIR{
 		COUNT ,
 		MAX_COUNT , //returns element with the hightest count - only for int, requires a width parameter otherwise using 1
 		MIN_COUNT, //returns element with the lowest count- only for int, requires a width parameter otherwise using 1
+		COUNT_NO_DP,
 		AggregateFunc_INVALID
 	};
 

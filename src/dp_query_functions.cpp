@@ -139,6 +139,22 @@ tuple<double,Error>  dp_count(vector<db_t> data, vector<bool> ignoring, double e
 
 
 /**
+ * @brief Function that simply count how many real values fall into the interval. NO Differential Privacy is applied by this function! The Query poser needs to be trusted if this function is used!s
+ * 
+ * @param data 
+ * @param ignoring 
+ * @return tuple<double,Error> 
+ */
+tuple<double,Error>  count(vector<db_t> data, vector<bool> ignoring){
+
+    double count_sensitivity=1;
+    int numIgnoring = std::accumulate(ignoring.begin(), ignoring.end(), 0);    
+    double value=(double) data.size() - numIgnoring;
+    return make_tuple(value, Error());
+}
+
+
+/**
  * @brief Returns the number of elements in data sanitized with differential privacy. Used for COUNT(*) QUERIES.
  * This functions accepts a vector of doubles instead a vector of db_t
  * Clipping is not always necessary here.
