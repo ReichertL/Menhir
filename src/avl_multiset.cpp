@@ -1483,6 +1483,10 @@ DBT::dbResponse  AVLTree::findIntervalHelperMenhir(db_t startKey, db_t endKey, u
 
     AVLTreeNode thisRoot(columnFormat, sizeValue);
     
+    //For Phillipp: No Dummies are retrieved.
+    estimate=0;
+
+
     if(CURRENT_LEVEL==DEBUG) LOG(DEBUG, boost::wformat(L"estimate %d ")% estimate);
     ulong count=estimate;
     bool firstIteration=true;
@@ -1493,8 +1497,7 @@ DBT::dbResponse  AVLTree::findIntervalHelperMenhir(db_t startKey, db_t endKey, u
         allDummies=true;
     }
 
-    // Use this to ensure only one element is retrieved every time
-    //estimate=1
+
 
     while(count>0 or firstIteration ){
         if(MENHIR::RETRIEVE_EXACTLY.size()!=0 and results.size()==estimate){
@@ -1535,12 +1538,13 @@ DBT::dbResponse  AVLTree::findIntervalHelperMenhir(db_t startKey, db_t endKey, u
                 if(CURRENT_LEVEL==TRACE) LOG(TRACE,boost::wformat(L"curNode (inInterval %d, isFirst %d) :  %s") %inInterval %isFirst %MENHIR::toWString(curNode.toStringFull(true)));
             }
 
-        }else{
-            curNode=getNodeORAM(nextID);
+     //For Phillipp: No need to follow next pointers as only first element is retrieved. No additional accesses to ORAM needed
+      /*  }else{
+           /* curNode=getNodeORAM(nextID);
             if(CURRENT_LEVEL==TRACE) LOG(TRACE,boost::wformat(L"curNode: %s") %MENHIR::toWString(curNode.toStringFull(true)));
             nextID=curNode.next[column];
             thisData=curNode.key;
-        }
+        }*/
         
         bool inInterval= (thisData[column]>=startKey) and  (thisData[column]<=endKey);
         bool noDummiesYet=((ulong)count==estimate);
